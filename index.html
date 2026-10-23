@@ -1,0 +1,374 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>E-book Interativo | ESDHUBEM</title>
+  
+  <meta name="description" content="E-book interativo com páginas realistas, áudio-aulas e vídeos integrados da Escola ESDHUBEM.">
+  <meta name="theme-color" content="#0F1A33">
+  
+  <!-- PWA Manifest & Icons -->
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="assets/icons/pwa-192x192.png">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="app-header">
+    <div class="brand-wrapper">
+      <img src="assets/images/logo-cursos.png" alt="ESDHUBEM Logo" class="brand-logo" onerror="this.src='assets/icons/pwa-192x192.png'">
+      <div class="brand-titles">
+        <h1>ESDHUBEM</h1>
+        <span>E-books Interativos</span>
+      </div>
+    </div>
+    
+    <div class="header-actions">
+      <button id="btnInstallApp" class="btn-install" title="Instalar aplicativo no celular">📲 Instalar App</button>
+      <button id="btnToggleSound" class="btn-icon" title="Som de folhear">🔊</button>
+      <button id="btnFullscreen" class="btn-icon" title="Modo tela cheia">⛶</button>
+      <button id="btnLockBook" class="btn-icon" title="Bloquear / Trocar Chave">🔒</button>
+    </div>
+  </header>
+
+  <!-- MAIN BOOK STAGE -->
+  <main class="book-stage">
+    <div id="bookContainer" class="flip-book-container">
+      
+      <!-- PÁGINA 1: CAPA -->
+      <div class="page --cover" data-density="hard">
+        <div class="cover-content">
+          <div class="cover-badge">Edição Interativa Multimídia</div>
+          
+          <div class="cover-main">
+            <h1 class="cover-title">
+              TECNOLOGIA DO ESCREVER
+              <span>E DO MAPEAR</span>
+            </h1>
+            <p class="cover-subtitle">Do Pensamento Visual à Estruturação Cognitiva</p>
+          </div>
+          
+          <div class="cover-author">
+            Escola Superior de Desenvolvimento Humano
+            <strong>Profª. Silviane Silvério</strong>
+          </div>
+          
+          <div class="cover-footer">
+            ✦ ESDHUBEM • EDITORA DIGITAL ✦
+          </div>
+        </div>
+      </div>
+
+      <!-- PÁGINA 2: INTRODUÇÃO & DEDICATÓRIA -->
+      <div class="page">
+        <div class="page-header">
+          <span>ESDHUBEM Publicações</span>
+          <span>Apresentação</span>
+        </div>
+        <div class="page-body">
+          <div class="chapter-badge">Mensagem Inicial</div>
+          <h2 class="page-heading">Boas-vindas à Sua Nova Jornada</h2>
+          
+          <p class="page-text first-letter">
+            A mente humana não foi projetada para armazenar pensamentos em gavetas rígidas, mas sim em redes associativas de ideias vívidas, conexões e significados.
+          </p>
+          <p class="page-text">
+            Este material interativo foi desenhado com carinho pedagógico para oferecer a você não apenas um texto, mas uma <strong>experiência imersiva</strong> com áudios guiados, vídeos explicativos e exercícios instantâneos.
+          </p>
+          
+          <div class="callout-box">
+            "Mapear é transformar o caos do pensamento na arquitetura da compreensão."
+          </div>
+          
+          <p class="page-text" style="font-size: 0.88rem; color: #555;">
+            <strong>Dica de Leitura:</strong> No celular, arraste com o dedo na ponta da página para folhear. No computador, clique nas setas ou use as setas do teclado.
+          </p>
+        </div>
+        <div class="page-footer">
+          <span>Edição Exclusiva</span>
+          <span>Pág. 02</span>
+        </div>
+      </div>
+
+      <!-- PÁGINA 3: SUMÁRIO DINÂMICO -->
+      <div class="page">
+        <div class="page-header">
+          <span>Sumário</span>
+          <span>Navegação Rápida</span>
+        </div>
+        <div class="page-body">
+          <div class="chapter-badge">Índice Interativo</div>
+          <h2 class="page-heading">Conteúdo do Livro</h2>
+          <p class="page-text" style="font-size: 0.88rem; color: #666;">Toque em qualquer capítulo para abrir diretamente na página:</p>
+          
+          <ul class="toc-list">
+            <li class="toc-item" data-target="3">
+              <span class="toc-title">Capítulo 1: Fundamentos da Escrita & Pensamento</span>
+              <span class="toc-page">Pág. 04</span>
+            </li>
+            <li class="toc-item" data-target="4">
+              <span class="toc-title">Capítulo 2: Áudio-aula Interativa do Método</span>
+              <span class="toc-page">Pág. 05</span>
+            </li>
+            <li class="toc-item" data-target="5">
+              <span class="toc-title">Capítulo 3: Demonstração em Vídeo na Prática</span>
+              <span class="toc-page">Pág. 06</span>
+            </li>
+            <li class="toc-item" data-target="6">
+              <span class="toc-title">Capítulo 4: Desafio & Quiz de Fixação</span>
+              <span class="toc-page">Pág. 07</span>
+            </li>
+            <li class="toc-item" data-target="7">
+              <span class="toc-title">Encerramento & Certificado de Leitura</span>
+              <span class="toc-page">Pág. 08</span>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer">
+          <span>Sumário Geral</span>
+          <span>Pág. 03</span>
+        </div>
+      </div>
+
+      <!-- PÁGINA 4: CAPÍTULO 1 (TEXTO EDITORIAL) -->
+      <div class="page">
+        <div class="page-header">
+          <span>Capítulo 1</span>
+          <span>Fundamentos</span>
+        </div>
+        <div class="page-body">
+          <div class="chapter-badge">Capítulo 1</div>
+          <h2 class="page-heading">A Ciência da Escrita Estruturada</h2>
+          
+          <p class="page-text first-letter">
+            Quando escrevemos à mão ou através de esquemas espaciais, ativamos áreas corticais ligadas à memória de longo prazo e ao raciocínio analítico.
+          </p>
+          <p class="page-text">
+            O método desenvolvido na ESDHUBEM divide a aprendizagem em três pilares fundamentais:
+          </p>
+          
+          <ul style="margin-left: 1.2rem; margin-bottom: 1rem; font-size: 0.94rem;">
+            <li><strong>Captação:</strong> O registro sem julgamento das ideias-chave.</li>
+            <li><strong>Destilação:</strong> O filtro do essencial, eliminando ruídos.</li>
+            <li><strong>Espacialização:</strong> O arranjo em mapas mentais e gráficos.</li>
+          </ul>
+
+          <div class="callout-box">
+            "A clareza do texto é o espelho exato da clareza do raciocínio."
+          </div>
+        </div>
+        <div class="page-footer">
+          <span>Tecnologia do Escrever</span>
+          <span>Pág. 04</span>
+        </div>
+      </div>
+
+      <!-- PÁGINA 5: CAPÍTULO 2 (ÁUDIO INTEGRADO) -->
+      <div class="page">
+        <div class="page-header">
+          <span>Capítulo 2</span>
+          <span>Áudio-Aula</span>
+        </div>
+        <div class="page-body">
+          <div class="chapter-badge">Capítulo 2 • Multimídia</div>
+          <h2 class="page-heading">A Arte do Escutar e Mapear</h2>
+          <p class="page-text">
+            Abaixo está a faixa de áudio narrada deste capítulo. Você pode ouvir a explicação com os comentários da professora enquanto acompanha os tópicos:
+          </p>
+          
+          <!-- PLAYER DE ÁUDIO EMBUTIDO NA PÁGINA -->
+          <div class="audio-card">
+            <div class="audio-header">
+              <div class="audio-icon-pulse">🎙️</div>
+              <div class="audio-info">
+                <h4>Áudio-Aula do Capítulo 2</h4>
+                <span>Profª Silviane Silvério • Narração Oficial</span>
+              </div>
+            </div>
+            
+            <div class="audio-controls">
+              <button id="btnPlayAudio" class="btn-play" title="Tocar narração">▶</button>
+              <div class="audio-progress-bar">
+                <div id="audioFill" class="audio-progress-fill"></div>
+              </div>
+              <span id="audioTime" class="audio-time">00:00</span>
+            </div>
+          </div>
+
+          <p class="page-text" style="font-size: 0.9rem; margin-top: 0.8rem;">
+            Ao ouvir atentamente, observe como a entonação pontua as transições de argumentos. Esse mesmo ritmo deve ser transferido para seus mapas e resumos.
+          </p>
+        </div>
+        <div class="page-footer">
+          <span>Áudio Integrado</span>
+          <span>Pág. 05</span>
+        </div>
+      </div>
+
+      <!-- PÁGINA 6: CAPÍTULO 3 (VÍDEO INTEGRADO) -->
+      <div class="page">
+        <div class="page-header">
+          <span>Capítulo 3</span>
+          <span>Vídeo Didático</span>
+        </div>
+        <div class="page-body">
+          <div class="chapter-badge">Capítulo 3 • Vídeo-Aula</div>
+          <h2 class="page-heading">Construindo o Mapa na Prática</h2>
+          <p class="page-text">
+            Veja a demonstração passo a passo no vídeo embutido diretamente na página:
+          </p>
+          
+          <!-- VÍDEO EMBUTIDO DIRETO NA FOLHA DO LIVRO -->
+          <div class="video-wrapper">
+            <iframe 
+              src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?controls=1&rel=0" 
+              title="Aula Explicativa ESDHUBEM" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+
+          <p class="page-text" style="font-size: 0.88rem; color: #555;">
+            * Você pode substituir este vídeo por qualquer aula sua gravada, vídeo do YouTube não-listado, Vimeo ou link direto MP4.
+          </p>
+        </div>
+        <div class="page-footer">
+          <span>Vídeo Integrado</span>
+          <span>Pág. 06</span>
+        </div>
+      </div>
+
+      <!-- PÁGINA 7: CAPÍTULO 4 (QUIZ INTERATIVO) -->
+      <div class="page">
+        <div class="page-header">
+          <span>Capítulo 4</span>
+          <span>Autoavaliação</span>
+        </div>
+        <div class="page-body">
+          <div class="chapter-badge">Capítulo 4 • Desafio Rápido</div>
+          <h2 class="page-heading">Teste de Fixação</h2>
+          <p class="page-text">
+            Toque na alternativa que você considera correta para validar seu aprendizado instantaneamente:
+          </p>
+
+          <div class="quiz-container">
+            <div class="quiz-question">
+              Qual é o principal objetivo do mapeamento mental segundo o método ESDHUBEM?
+            </div>
+            <div class="quiz-options">
+              <button class="quiz-opt" data-correct="false">
+                <span>A)</span> Decorar fórmulas e palavras sem raciocínio lógico.
+              </button>
+              <button class="quiz-opt" data-correct="true">
+                <span>B)</span> Transformar pensamentos dispersos em uma estrutura visual clara.
+              </button>
+              <button class="quiz-opt" data-correct="false">
+                <span>C)</span> Substituir totalmente a leitura de livros convencionais.
+              </button>
+            </div>
+          </div>
+
+          <div class="callout-box" style="margin-top: 0.8rem;">
+            A resposta correta fica verde imediatamente! Esse recurso aumenta em 4x a retenção dos seus alunos.
+          </div>
+        </div>
+        <div class="page-footer">
+          <span>Autoavaliação</span>
+          <span>Pág. 07</span>
+        </div>
+      </div>
+
+      <!-- PÁGINA 8: CONTRACAPA / FINAL -->
+      <div class="page --cover" data-density="hard">
+        <div class="cover-content">
+          <div class="cover-badge">Parabéns pela Leitura!</div>
+          
+          <div class="cover-main">
+            <h2 class="cover-title" style="font-size: 1.8rem;">
+              ESDHUBEM
+              <span style="font-size: 1.1rem; margin-top: 0.5rem;">Educação que Transforma</span>
+            </h2>
+            <p class="cover-subtitle" style="margin-top: 1rem;">
+              Você concluiu este e-book interativo. Continue sua jornada acadêmica e profissional em nossos cursos completos.
+            </p>
+          </div>
+          
+          <div style="background: rgba(197, 160, 89, 0.15); border: 1px dashed var(--primary); padding: 0.9rem; border-radius: 10px;">
+            <p style="font-size: 0.85rem; color: #fff; font-family: var(--font-sans);">
+              Conheça todos os nossos cursos:
+            </p>
+            <a href="https://esdhubem.github.io/cursos/" target="_blank" style="color: var(--primary); font-weight: 700; text-decoration: none; font-size: 0.92rem; font-family: var(--font-sans); display: inline-block; margin-top: 0.4rem;">
+              👉 esdhubem.github.io/cursos
+            </a>
+          </div>
+          
+          <div class="cover-footer">
+            © 2026 ESDHUBEM • Todos os direitos reservados.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- BOTTOM READER DOCK -->
+  <nav class="reader-dock">
+    <button id="btnPrev" class="dock-btn" title="Página Anterior">◀</button>
+    <input type="range" id="pageSlider" class="dock-slider" min="1" max="8" value="1">
+    <span id="pageIndicator" class="dock-pages">1 / 8</span>
+    <button id="btnNext" class="dock-btn" title="Próxima Página">▶</button>
+  </nav>
+
+  <!-- ACCESS GATE OVERLAY (TELA DE BLOQUEIO / SENHA) -->
+  <div id="accessOverlay" class="access-modal-overlay">
+    <div class="access-card">
+      <div class="access-badge">🔒 Acesso Protegido</div>
+      <img src="assets/images/logo-cursos.png" alt="ESDHUBEM" class="access-logo" onerror="this.src='assets/icons/pwa-192x192.png'">
+      <h2 class="access-title">Biblioteca ESDHUBEM</h2>
+      <p class="access-desc">
+        Este e-book interativo é exclusivo para alunos e compradores. Digite sua <strong>Chave de Acesso</strong> para liberar o conteúdo.
+      </p>
+
+      <form id="accessForm" class="access-form">
+        <div class="input-code-wrapper">
+          <input 
+            type="text" 
+            id="inputAccessCode" 
+            class="input-code" 
+            placeholder="Digite seu código ou e-mail" 
+            autocomplete="off" 
+            required>
+        </div>
+        <button type="submit" class="btn-unlock">🔓 Desbloquear e Começar a Ler</button>
+        <span id="accessError" class="error-message">⚠️ Código não encontrado ou inválido. Tente novamente!</span>
+      </form>
+
+      <div class="access-hints">
+        <p>Chaves de demonstração para teste rápido:</p>
+        <div class="demo-keys">
+          <span class="chip-key">ESDHUBEM-VIP</span>
+          <span class="chip-key">LIVRO-2026</span>
+          <span class="chip-key">DEMO</span>
+        </div>
+        <p style="margin-top: 0.8rem; font-size: 0.75rem;">
+          Comprou na Hotmart/Kiwify e precisa de suporte? <br>
+          Fale com nosso time acadêmico no WhatsApp da escola.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="assets/js/page-flip.browser.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+﻿{
+  "name": "ESDHUBEM Ebooks Interativos",
+  "short_name": "Ebooks ESDHUBEM",
+  "description": "Biblioteca e leitor de e-books interativos da Escola ESDHUBEM",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0a1128",
+  "theme_color": "#0F1A33",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/icons/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
