@@ -1,7 +1,7 @@
 ﻿const fs = require('fs');
 const path = require('path');
 
-const md = fs.readFileSync(path.join(__dirname, 'livro-mapas-mentais.md'), 'utf8');
+const md = fs.readFileSync(path.join(__dirname, '..', 'livro-mapas-mentais.md'), 'utf8');
 
 function extractBetween(str, start, end) {
   const s = str.indexOf(start);
