@@ -5,18 +5,14 @@ const STORAGE_KEY = 'esdhubem_ebook_unlocked';
 let pageFlipInstance = null;
 let soundEnabled = true;
 let deferredPrompt = null;
-let audioIsPlaying = false;
-let audioSpeechUtterance = null;
-let audioProgressTimer = null;
+let currentFontSize = 0.96; // rem
 
-// Realistic Paper Sound Generator using Web Audio API
+// Realistic Paper Sound Generator
 const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 function playPaperTurnSound() {
   if (!soundEnabled) return;
   try {
-    if (audioCtx.state === 'suspended') {
-      audioCtx.resume();
-    }
+    if (audioCtx.state === 'suspended') audioCtx.resume();
     const bufferSize = audioCtx.sampleRate * 0.12;
     const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
     const data = buffer.getChannelData(0);
@@ -37,7 +33,7 @@ function playPaperTurnSound() {
     gain.connect(audioCtx.destination);
     noise.start();
   } catch (e) {
-    console.log('Audio synthesis note:', e);
+    console.log('Audio note:', e);
   }
 }
 
@@ -45,13 +41,10 @@ function playPaperTurnSound() {
 function checkAccess() {
   const isUnlocked = localStorage.getItem(STORAGE_KEY) === 'true';
   const overlay = document.getElementById('accessOverlay');
-  const lockStatus = document.getElementById('lockStatus');
   if (isUnlocked) {
     overlay.classList.add('hidden');
-    if (lockStatus) lockStatus.innerHTML = '🔓 Acesso Liberado';
   } else {
     overlay.classList.remove('hidden');
-    if (lockStatus) lockStatus.innerHTML = '🔒 Bloqueado';
   }
 }
 
@@ -65,9 +58,7 @@ function handleUnlock(e) {
     localStorage.setItem(STORAGE_KEY, 'true');
     err.classList.remove('show');
     checkAccess();
-    if (pageFlipInstance) {
-      pageFlipInstance.update();
-    }
+    if (pageFlipInstance) pageFlipInstance.update();
   } else {
     err.classList.add('show');
     input.focus();
@@ -82,23 +73,20 @@ function lockBook() {
 // PageFlip Initialization
 function initFlipBook() {
   const container = document.getElementById('bookContainer');
-  if (!container || !window.St || !window.St.PageFlip) {
-    console.error('PageFlip library not loaded yet');
-    return;
-  }
+  if (!container || !window.St || !window.St.PageFlip) return;
 
   const isMobile = window.innerWidth <= 768;
-  const pageWidth = isMobile ? Math.min(window.innerWidth - 30, 420) : 480;
-  const pageHeight = isMobile ? Math.min(window.innerHeight - 150, 620) : 680;
+  const pageWidth = isMobile ? Math.min(window.innerWidth - 30, 430) : 500;
+  const pageHeight = isMobile ? Math.min(window.innerHeight - 150, 650) : 710;
 
   pageFlipInstance = new St.PageFlip(container, {
     width: pageWidth,
     height: pageHeight,
     size: 'stretch',
     minWidth: 320,
-    maxWidth: 600,
+    maxWidth: 620,
     minHeight: 460,
-    maxHeight: 850,
+    maxHeight: 880,
     maxShadowOpacity: 0.5,
     showCover: true,
     mobileScrollSupport: false,
@@ -108,14 +96,11 @@ function initFlipBook() {
 
   pageFlipInstance.loadFromHTML(document.querySelectorAll('.page'));
 
-  // Sync Slider and indicators
   const pageIndicator = document.getElementById('pageIndicator');
   const pageSlider = document.getElementById('pageSlider');
 
   pageFlipInstance.on('changeState', (e) => {
-    if (e.data === 'flipping') {
-      playPaperTurnSound();
-    }
+    if (e.data === 'flipping') playPaperTurnSound();
   });
 
   pageFlipInstance.on('flip', (e) => {
@@ -128,7 +113,6 @@ function initFlipBook() {
     }
   });
 
-  // Controls
   document.getElementById('btnPrev').addEventListener('click', () => pageFlipInstance.flipPrev());
   document.getElementById('btnNext').addEventListener('click', () => pageFlipInstance.flipNext());
   
@@ -139,78 +123,120 @@ function initFlipBook() {
     });
   }
 
-  // TOC links
-  document.querySelectorAll('.toc-item').forEach(item => {
+  // TOC and Drawer links
+  document.querySelectorAll('.toc-item, .drawer-toc-item').forEach(item => {
     item.addEventListener('click', () => {
       const targetPage = parseInt(item.getAttribute('data-target'), 10);
       pageFlipInstance.flip(targetPage);
+      const drawer = document.getElementById('drawerOverlay');
+      if (drawer) drawer.classList.add('hidden');
     });
   });
 
-  // Keyboard navigation
+  // Keyboard
   window.addEventListener('keydown', (e) => {
     if (e.key === 'ArrowRight' || e.key === 'PageDown') pageFlipInstance.flipNext();
     if (e.key === 'ArrowLeft' || e.key === 'PageUp') pageFlipInstance.flipPrev();
   });
 }
 
-// Audio Narration Player
-function setupAudioPlayer() {
-  const btnPlay = document.getElementById('btnPlayAudio');
-  const fill = document.getElementById('audioFill');
-  const time = document.getElementById('audioTime');
-  const narrationText = "Bem-vindos à metodologia ESDHUBEM. O ato de escrever e mapear ideias liberta o potencial criativo e estrutura o pensamento com clareza cristalina.";
+// Audio Player Factory
+function setupPlayer(btnId, fillId, timeId, textSpeech) {
+  const btn = document.getElementById(btnId);
+  const fill = document.getElementById(fillId);
+  const time = document.getElementById(timeId);
+  let isPlaying = false;
+  let timer = null;
 
-  if (!btnPlay) return;
+  if (!btn) return;
 
-  btnPlay.addEventListener('click', () => {
+  btn.addEventListener('click', () => {
     if (!('speechSynthesis' in window)) {
-      alert('Seu navegador não suporta sintetizador de voz direto, mas você pode usar áudio gravado.');
+      alert('Sintetizador Web não suportado. Carregue um arquivo mp3.');
       return;
     }
 
-    if (audioIsPlaying) {
+    if (isPlaying) {
       window.speechSynthesis.cancel();
-      audioIsPlaying = false;
-      btnPlay.innerHTML = '▶';
-      clearInterval(audioProgressTimer);
+      isPlaying = false;
+      btn.innerHTML = '▶';
+      clearInterval(timer);
       if (fill) fill.style.width = '0%';
       if (time) time.textContent = '00:00';
     } else {
-      audioSpeechUtterance = new SpeechSynthesisUtterance(narrationText);
-      audioSpeechUtterance.lang = 'pt-BR';
-      audioSpeechUtterance.rate = 1.0;
+      window.speechSynthesis.cancel();
+      const utter = new SpeechSynthesisUtterance(textSpeech);
+      utter.lang = 'pt-BR';
+      utter.rate = 1.0;
 
       let elapsed = 0;
-      const duration = 12; // approximate duration in seconds
+      const duration = 14;
 
-      audioSpeechUtterance.onstart = () => {
-        audioIsPlaying = true;
-        btnPlay.innerHTML = '⏸';
-        audioProgressTimer = setInterval(() => {
+      utter.onstart = () => {
+        isPlaying = true;
+        btn.innerHTML = '⏸';
+        timer = setInterval(() => {
           elapsed += 0.5;
           const pct = Math.min(100, (elapsed / duration) * 100);
           if (fill) fill.style.width = `${pct}%`;
-          const mins = String(Math.floor(elapsed / 60)).padStart(2, '0');
-          const secs = String(Math.floor(elapsed % 60)).padStart(2, '0');
-          if (time) time.textContent = `${mins}:${secs}`;
-          if (elapsed >= duration) clearInterval(audioProgressTimer);
+          const m = String(Math.floor(elapsed / 60)).padStart(2, '0');
+          const s = String(Math.floor(elapsed % 60)).padStart(2, '0');
+          if (time) time.textContent = `${m}:${s}`;
+          if (elapsed >= duration) clearInterval(timer);
         }, 500);
       };
 
-      audioSpeechUtterance.onend = () => {
-        audioIsPlaying = false;
-        btnPlay.innerHTML = '▶';
-        clearInterval(audioProgressTimer);
+      utter.onend = () => {
+        isPlaying = false;
+        btn.innerHTML = '▶';
+        clearInterval(timer);
         if (fill) fill.style.width = '100%';
       };
 
-      window.speechSynthesis.speak(audioSpeechUtterance);
+      window.speechSynthesis.speak(utter);
     }
   });
 }
 
-// Interactive Quiz on page
+// Font size controller
+function setupFontSizeControls() {
+  const btnPlus = document.getElementById('btnFontPlus');
+  const btnMinus = document.getElementById('btnFontMinus');
+
+  if (btnPlus) {
+    btnPlus.addEventListener('click', () => {
+      currentFontSize = Math.min(1.2, currentFontSize + 0.05);
+      document.querySelectorAll('.page-text, .page-body').forEach(el => {
+        el.style.fontSize = `${currentFontSize}rem`;
+      });
+    });
+  }
+
+  if (btnMinus) {
+    btnMinus.addEventListener('click', () => {
+      currentFontSize = Math.max(0.82, currentFontSize - 0.05);
+      document.querySelectorAll('.page-text, .page-body').forEach(el => {
+        el.style.fontSize = `${currentFontSize}rem`;
+      });
+    });
+  }
+}
+
+// Drawer
+function setupDrawer() {
+  const btnOpen = document.getElementById('btnQuickMenu');
+  const btnClose = document.getElementById('btnCloseDrawer');
+  const drawer = document.getElementById('drawerOverlay');
+
+  if (btnOpen && drawer) {
+    btnOpen.addEventListener('click', () => drawer.classList.remove('hidden'));
+  }
+  if (btnClose && drawer) {
+    btnClose.addEventListener('click', () => drawer.classList.add('hidden'));
+  }
+}
+
+// Quiz
 function setupQuiz() {
   document.querySelectorAll('.quiz-opt').forEach(opt => {
     opt.addEventListener('click', () => {
@@ -227,14 +253,31 @@ function setupQuiz() {
   });
 }
 
-// UI controls (Sound, Fullscreen, PWA install)
-function setupUIControls() {
+// Init UI
+function setupUI() {
+  setupFontSizeControls();
+  setupDrawer();
+  setupQuiz();
+
+  setupPlayer(
+    'btnPlayAudioIntro',
+    'audioFillIntro',
+    'audioTimeIntro',
+    'Bem-vindos à metodologia ESDHUBEM. O ato de pensar visualmente, estruturar por escrito e verbalizar com clareza liberta o potencial criativo do estudante.'
+  );
+
+  setupPlayer(
+    'btnPlayAudioCap2',
+    'audioFillCap2',
+    'audioTimeCap2',
+    'Capítulo 2: A Tríade Mental-Verbal como hábito de estudo. A neurociência comprova que a retenção de longo prazo exige integração entre os dois hemisférios cerebrais.'
+  );
+
   const btnSound = document.getElementById('btnToggleSound');
   if (btnSound) {
     btnSound.addEventListener('click', () => {
       soundEnabled = !soundEnabled;
       btnSound.innerHTML = soundEnabled ? '🔊' : '🔇';
-      btnSound.title = soundEnabled ? 'Som ativado' : 'Som desativado';
     });
   }
 
@@ -242,16 +285,13 @@ function setupUIControls() {
   if (btnFullscreen) {
     btnFullscreen.addEventListener('click', () => {
       if (!document.fullscreenElement) {
-        document.documentElement.requestFullscreen().catch(err => console.log(err));
-        btnFullscreen.innerHTML = '⛶';
+        document.documentElement.requestFullscreen().catch(e => console.log(e));
       } else {
         document.exitFullscreen();
-        btnFullscreen.innerHTML = '⛶';
       }
     });
   }
 
-  // Demo key chips
   document.querySelectorAll('.chip-key').forEach(chip => {
     chip.addEventListener('click', () => {
       const input = document.getElementById('inputAccessCode');
@@ -263,7 +303,6 @@ function setupUIControls() {
   document.getElementById('accessForm').addEventListener('submit', handleUnlock);
   document.getElementById('btnLockBook').addEventListener('click', lockBook);
 
-  // PWA Prompt
   const btnInstall = document.getElementById('btnInstallApp');
   window.addEventListener('beforeinstallprompt', (e) => {
     e.preventDefault();
@@ -276,29 +315,19 @@ function setupUIControls() {
       if (deferredPrompt) {
         deferredPrompt.prompt();
         const { outcome } = await deferredPrompt.userChoice;
-        if (outcome === 'accepted') {
-          btnInstall.style.display = 'none';
-        }
+        if (outcome === 'accepted') btnInstall.style.display = 'none';
         deferredPrompt = null;
       }
     });
   }
 
-  // Register Service Worker
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./sw.js').catch(err => console.log('SW register note:', err));
+    navigator.serviceWorker.register('./sw.js').catch(err => console.log('SW:', err));
   }
 }
 
-// Lifecycle Init
 window.addEventListener('DOMContentLoaded', () => {
   checkAccess();
-  setupUIControls();
-  setupAudioPlayer();
-  setupQuiz();
-
-  // Give DOM a small moment to compute layout then init pageFlip
-  setTimeout(() => {
-    initFlipBook();
-  }, 100);
+  setupUI();
+  setTimeout(() => initFlipBook(), 120);
 });
