@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>O Que é Mapa Mental? Para que pode servir? | ESDHUBEM E-books</title>
+  
+  <meta name="description" content="Obra Autoral de Silviane Silvério - Da Organização das Ideias à Escrita e à Expressão Oral: Uma Abordagem Prática da Metodologia ESDHUBEM.">
+  <meta name="theme-color" content="#0F1A33">
+  
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="assets/icons/pwa-192x192.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- TOP HEADER -->
+  <header class="app-header">
+    <div class="brand-wrapper">
+      <a href="index.html" class="btn-icon" title="Voltar à Biblioteca de Livros" style="text-decoration:none;">📚</a>
+      <div class="brand-titles">
+        <h1>ESDHUBEM</h1>
+        <span>O Que é Mapa Mental? • Silviane Silvério</span>
+      </div>
+    </div>
+    
+    <div class="header-actions">
+      <button id="btnQuickMenu" class="btn-icon" title="Sumário e Capítulos">📑</button>
+      <button id="btnFontMinus" class="btn-icon" title="Diminuir Letra">A-</button>
+      <button id="btnFontPlus" class="btn-icon" title="Aumentar Letra">A+</button>
+      <button id="btnToggleSound" class="btn-icon" title="Som de folhear">🔊</button>
+      <button id="btnFullscreen" class="btn-icon" title="Modo tela cheia">⛶</button>
+      <button id="btnLockBook" class="btn-icon" title="Bloquear / Trocar Chave">🔒</button>
+    </div>
+  </header>
+
+  <!-- MAIN BOOK STAGE -->
+  <main class="book-stage">
+    <div id="bookContainer" class="flip-book-container">
+      
+      <div class="page --cover" data-density="hard">
+        <div class="cover-content">
+          <div class="cover-badge">Obra Acadêmica & Prática • 1ª Edição 2026</div>
+          <div class="cover-main">
+            <h1 class="cover-title">
+              O QUE É MAPA MENTAL?
+              <span>PARA QUE PODE SERVIR?</span>
+            </h1>
+            <p class="cover-subtitle">Da Organização das Ideias à Escrita e à Expressão Oral</p>
+            <div class="cover-tagline">Uma Abordagem Prática da Metodologia ESDHUBEM</div>
+          </div>
+          <div class="cover-author">
+            Escola Superior de Desenvolvimento Humano e Bem-Estar
+            <strong>Profª. Silviane Silvério</strong>
+          </div>
+          <div class="cover-footer">
+            ✦ ESDHUBEM PUBLICAÇÕES • SÃO PAULO, BRASIL ✦
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="page">
+        <div class="page-header">
+          <span>ESDHUBEM Publicações</span>
+          <span>Ficha Catalográfica & Editorial</span>
+        </div>
+        <div class="page-body">
+          <div class="cip-container">
+            <div class="cip-title">Dados Internacionais de Catalogação na Publicação (CIP)</div>
+            <div class="cip-body">
+              <strong>S587q &nbsp; Silvério, Silviane</strong><br>
+              <strong>O que é Mapa Mental? Para que pode servir?: da organização das ideias à escrita e à expressão oral: uma abordagem prática da metodologia ESDHUBEM</strong> / Silviane Silvério. — 1. ed. — São Paulo: ESDHUBEM Publicações, 2026.<br>
+              120 p. : il.<br><br>
+              <strong>ISBN:</strong> 978-65-00-12345-6 <em>(Edição Digital Master / PWA)</em><br>
+              1. Mapas Mentais. 2. Psicologia Cognitiva e Neurociência. 3. Metacognição. 4. Tríade Mental-Verbal. 5. Aprendizagem Significativa. 6. Multiletramentos. I. Título.<br>
+              <strong>CDD:</strong> 370.152 &nbsp;|&nbsp; <strong>CDU:</strong> 37.015.3
+            </div>
+          </div>
+          <div class="chapter-badge" style="margin-top: 1.2rem;">Apresentação da Autora</div>
+          <blockquote class="callout-box">
+            "Aprender não é apenas acumular dados ou memorizar definições; aprender é transformar a informação recebida em elaboração própria, consciência crítica e capacidade de expressão autêntica."<br>
+            — <strong>Silviane Silvério</strong>, <em>Fundadora da ESDHUBEM</em>
+          </blockquote>
+          <p class="page-text first-letter">
+            Esta obra nasce do compromisso da <strong>ESDHUBEM (Escola de Desenvolvimento Humano e Bem-Estar)</strong> em oferecer instrumentos acessíveis, profundos e cientificamente respaldados para a emancipação intelectual de estudantes, docentes, pesquisadores e profissionais.
+          </p>
+        </div>
+        <div class="page-footer">
+          <span>Ficha Editorial</span>
+          <span>Pág. 02</span>
+        </div>
+      </div>
+
+      
+      <div class="page">
+        <div class="page-header">
+          <span>Sumário Interativo</span>
+          <span>Navegação Rápida</span>
+        </div>
+        <div class="page-body">
+          <div class="chapter-badge">Índice Geral</div>
+          <h2 class="page-heading">Arquitetura da Obra</h2>
+          <p class="page-text" style="font-size: 0.88rem; color: #555;">Toque em qualquer capítulo para abrir diretamente:</p>
+          <ul class="toc-list">
+            <li class="toc-item" data-target="3">
+              <span class="toc-title">Introdução Geral: A Aprendizagem Integrativa</span>
+              <span class="toc-page">Pág. 04</span>
+            </li>
+            <li class="toc-item" data-target="4">
+              <span class="toc-title">Capítulo 1: Fundamentos, Origens e Epistemologia</span>
+              <span class="toc-page">Pág. 05</span>
+            </li>
+            <li class="toc-item" data-target="5">
+              <span class="toc-title">Capítulo 2: Bases Cognitivas, Memória e Metacognição</span>
+              <span class="toc-page">Pág. 06</span>
+            </li>
+            <li class="toc-item" data-target="6">
+              <span class="toc-title">Capítulo 3: Metodologia e Regras de Elaboração</span>
+              <span class="toc-page">Pág. 07</span>
+            </li>
+            <li class="toc-item" data-target="7">
+              <span class="toc-title">Capítulo 4: Ferramentas Tecnológicas e Multiletramentos</span>
+              <span class="toc-page">Pág. 08</span>
+            </li>
+            <li class="toc-item" data-target="8">
+              <span class="toc-title">Capítulo 5: Aplicações Práticas e Estudos de Caso</span>
+              <span class="toc-page">Pág. 09</span>
+            </li>
+            <li class="toc-item" data-target="9">
+              <span class="toc-title">Capítulo 6: Considerações Finais & Desafio de Fixação</span>
+              <span class="toc-page">Pág. 10</span>
+            </li>
+            <li class="toc-item" data-target="10">
+              <span class="toc-title">Referências Bibliográficas & Certificado</span>
+              <span class="toc-page">Pág. 11</span>
+            </li>
+          </ul>
+          <div class="callout-box" style="margin-top: 1rem; font-size: 0.85rem;">
+            💡 <strong>Dica de Interatividade:</strong> Você pode navegar pelos capítulos pelo sumário, pelas setas ou arrastando a ponta da folha com o dedo ou mouse.
+          </div>
+        </div>
+        <div class="page-footer">
+          <span>Sumário</span>
+          <span>Pág. 03</span>
+        </div>
+      </div>
+
+      
+      <div class="page">
+        <div class="page-header">
+          <span>Introdução Geral</span>
+          <span>Objeto & Justificativa</span>
+        </div>
+        <div class="page-body">
+          <div class="chapter-badge">Introdução</div>
+          <h2 class="page-heading">A Aprendizagem Integrativa e o Desenvolvimento Humano</h2>
+
+          <!-- ÁUDIO MULTIMÍDIA 1 -->
+          <div class="audio-card">
+            <div class="audio-header">
+              <div class="audio-icon-pulse">🎙️</div>
+              <div class="audio-info">
+                <h4>Áudio-Introdução: A Aprendizagem Integrativa</h4>
+                <span>Profª Silviane Silvério • Narração Autoral</span>
+              </div>
+            </div>
+            <div class="audio-controls">
+              <button class="btn-play" id="btnPlayAudioIntro" title="Ouvir Introdução">▶</button>
+              <div class="audio-progress-bar">
+                <div id="audioFillIntro" class="audio-progress-fill"></div>
+              </div>
+              <span id="audioTimeIntro" class="audio-time">00:00</span>
+            </div>
+          </div>
+          
+          <p class="page-text first-letter">
+            Na sociedade contemporânea, caracterizada pela sobrecarga de estímulos e pela dispersão da atenção provocada pela hiperconectividade, a capacidade de processar, articular e fixar conhecimentos tornou-se um dos mais urgentes desafios pedagógicos.
+          </p>
+          <p class="page-text">
+            O ato mecânico de registrar informações linha após linha, embora útil para registros cronológicos ou transcrições literais, não reflete os mecanismos neurológicos e cognitivos do cérebro. O pensamento humano é intrinsecamente irradiante e associativo.
+          </p>
+          <blockquote class="callout-box">
+            "A Tríade Mental-Verbal — pensar visualmente, estruturar por escrito e verbalizar com clareza — constitui o cerne da metodologia ESDHUBEM."
+          </blockquote>
+          <p class="page-text">
+            Neste percurso, o estudante deixa a condição passiva de receptor e assume o papel de arquiteto do próprio saber, integrando hemisférios cerebrais, cognição analítica e intuição imagética.
+          </p>
+        </div>
+        <div class="page-footer">
+          <span>Introdução Geral</span>
+          <span>Pág. 04</span>
+        </div>
+      </div>
+
+      
+      <div class="page">
+        <div class="page-header">
+          <span>Capítulo 1</span>
+          <span>Origens & Epistemologia</span>
+        </div>
+        <div class="page-body">
+          <div class="chapter-badge">Capítulo 1</div>
+          <h2 class="page-heading">Fundamentos, Origens e Epistemologia</h2>
+          
+          <p class="page-text first-letter">
+            Tony Buzan, na transição entre as décadas de 1960 e 1970, durante seus estudos universitários em psicologia, matemática e ciências, percebeu as profundas limitações dos métodos convencionais de anotação linear. O volume crescente de conteúdos confrontava-se com a ineficiência das listas monotônicas.
+          </p>
+
+          <h4 class="section-heading">O Pensamento Irradiante e as Analogias Orgânicas</h4>
+          <p class="page-text">
+            A mente opera a partir de um núcleo central que irradia conexões em múltiplas direções — padrão idêntico ao disparo sináptico dos neurônios e à ramificação de uma árvore viva. Quando transferimos essa arquitetura biológica para a folha de papel, a memória visual é instantaneamente ativada.
+          </p>
+
+          <h4 class="section-heading">Delimitação: Mapa Mental vs. Mapa Conceitual</h4>
+          <p class="page-text">
+            Enquanto Joseph Novak propôs os Mapas Conceituais estruturados em proposições hierárquicas e relações semânticas formais, Buzan priorizou a mnemônica das cores, símbolos, ramificações orgânicas e palavras-chave únicas.
+          </p>
+          <blockquote class="callout-box">
+            "Na metodologia ESDHUBEM, superamos a dicotomia entre Buzan e Novak: o mapa mental é o berço da ideação criativa e mnemônica, enquanto o mapa conceitual formaliza os constructos teóricos."
+          </blockquote>
+        </div>
+        <div class="page-footer">
+          <span>Capítulo 1 • Fundamentos</span>
+          <span>Pág. 05</span>
+        </div>
+      </div>
+
+      
+      <div class="page">
+        <div class="page-header">
+          <span>Capítulo 2</span>
+          <span>Memória & Metacognição</span>
+        </div>
+        <div class="page-body">
+          <div class="chapter-badge">Capítulo 2</div>
+          <h2 class="page-heading">Bases Cognitivas, Memória e Metacognição</h2>
+
+          <!-- ÁUDIO MULTIMÍDIA 2 -->
+          <div class="audio-card">
+            <div class="audio-header">
+              <div class="audio-icon-pulse">🎧</div>
+              <div class="audio-info">
+                <h4>Podcast Cap. 2: A Tríade Mental-Verbal</h4>
+                <span>Profª Silviane Silvério • Análise Cognitiva</span>
+              </div>
+            </div>
+            <div class="audio-controls">
+              <button class="btn-play" id="btnPlayAudioCap2" title="Ouvir Podcast Cap. 2">▶</button>
+              <div class="audio-progress-bar">
+                <div id="audioFillCap2" class="audio-progress-fill"></div>
+              </div>
+              <span id="audioTimeCap2" class="audio-time">00:00</span>
+            </div>
+          </div>
+
+          <p class="page-text first-letter">
+            A neurociência cognitiva contemporânea demonstra que a retenção duradoura depende da ativação sinérgica dos dois hemisférios cerebrais: o hemisfério esquerdo (lógica, palavras, sequenciamento) e o hemisfério direito (ritmo, cores, percepção espacial e síntese global).
+          </p>
+
+          <h4 class="section-heading">Psicodinâmica das Cores e Eficácia Mnemônica</h4>
+          <p class="page-text">
+            O cérebro não memoriza blocos homogêneos de texto cinza. O uso intencional de cores gera <em>ancoragem emocional</em> e reduz a carga cognitiva intrínseca na memória de trabalho.
+          </p>
+
+          <blockquote class="callout-box">
+            "A Tríade Mental-Verbal como Hábito: desenhar o mapa não é o fim, é o trampolim para verbalizar a síntese com a própria voz e escrever o texto com consistência irretocável."
+          </blockquote>
+        </div>
+        <div class="page-footer">
+          <span>Capítulo 2 • Bases Cognitivas</span>
+          <span>Pág. 06</span>
+        </div>
+      </div>
+
+      
+      <div class="page">
+        <div class="page-header">
+          <span>Capítulo 3</span>
+          <span>Metodologia na Prática</span>
+        </div>
+        <div class="page-body">
+          <div class="chapter-badge">Capítulo 3 • Diretrizes</div>
+          <h2 class="page-heading">A Metodologia e as Regras de Elaboração</h2>
+
+          <p class="page-text first-letter">
+            Construir um mapa mental eficaz exige rigor metodológico fundamentado nas Leis Mnemônicas de Buzan e expandido pelas diretrizes da ESDHUBEM:
+          </p>
+
+          <ul class="method-rules-list">
+            <li><strong>Orientação Paisagem:</strong> O campo de visão humano é horizontal; a folha deve estar deitada para melhor apreensão ocular.</li>
+            <li><strong>Núcleo Visual Central:</strong> Uma imagem ou símbolo central que sintetize o tema principal com pelo menos três cores primárias ou secundárias.</li>
+            <li><strong>Ramificações Curvas:</strong> Linhas orgânicas e sinuosas que mimetizam as sinapses neurais, mais espessas no centro e afiladas nas pontas.</li>
+            <li><strong>Palavra-Chave por Linha:</strong> Cada ramificação suporta um único termo essencial, libertando infinitas associações sem amarras lineares.</li>
+            <li><strong>Imagens e Símbolos em Todo o Mapa:</strong> A imagem vale por mil palavras e ativa o processamento hemisférico direito imediatamente.</li>
+          </ul>
+
+          <blockquote class="callout-box" style="margin-top: 1rem;">
+            "O rigor técnico liberta a criatividade: seguir a arquitetura correta do mapa garante que a mente recorde os conceitos semanas após o estudo."
+          </blockquote>
+        </div>
+        <div class="page-footer">
+          <span>Capítulo 3 • Metodologia</span>
+          <span>Pág. 07</span>
+        </div>
+      </div>
+
+      
+      <div class="page">
+        <div class="page-header">
+          <span>Capítulo 4</span>
+          <span>Tecnologia & IA</span>
+        </div>
+        <div class="page-body">
+          <div class="chapter-badge">Capítulo 4</div>
+          <h2 class="page-heading">Ferramentas Tecnológicas e Multiletramentos</h2>
+
+          <p class="page-text first-letter">
+            A passagem do papel sulfite e canetas hidrográficas para o ecossistema digital não anula os princípios mnemônicos; pelo contrário, potencializa a capacidade de reorganização, expansão infinita e colaboração síncrona.
+          </p>
+
+          <h4 class="section-heading">O Papel versus o Software</h4>
+          <p class="page-text">
+            O desenho manual possui um valor tátil e cinestésico insubstituível na fase inicial de ideação. No entanto, ferramentas contemporâneas (como XMind, MindMeister, Miro e Canvas colaborativos) oferecem busca instantânea, hiperlinks e integração com arquivos.
+          </p>
+
+          <blockquote class="callout-box">
+            "A Inteligência Artificial não substitui o mapeador; ela atua como co-piloto na sumarização preliminar, deixando para a mente humana o julgamento crítico e a síntese final."
+          </blockquote>
+        </div>
+        <div class="page-footer">
+          <span>Capítulo 4 • Tecnologias</span>
+          <span>Pág. 08</span>
+        </div>
+      </div>
+
+      
+      <div class="page">
+        <div class="page-header">
+          <span>Capítulo 5</span>
+          <span>Estudos de Caso</span>
+        </div>
+        <div class="page-body">
+          <div class="chapter-badge">Capítulo 5 • Prática Real</div>
+          <h2 class="page-heading">Aplicações Práticas e Casos de Sucesso</h2>
+
+          <p class="page-text first-letter">
+            A aplicação da metodologia ESDHUBEM abrange quatro esferas estratégicas de atuação acadêmica e profissional:
+          </p>
+
+          <ul class="method-rules-list">
+            <li><strong>Leitura Ativa e Fichamento:</strong> Transformação de tratados densos em mapas síntese de consulta imediata, sem necessidade de reler centenas de páginas.</li>
+            <li><strong>Produção de Artigos e Monografias:</strong> Planejamento estrutural de introdução, desenvolvimento e conclusão sem bloqueios da página em branco.</li>
+            <li><strong>Apresentações Orais de Alto Impacto:</strong> Eliminação da dependência de slides maçantes, guiando a oratória com segurança a partir da âncora visual do mapa mental.</li>
+            <li><strong>Gestão Estratégica e Decisões:</strong> Mapeamento de projetos, alinhamento de equipes e sessões de ideação ágil com clareza cristalina.</li>
+          </ul>
+
+          <blockquote class="callout-box" style="margin-top: 1rem;">
+            "O mapa mental não é um fim em si mesmo: ele é a ponte entre a clareza do pensamento interno e a potência da sua expressão no mundo."
+          </blockquote>
+        </div>
+        <div class="page-footer">
+          <span>Capítulo 5 • Casos Práticos</span>
+          <span>Pág. 09</span>
+        </div>
+      </div>
+
+      
+      <div class="page">
+        <div class="page-header">
+          <span>Capítulo 6</span>
+          <span>Síntese & Fixação</span>
+        </div>
+        <div class="page-body">
+          <div class="chapter-badge">Capítulo 6 • Síntese Cognitiva</div>
+          <h2 class="page-heading">Considerações Finais e Autoavaliação</h2>
+
+          <p class="page-text first-letter">
+            Ao percorrer as páginas deste livro, compreendemos que o mapa mental não é um mero arranjo decorativo de canetas coloridas, mas um profundo instrumento de liberdade cognitiva e autoria pessoal.
+          </p>
+
+          <!-- QUIZ INTERATIVO NA FOLHA -->
+          <div class="quiz-container">
+            <div class="quiz-question">
+              🧠 Desafio ESDHUBEM: O que caracteriza a "Tríade Mental-Verbal" desenvolvida nesta obra?
+            </div>
+            <div class="quiz-options">
+              <button class="quiz-opt" data-correct="false">
+                <span>A)</span> Apenas desenhar mapas mentais sem necessidade de escrever ou falar.
+              </button>
+              <button class="quiz-opt" data-correct="true">
+                <span>B)</span> O ciclo integrado: pensar visualmente, estruturar por escrito e expressar oralmente com autonomia.
+              </button>
+              <button class="quiz-opt" data-correct="false">
+                <span>C)</span> A memorização mecânica de palavras-chave para provas formais.
+              </button>
+            </div>
+          </div>
+
+          <blockquote class="callout-box" style="margin-top: 1rem;">
+            "O conhecimento que transforma não é aquele que se deposita na gaveta, mas aquele que se irradia em ação e clareza de vida."<br>
+            — <strong>Silviane Silvério</strong>
+          </blockquote>
+        </div>
+        <div class="page-footer">
+          <span>Capítulo 6 • Conclusão</span>
+          <span>Pág. 10</span>
+        </div>
+      </div>
+
+      
+      <div class="page">
+        <div class="page-header">
+          <span>Referências</span>
+          <span>Fundamentação Teórica</span>
+        </div>
+        <div class="page-body">
+          <div class="chapter-badge">Bibliografia</div>
+          <h2 class="page-heading">Obras Fundamentais</h2>
+          
+          <ul class="ref-list" style="font-size: 0.82rem; line-height: 1.5; padding-left: 1rem; color: #443e39;">
+            <li style="margin-bottom: 0.6rem;"><strong>AUSUBEL, David P.</strong> <em>The Psychology of Meaningful Verbal Learning</em>. New York: Grune & Stratton, 1963.</li>
+            <li style="margin-bottom: 0.6rem;"><strong>BUZAN, Tony.</strong> <em>The Mind Map Book: How to Use Radiant Thinking to Maximize Your Brain's Untapped Potential</em>. New York: Plume/Penguin, 1993.</li>
+            <li style="margin-bottom: 0.6rem;"><strong>GARDNER, Howard.</strong> <em>Frames of Mind: The Theory of Multiple Intelligences</em>. New York: Basic Books, 1983.</li>
+            <li style="margin-bottom: 0.6rem;"><strong>NOVAK, Joseph D.; GOWIN, D. Bob.</strong> <em>Learning How to Learn</em>. Cambridge: Cambridge University Press, 1984.</li>
+            <li style="margin-bottom: 0.6rem;"><strong>SILVÉRIO, Silviane.</strong> <em>Metodologia ESDHUBEM: Da Ideação à Expressão Autêntica</em>. São Paulo: ESDHUBEM Publicações, 2026.</li>
+            <li style="margin-bottom: 0.6rem;"><strong>VYGOTSKY, Lev S.</strong> <em>A Formação Social da Mente</em>. São Paulo: Martins Fontes, 1998.</li>
+          </ul>
+
+          <div style="background: rgba(197, 160, 89, 0.12); border-left: 3px solid var(--primary); padding: 0.8rem; border-radius: 4px; margin-top: 1rem; font-size: 0.82rem;">
+            📚 <strong>Acervo Acadêmico ESDHUBEM:</strong> Esta bibliografia fundamenta os cursos regulares e os módulos de extensão disponíveis no portal da escola.
+          </div>
+        </div>
+        <div class="page-footer">
+          <span>Referências</span>
+          <span>Pág. 11</span>
+        </div>
+      </div>
+
+      
+      <div class="page --cover" data-density="hard">
+        <div class="cover-content">
+          <div class="cover-badge">Parabéns pela Leitura Concluída!</div>
+          
+          <div class="cover-main">
+            <h2 class="cover-title" style="font-size: 1.8rem;">
+              ESDHUBEM
+              <span style="font-size: 1.05rem; margin-top: 0.5rem;">Escola de Desenvolvimento Humano e Bem-Estar</span>
+            </h2>
+            <p class="cover-subtitle" style="margin-top: 1rem; line-height: 1.6;">
+              Você concluiu este e-book multimídia interativo. Aplique as leis mnemônicas, construa seus próprios mapas e continue expandindo sua autonomia intelectual.
+            </p>
+          </div>
+          
+          <div style="background: rgba(197, 160, 89, 0.15); border: 1px dashed var(--primary); padding: 1.1rem; border-radius: 12px; margin: 1rem 0;">
+            <p style="font-size: 0.88rem; color: #fff; font-family: var(--font-sans); margin-bottom: 0.3rem;">
+              Acesse a plataforma de cursos e certificações da ESDHUBEM:
+            </p>
+            <a href="https://esdhubem.github.io/cursos/" target="_blank" style="color: var(--primary); font-weight: 700; text-decoration: none; font-size: 1rem; font-family: var(--font-sans); display: inline-block; padding: 0.3rem 0.8rem; background: rgba(0,0,0,0.3); border-radius: 6px;">
+              👉 esdhubem.github.io/cursos
+            </a>
+          </div>
+          
+          <div class="cover-footer">
+            ISBN: 978-65-00-12345-6 • © 2026 ESDHUBEM • Todos os direitos reservados.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- BOTTOM READER DOCK -->
+  <nav class="reader-dock">
+    <button id="btnPrev" class="dock-btn" title="Página Anterior">◀</button>
+    <input type="range" id="pageSlider" class="dock-slider" min="1" max="12" value="1">
+    <span id="pageIndicator" class="dock-pages">1 / 12</span>
+    <button id="btnNext" class="dock-btn" title="Próxima Página">▶</button>
+  </nav>
+
+  <!-- DRAWER / MENU LATERAL DE CAPÍTULOS -->
+  <div id="drawerOverlay" class="drawer-overlay hidden">
+    <div class="drawer-card">
+      <div class="drawer-header">
+        <h3>📑 Capítulos da Obra</h3>
+        <button id="btnCloseDrawer" class="btn-icon">✕</button>
+      </div>
+      <div class="drawer-body">
+        <ul class="drawer-toc-list">
+          <li class="drawer-toc-item" data-target="0"><strong>Capa Oficial</strong></li>
+          <li class="drawer-toc-item" data-target="1">Ficha Catalográfica & Apresentação</li>
+          <li class="drawer-toc-item" data-target="2">Sumário & Arquitetura da Obra</li>
+          <li class="drawer-toc-item" data-target="3">Introdução: Aprendizagem Integrativa (Áudio)</li>
+          <li class="drawer-toc-item" data-target="4">Capítulo 1: Fundamentos, Buzan e Novak</li>
+          <li class="drawer-toc-item" data-target="5">Capítulo 2: Bases Cognitivas & Tríade (Áudio)</li>
+          <li class="drawer-toc-item" data-target="6">Capítulo 3: Metodologia e Regras</li>
+          <li class="drawer-toc-item" data-target="7">Capítulo 4: Tecnologias e Multiletramentos</li>
+          <li class="drawer-toc-item" data-target="8">Capítulo 5: Aplicações Práticas</li>
+          <li class="drawer-toc-item" data-target="9">Capítulo 6: Considerações Finais & Quiz</li>
+          <li class="drawer-toc-item" data-target="10">Referências Bibliográficas</li>
+          <li class="drawer-toc-item" data-target="11">Contracapa & Certificado</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ACCESS GATE OVERLAY -->
+  <div id="accessOverlay" class="access-modal-overlay">
+    <div class="access-card">
+      <div class="access-badge">🔒 Livro Autoral Protegido</div>
+      <img src="assets/images/logo-cursos.png" alt="ESDHUBEM" class="access-logo" onerror="this.src='assets/icons/pwa-192x192.png'">
+      <h2 class="access-title">Biblioteca ESDHUBEM</h2>
+      <p class="access-desc">
+        Bem-vindo(a) à obra <strong>"O que é Mapa Mental? Para que pode servir?"</strong> de Silviane Silvério. Digite sua <strong>Chave de Acesso</strong> para liberar este e-book:
+      </p>
+
+      <form id="accessForm" class="access-form">
+        <div class="input-code-wrapper">
+          <input 
+            type="text" 
+            id="inputAccessCode" 
+            class="input-code" 
+            placeholder="Ex: ESDHUBEM-VIP ou seu código" 
+            autocomplete="off" 
+            required>
+        </div>
+        <button type="submit" class="btn-unlock">🔓 Desbloquear e Ler Agora</button>
+        <span id="accessError" class="error-message">⚠️ Código não encontrado ou inválido. Tente novamente!</span>
+      </form>
+
+      <div class="access-hints">
+        <p>Chaves de demonstração para teste:</p>
+        <div class="demo-keys">
+          <span class="chip-key">ESDHUBEM-VIP</span>
+          <span class="chip-key">LIVRO-2026</span>
+          <span class="chip-key">DEMO</span>
+        </div>
+        <p style="margin-top: 0.8rem; font-size: 0.75rem;">
+          Adquiriu na Hotmart, Kiwify ou WhatsApp? <br>
+          Seu código foi enviado ao seu e-mail de compra.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="assets/js/page-flip.browser.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
