@@ -933,14 +933,3 @@ body {
   border-color: var(--primary);
   color: #fff;
 }
-.ref-badge {
-  color: #a87e38;
-  font-weight: 700;
-  font-size: 0.85em;
-  background: rgba(197, 160, 89, 0.15);
-  padding: 0.05rem 0.35rem;
-  border-radius: 4px;
-  display: inline-block;
-  margin: 0 2px;
-  border: 1px solid rgba(197, 160, 89, 0.3);
-}
