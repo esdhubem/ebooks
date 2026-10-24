@@ -147,7 +147,7 @@ body {
 
 /* FLIPBOOK PAGES */
 .page {
-  padding: 2.2rem 2rem;
+  padding: 2.2rem 2.2rem 1.6rem 2.2rem;
   background-color: var(--page-bg);
   background-image: radial-gradient(#ece4d4 0.5px, transparent 0.5px);
   background-size: 14px 14px;
@@ -259,9 +259,11 @@ body {
   flex: 1 1 auto;
   min-height: 0;
   overflow-y: auto;
+  padding-bottom: 2.8rem; /* ESPAÇO BEM MAIOR NO RODAPÉ */
+  margin-bottom: 0.8rem;
   scrollbar-width: thin;
   scrollbar-color: var(--primary) transparent;
-  padding-right: 0.3rem;
+  padding-right: 0.4rem;
 }
 
 .page-body::-webkit-scrollbar {
