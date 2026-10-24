@@ -260,9 +260,10 @@ function setupUI() {
   setupQuiz();
 
   setupPlayer(
-    'btnPlayAudioIntro',
-    'audioFillIntro',
-    'audioTimeIntro',
+    'btnPlayAudioIntro', 'audioFillIntro', 'audioTimeIntro', 'Metodologia ESDHUBEM', 'audioElementIntro',
+    'audioElementIntro'
+  );
+  // skipped text
     'Bem-vindos à metodologia ESDHUBEM. O ato de pensar visualmente, estruturar por escrito e verbalizar com clareza liberta o potencial criativo do estudante.'
   );
 

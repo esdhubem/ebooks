@@ -173,33 +173,35 @@
       <!-- PÁGINA 4 -->
       <div class="page">
         <div class="page-header">
-          <span>Introdução Geral</span>
-          <span>Áudio & Contexto</span>
+          <span>INTRODUÇÃO GERAL</span>
+          <span>OBJETO DE ESTUDO</span>
         </div>
         <div class="page-body">
-          <div class="chapter-badge">Introdução • Tópico 1 (Parte 1)</div>
+          <div class="chapter-badge">INTRODUÇÃO • PARTE 1</div>
           <h2 class="page-heading">Contextualização e Objeto de Estudo</h2>
           
-          <div class="archive-audio-card" style="margin: 0.6rem 0 1rem; background: #14120e; border: 1px solid rgba(197, 160, 89, 0.4); border-radius: 8px; overflow: hidden; box-shadow: 0 4px 18px rgba(0,0,0,0.3);">
-            <div style="padding: 0.5rem 0.9rem; background: rgba(197, 160, 89, 0.12); border-bottom: 1px solid rgba(197, 160, 89, 0.25); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem;">
-              <div style="display: flex; align-items: center; gap: 0.5rem;">
-                <span style="font-size: 1.1rem;">🎙️</span>
-                <div>
-                  <strong style="font-family: 'Cinzel', serif; font-size: 0.8rem; color: #c5a059; display: block; letter-spacing: 0.5px;">ÁUDIO OFICIAL: O QUE É MAPA MENTAL?</strong>
-                  <span style="font-size: 0.72rem; color: #a89a88;">Profª Silviane Silvério • Narração Autoral (Internet Archive)</span>
-                </div>
+          <div class="audio-card">
+            <div class="audio-header">
+              <div class="audio-icon-pulse">🎙️</div>
+              <div class="audio-info">
+                <h4>Áudio-Introdução: A Aprendizagem Integrativa</h4>
+                <span>Profª Silviane Silvério • Narração Autoral</span>
               </div>
-              <a href="https://archive.org/details/o_que_e_mapa_mental_para_que_serve" target="_blank" rel="noopener" style="font-size: 0.72rem; color: #c5a059; text-decoration: none; padding: 0.2rem 0.5rem; border: 1px solid rgba(197,160,89,0.3); border-radius: 4px; background: rgba(0,0,0,0.3);">
-                ↗ Internet Archive
-              </a>
             </div>
-            <div style="width: 100%; max-width: 560px; margin: 0 auto; background: #000;">
-              <iframe src="https://archive.org/embed/o_que_e_mapa_mental_para_que_serve" width="100%" height="240" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen style="border: 0; display: block; width: 100%;"></iframe>
+            <div class="audio-controls">
+              <button class="btn-play" id="btnPlayAudioIntro" title="Ouvir Introdução">▶</button>
+              <div class="audio-progress-bar" id="audioBarIntro" style="cursor: pointer;">
+                <div id="audioFillIntro" class="audio-progress-fill"></div>
+              </div>
+              <span id="audioTimeIntro" class="audio-time">00:00</span>
             </div>
+            <audio id="audioElementIntro" preload="metadata" src="https://archive.org/download/o_que_e_mapa_mental_para_que_serve/o_que_%C3%A9_mapa_mental_para_que_serve.MP3"></audio>
+            <iframe src="https://archive.org/embed/o_que_e_mapa_mental_para_que_serve" width="1" height="1" frameborder="0" style="position: absolute; opacity: 0; pointer-events: none; width: 1px; height: 1px;" title="Internet Archive Player"></iframe>
           </div>
 <p class="page-text first-letter">Na realidade atual, vivemos na Era da Informação e da Inteligência Artificial, o que proporciona o consumo de um volume massivo de dados por meio da automação inteligente, de algoritmos avançados e da inteligência artificial generativa, transformando o nosso quotidiano e a forma como trabalhamos. As inovações tecnológicas oferecem uma carga contínua de dados, exigindo discernimento crítico na triagem do que é verdadeiro ou falso, capacidade de processamento e retenção daquilo que se aprende e a conversão de dados em conhecimento aplicável.</p>
 <p class="page-text">Contudo, as metodologias de estudo e os sistemas de registo documental predominantes nas instituições formais de ensino e no ambiente corporativo permanecem ancorados no modelo tradicional de escutar e anotar, caracterizado por uma lógica cartesiana e linear. Muitas escolas e empresas ainda operam sob o paradigma da «linha de montagem intelectual», herdada diretamente do racionalismo cartesiano do século XVII e do modelo da Revolução Industrial <span class="ref-badge">[1]</span>.</p>
 <p class="page-text">O filósofo e matemático René Descartes postulou o método de dividir cada dificuldade em tantas partes quantas fossem possíveis para melhor as resolver. Embora essa abordagem analítica tenha sido e continue a ser basilar para a evolução científica, a sua aplicação descontextualizada gerou efeitos colaterais fragmentadores, que podem ser superados ao valorizar-se a complementaridade e a visão sistémica do saber <span class="ref-badge">[7]</span>.</p>
+<p class="page-text">Um desses problemas manifesta-se na rigidez curricular, na qual as matérias são ensinadas de forma compartimentada — o aluno frequenta 50 minutos de Matemática seguidos de 50 minutos de História, muitas vezes sem compreender as pontes epistemológicas entre os dois domínios. No ecossistema empresarial, esse padrão reflete-se na criação de departamentos estanques e na falta de comunicação fluida entre setores.</p>
         </div>
         <div class="page-footer">
           <span>Metodologia ESDHUBEM</span>
@@ -211,14 +213,13 @@
       <!-- PÁGINA 5 -->
       <div class="page">
         <div class="page-header">
-          <span>Introdução Geral</span>
-          <span>Transição Cognitiva</span>
+          <span>INTRODUÇÃO GERAL</span>
+          <span>RELEVÂNCIA & PROBLEMA</span>
         </div>
         <div class="page-body">
-          <div class="chapter-badge">Introdução • Tópico 1 (Parte 2)</div>
-          <h2 class="page-heading">A Cisão Mente-Corpo e os Mapas Visuais</h2>
-          <p class="page-text first-letter">Um desses problemas manifesta-se na rigidez curricular, na qual as matérias são ensinadas de forma compartimentada — o aluno frequenta 50 minutos de Matemática seguidos de 50 minutos de História, muitas vezes sem compreender as pontes epistemológicas entre os dois domínios. No ecossistema empresarial, esse padrão reflete-se na criação de departamentos estanques e na falta de comunicação fluida entre setores.</p>
-<p class="page-text">Outro desdobramento clássico é a cisão mente-corpo. O cartesianismo privilegiou o cogito, o pensamento abstrato e puramente lógico, em detrimento das dimensões afetivas, sensoriais e estéticas. Consequentemente, o registo documental tradicional restringe-se quase exclusivamente ao texto formal contínuo, ignorando a multiplicidade de canais comunicativos <span class="ref-badge">[1]</span>.</p>
+          <div class="chapter-badge">INTRODUÇÃO • PARTE 2</div>
+          <h2 class="page-heading">Por que Estudar os Mapas Mentais?</h2>
+          <p class="page-text first-letter">Outro desdobramento clássico é a cisão mente-corpo. O cartesianismo privilegiou o cogito, o pensamento abstrato e puramente lógico, em detrimento das dimensões afetivas, sensoriais e estéticas. Consequentemente, o registo documental tradicional restringe-se quase exclusivamente ao texto formal contínuo, ignorando a multiplicidade de canais comunicativos <span class="ref-badge">[1]</span>.</p>
 <p class="page-text">Esse modelo de fluxo estático pressupõe um ciclo previsível de entrada, processamento e saída: o aluno lê o texto, redige um resumo e faz o teste; o colaborador recebe o memorando, preenche a folha de cálculo e gera um ficheiro em PDF. As estruturas de arquivo — de gavetas metálicas a pastas digitais aninhadas — continuam a refletir uma hierarquia rígida que entra em conflito com a organização em rede que caracteriza a era digital contemporânea <span class="ref-badge">[7]</span>.</p>
 <p class="page-text">Diante disso, evidencia-se um descompasso com os multiletramentos. Enquanto o método tradicional preconiza a redução para aprofundar, as exigências atuais demandam integração para ampliar. O contexto sociocultural exige competências multimodais e hipertextuais; a informação distribui-se em redes integradas e é absorvida por meio de linguagens diversas. Persistir em blocos textuais unicolores e sequenciais contraria os avanços consolidados da psicologia cognitiva e da neurobiologia acerca do funcionamento dinâmico do cérebro <span class="ref-badge">[4, 6]</span>.</p>
 <p class="page-text">Nesse cenário de sobrecarga informacional, os mapas visuais de aprendizagem surgem como uma alternativa metodológica consistente. Idealizados pelo britânico Tony Buzan na virada para a década de 1970 <span class="ref-badge">[5, 6]</span>, os mapas mentais superam os diagramas puramente decorativos: constituem uma linguagem gráfica estruturada a partir do pensamento irradiante e associativo <span class="ref-badge">[6]</span>. A sua estrutura orgânica e radial ramifica-se a partir de um núcleo gerador, espelhando macroscopicamente a morfologia neuronal e sináptica e operando em harmonia com os processos naturais de associação da mente <span class="ref-badge">[1, 6]</span>.</p>
@@ -233,11 +234,11 @@
       <!-- PÁGINA 6 -->
       <div class="page">
         <div class="page-header">
-          <span>Introdução Geral</span>
-          <span>Relevância & Tríade</span>
+          <span>INTRODUÇÃO GERAL</span>
+          <span>RELEVÂNCIA & TRÍADE</span>
         </div>
         <div class="page-body">
-          <div class="chapter-badge">Introdução • Tópico 2</div>
+          <div class="chapter-badge">INTRODUÇÃO • PARTE 3</div>
           <h2 class="page-heading">Por que Estudar os Mapas Mentais?</h2>
           <p class="page-text first-letter">Embora reconhecidos como ferramentas de organização visual, as aplicações dos mapas mentais ultrapassam a simples esquematização técnica. Torna-se imperativo examinar como participam na estruturação cognitiva, as suas funções práticas e as suas delimitações metodológicas <span class="ref-badge">[1]</span>.</p>
 <p class="page-text">Aprender um determinado assunto não garante, por si só, que a pessoa consiga explicá-lo com clareza, integrá-lo com outros saberes ou formular um posicionamento crítico. O contacto com dados densos pode coexistir com dificuldades reais na hora de verbalizar ou redigir aquilo que foi lido.</p>
@@ -258,11 +259,11 @@
       <!-- PÁGINA 7 -->
       <div class="page">
         <div class="page-header">
-          <span>Introdução Geral</span>
-          <span>Problema de Pesquisa</span>
+          <span>INTRODUÇÃO GERAL</span>
+          <span>PROBLEMA DE PESQUISA</span>
         </div>
         <div class="page-body">
-          <div class="chapter-badge">Introdução • Tópico 3</div>
+          <div class="chapter-badge">INTRODUÇÃO • PARTE 4</div>
           <h2 class="page-heading">A Lacuna entre Ensinar o "Quê" e o "Como"</h2>
           <p class="page-text first-letter">Nas matrizes de ensino tradicionais, as instituições empenham-se em cumprir currículos extensos e exigir domínio de conteúdo em exames complexos. Todavia, quase nunca ensinam métodos metacognitivos de como aprender <span class="ref-badge">[1]</span>. Presume-se, de modo ingénuo, que as competências de filtrar, categorizar, sintetizar e reter dados sejam talentos inatos, cabendo a cada aluno encontrar soluções por conta própria <span class="ref-badge">[1]</span>.</p>
 <p class="page-text">Sem orientações explícitas sobre estratégias metacognitivas, o estudante frequentemente adota a cópia mecânica das matérias. Passa horas transcrevendo diapositivos ou a fala dos professores, o que fomenta aquilo que a psicologia cognitiva designa como «ilusão de competência»: a sensação física de produtividade enquanto o cérebro atua quase de forma passiva, com baixa retenção profunda.</p>
@@ -281,11 +282,11 @@
       <!-- PÁGINA 8 -->
       <div class="page">
         <div class="page-header">
-          <span>Introdução Geral</span>
-          <span>Justificativa & Aprendizagem</span>
+          <span>INTRODUÇÃO GERAL</span>
+          <span>JUSTIFICATIVA & APRENDIZAGEM</span>
         </div>
         <div class="page-body">
-          <div class="chapter-badge">Introdução • Tópicos 4 e 5</div>
+          <div class="chapter-badge">INTRODUÇÃO • PARTE 5</div>
           <h2 class="page-heading">Justificativa & Aprendizagem Integrativa</h2>
           <p class="page-text first-letter">A justificação desta proposta apoia-se na necessidade de valorizar recursos que envolvam de forma plena o potencial cognitivo do sujeito <span class="ref-badge">[1]</span>. Enquanto as abordagens puramente lineares estimulam quase com exclusividade os processos lógicos e analíticos do hemisfério esquerdo, deixam em segundo plano o processamento espacial, sintético e imagético do hemisfério direito <span class="ref-badge">[1, 4, 6]</span>.</p>
 <p class="page-text">A análise dos mapas mentais sob a perspetiva da coordenação inter-hemisférica ampara-se no princípio da dupla codificação (Paivio) e no fortalecimento de pistas visuo-verbais de recuperação da memória <span class="ref-badge">[1, 4]</span>, bem como em abordagens integrativas dos processos mentais <span class="ref-badge">[9]</span>.</p>
@@ -306,11 +307,11 @@
       <!-- PÁGINA 9 -->
       <div class="page">
         <div class="page-header">
-          <span>Introdução Geral</span>
-          <span>Objetivos & Proposta</span>
+          <span>INTRODUÇÃO GERAL</span>
+          <span>OBJETIVOS & PROPOSTA</span>
         </div>
         <div class="page-body">
-          <div class="chapter-badge">Introdução • Tópicos 6 e 7</div>
+          <div class="chapter-badge">INTRODUÇÃO • PARTE 6</div>
           <h2 class="page-heading">Objetivos & Proposta Pedagógica ESDHUBEM</h2>
           <h5 class="sub-heading">Objetivo Geral</h5>
 Analisar os pilares teóricos, cognitivos e práticos dos mapas mentais, examinando as suas potencialidades e limitações enquanto instrumentos de processamento de informação, representação conceitual, fixação mnemónica e incentivo à aprendizagem significativa e autorregulada nos contextos escolar, académico e organizacional.
@@ -339,11 +340,11 @@ Analisar os pilares teóricos, cognitivos e práticos dos mapas mentais, examina
       <!-- PÁGINA 10 -->
       <div class="page">
         <div class="page-header">
-          <span>Introdução Geral</span>
-          <span>Visualização do Saber</span>
+          <span>INTRODUÇÃO GERAL</span>
+          <span>VISUALIZAÇÃO DO SABER</span>
         </div>
         <div class="page-body">
-          <div class="chapter-badge">Introdução • Tópico 8</div>
+          <div class="chapter-badge">INTRODUÇÃO • PARTE 7</div>
           <h2 class="page-heading">Da Organização Linear à Visual</h2>
           <p class="page-text first-letter">Grande parte dos modelos de anotação organiza-se de maneira linear — frases, listas e parágrafos contínuos. Essa estrutura é valiosa para a argumentação discursiva detalhada, mas apresenta limitações na visualização global e simultânea das inter-relações entre múltiplos tópicos <span class="ref-badge">[1]</span>.</p>
 <p class="page-text">Os mapas mentais operam por radiação: situam um tema central de onde derivam ramificações principais e secundárias, tornando visíveis as categorias conceituais e os seus pontos de ligação <span class="ref-badge">[1, 6]</span>. Isso não significa a supremacia de um modelo sobre o outro, mas sim a sua complementaridade: a síntese gráfica organiza o quadro panorâmico, enquanto o texto desenvolve a argumentação em profundidade <span class="ref-badge">[1]</span>. O desafio está em articular os dois recursos de forma estratégica, sem reduzir o mapa a um fim estético, mas utilizando-o como alicerce para a reflexão, a redação crítica e a comunicação oral.</p>
@@ -532,7 +533,7 @@ Analisar os pilares teóricos, cognitivos e práticos dos mapas mentais, examina
             </div>
             <div class="audio-controls">
               <button class="btn-play" id="btnPlayAudioCap2" title="Ouvir Podcast Cap. 2">▶</button>
-              <div class="audio-progress-bar">
+              <div class="audio-progress-bar" id="audioBarCap2" style="cursor: pointer;">
                 <div id="audioFillCap2" class="audio-progress-fill"></div>
               </div>
               <span id="audioTimeCap2" class="audio-time">00:00</span>
