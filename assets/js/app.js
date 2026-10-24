@@ -73,20 +73,26 @@ function lockBook() {
 // PageFlip Initialization
 function initFlipBook() {
   const container = document.getElementById('bookContainer');
+  const loader = document.getElementById('bookLoader');
   if (!container || !window.St || !window.St.PageFlip) return;
 
   const isMobile = window.innerWidth <= 768;
-  const pageWidth = isMobile ? Math.min(window.innerWidth - 30, 430) : 500;
-  const pageHeight = isMobile ? Math.min(window.innerHeight - 150, 650) : 710;
+  const availableHeight = window.innerHeight - 135;
+  const pageHeight = isMobile 
+    ? Math.min(Math.max(window.innerHeight - 140, 420), 580)
+    : Math.min(Math.max(availableHeight, 460), 620);
+  const pageWidth = isMobile 
+    ? Math.min(window.innerWidth - 30, 420)
+    : Math.round(pageHeight * 0.72);
 
   pageFlipInstance = new St.PageFlip(container, {
     width: pageWidth,
     height: pageHeight,
     size: 'stretch',
-    minWidth: 320,
-    maxWidth: 620,
-    minHeight: 460,
-    maxHeight: 880,
+    minWidth: 300,
+    maxWidth: 580,
+    minHeight: 400,
+    maxHeight: 720,
     maxShadowOpacity: 0.5,
     showCover: true,
     mobileScrollSupport: false,
@@ -95,6 +101,14 @@ function initFlipBook() {
   });
 
   pageFlipInstance.loadFromHTML(document.querySelectorAll('.page'));
+
+  const revealBook = () => {
+    container.classList.add('ready');
+    if (loader) loader.classList.add('hidden');
+  };
+
+  pageFlipInstance.on('init', revealBook);
+  setTimeout(revealBook, 250);
 
   const pageIndicator = document.getElementById('pageIndicator');
   const pageSlider = document.getElementById('pageSlider');
