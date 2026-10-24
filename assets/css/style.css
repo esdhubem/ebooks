@@ -147,13 +147,13 @@ body {
 
 /* FLIPBOOK PAGES */
 .page {
-  padding: 2.2rem 2.2rem 1.6rem 2.2rem;
+  padding: 2.2rem 2.2rem 1.4rem 2.2rem;
   background-color: var(--page-bg);
   background-image: radial-gradient(#ece4d4 0.5px, transparent 0.5px);
   background-size: 14px 14px;
   color: var(--text-dark);
   font-family: var(--font-serif);
-  line-height: 1.7;
+  line-height: 1.68;
   border: 1px solid var(--page-border);
   overflow: hidden;
   display: flex;
@@ -259,11 +259,11 @@ body {
   flex: 1 1 auto;
   min-height: 0;
   overflow-y: auto;
-  padding-bottom: 2.8rem; /* ESPAÇO BEM MAIOR NO RODAPÉ */
-  margin-bottom: 0.8rem;
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.4rem;
   scrollbar-width: thin;
-  scrollbar-color: var(--primary) transparent;
-  padding-right: 0.4rem;
+  scrollbar-color: rgba(197, 160, 89, 0.35) transparent;
+  padding-right: 0.2rem;
 }
 
 .page-body::-webkit-scrollbar {
@@ -282,8 +282,8 @@ body {
   font-size: 0.75rem;
   color: var(--text-muted);
   border-top: 1px solid rgba(0,0,0,0.08);
-  padding-top: 0.6rem;
-  margin-top: 1rem;
+  padding-top: 0.5rem;
+  margin-top: auto;
 }
 
 .chapter-badge {
