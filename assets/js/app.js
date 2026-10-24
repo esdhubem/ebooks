@@ -138,6 +138,14 @@ function initFlipBook() {
     if (e.key === 'ArrowRight' || e.key === 'PageDown') pageFlipInstance.flipNext();
     if (e.key === 'ArrowLeft' || e.key === 'PageUp') pageFlipInstance.flipPrev();
   });
+
+  document.querySelectorAll('.page-body').forEach(body => {
+    body.addEventListener('wheel', (e) => {
+      if (body.scrollHeight > body.clientHeight) {
+        e.stopPropagation();
+      }
+    }, { passive: true });
+  });
 }
 
 // Audio Player Factory
@@ -229,10 +237,23 @@ function setupDrawer() {
   const drawer = document.getElementById('drawerOverlay');
 
   if (btnOpen && drawer) {
-    btnOpen.addEventListener('click', () => drawer.classList.remove('hidden'));
+    btnOpen.addEventListener('click', (e) => {
+      e.stopPropagation();
+      drawer.classList.remove('hidden');
+    });
   }
   if (btnClose && drawer) {
-    btnClose.addEventListener('click', () => drawer.classList.add('hidden'));
+    btnClose.addEventListener('click', (e) => {
+      e.stopPropagation();
+      drawer.classList.add('hidden');
+    });
+  }
+  if (drawer) {
+    drawer.addEventListener('click', (e) => {
+      if (e.target === drawer) {
+        drawer.classList.add('hidden');
+      }
+    });
   }
 }
 

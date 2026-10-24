@@ -256,8 +256,11 @@ body {
 }
 
 .page-body {
-  flex: 1;
+  flex: 1 1 auto;
+  min-height: 0;
   overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary) transparent;
   padding-right: 0.3rem;
 }
 
@@ -310,8 +313,9 @@ body {
 }
 
 .page-text {
-  font-size: 0.96rem;
-  margin-bottom: 1rem;
+  font-size: 0.90rem;
+  line-height: 1.58;
+  margin-bottom: 0.65rem;
   text-align: justify;
 }
 
@@ -866,10 +870,10 @@ body {
 .drawer-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.7);
+  background: rgba(0,0,0,0.78);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  z-index: 90;
+  z-index: 9999;
   display: flex;
   justify-content: flex-start;
   transition: opacity 0.3s;
@@ -877,7 +881,9 @@ body {
 
 .drawer-overlay.hidden {
   opacity: 0;
-  pointer-events: none;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  display: none !important;
 }
 
 .drawer-card {
