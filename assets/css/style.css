@@ -433,39 +433,46 @@ body {
 /* INTERACTIVE SUMÁRIO */
 .toc-list {
   list-style: none;
-  margin-top: 0.3rem;
+  margin: 0.15rem 0 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
 }
 
 .toc-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.35rem 0.4rem;
-  border-bottom: 1px dashed rgba(0,0,0,0.12);
+  padding: 0.22rem 0.35rem;
+  border-bottom: 1px dashed rgba(0,0,0,0.1);
   cursor: pointer;
   transition: all 0.2s;
-  border-radius: 6px;
+  border-radius: 4px;
   font-family: var(--font-sans);
 }
 
 .toc-item:hover {
   background: rgba(197, 160, 89, 0.18);
-  padding-left: 0.8rem;
+  padding-left: 0.55rem;
   color: #0f1a33;
 }
 
 .toc-title {
-  font-weight: 600;
-  font-size: 0.8rem;
-  line-height: 1.35;
+  font-size: 0.77rem;
+  line-height: 1.25;
   font-weight: 500;
+  padding-right: 0.4rem;
+  color: #172033;
 }
 
 .toc-page {
   font-weight: 700;
   color: var(--primary);
-  font-size: 0.85rem;
+  font-size: 0.80rem;
+  flex-shrink: 0;
 }
+
 
 /* INTERACTIVE AUDIO PLAYER */
 .audio-card {
