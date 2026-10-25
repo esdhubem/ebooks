@@ -94,9 +94,9 @@ function initFlipBook() {
   const maxAvailableHeight = window.innerHeight - 125;
   
   // Strict height bounding:
-  // Desktop: capped comfortably between 400px and 560px
+  // Desktop: capped comfortably between 400px and 600px
   // Mobile: capped between 360px and 520px
-  const maxTargetH = isMobile ? 520 : 560;
+  const maxTargetH = isMobile ? 520 : 600;
   const minTargetH = isMobile ? 360 : 400;
   const pageHeight = Math.max(minTargetH, Math.min(maxTargetH, maxAvailableHeight));
   

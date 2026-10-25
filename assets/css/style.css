@@ -231,7 +231,7 @@ body {
   display: flex !important;
   flex-direction: column !important;
   justify-content: flex-start !important;
-  padding: 1.25rem 1.7rem 2.8rem 1.7rem !important;
+  padding: 1.0rem 1.6rem 1.15rem 1.6rem !important;
   box-sizing: border-box !important;
 }
 
@@ -239,9 +239,9 @@ body {
 .page:not(.--cover)::after {
   content: "";
   position: absolute;
-  bottom: 2.2rem;
-  left: 1.7rem;
-  right: 1.7rem;
+  bottom: 0.65rem;
+  left: 1.6rem;
+  right: 1.6rem;
   height: 1px;
   background: rgba(197, 160, 89, 0.35);
   pointer-events: none;
@@ -394,27 +394,27 @@ body {
 }
 
 .page-heading {
-  font-size: 1.30rem;
+  font-size: 1.25rem;
   font-weight: 700;
-  line-height: 1.25;
+  line-height: 1.22;
   color: #172033;
-  margin-bottom: 0.55rem;
+  margin-bottom: 0.45rem;
 }
 
 .first-letter::first-letter {
-  font-size: 2.6rem;
+  font-size: 2.4rem;
   float: left;
   line-height: 0.85;
-  margin: 0.1rem 0.5rem 0 0;
+  margin: 0.1rem 0.45rem 0 0;
   font-family: var(--font-serif);
   color: #96702e;
   font-weight: 700;
 }
 
 .page-text {
-  font-size: 0.835rem;
-  line-height: 1.48;
-  margin-bottom: 0.45rem;
+  font-size: 0.825rem;
+  line-height: 1.44;
+  margin-bottom: 0.35rem;
   text-align: justify;
 }
 
@@ -434,11 +434,12 @@ body {
 .callout-box {
   background: rgba(197, 160, 89, 0.12);
   border-left: 4px solid var(--primary);
-  padding: 0.65rem 0.85rem;
+  padding: 0.45rem 0.75rem;
   border-radius: 0 8px 8px 0;
-  margin: 0.6rem 0;
+  margin: 0.45rem 0;
   font-style: italic;
-  font-size: 0.84rem;
+  font-size: 0.82rem;
+  line-height: 1.4;
   color: #3b322a;
 }
 
@@ -990,20 +991,25 @@ body {
 }
 
 .method-rules-list {
-  list-style: none;
-  margin: 1rem 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.6rem;
+  list-style: none !important;
+  margin: 0.35rem 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.3rem !important;
+  font-size: 0.80rem !important;
+  line-height: 1.38 !important;
 }
 
 .method-rules-list li {
-  background: rgba(197, 160, 89, 0.1);
-  border-left: 3px solid var(--primary);
-  padding: 0.6rem 0.8rem;
-  border-radius: 0 6px 6px 0;
-  font-size: 0.88rem;
-  color: #2b2520;
+  background: rgba(197, 160, 89, 0.1) !important;
+  border-left: 3px solid var(--primary) !important;
+  padding: 0.35rem 0.65rem !important;
+  border-radius: 0 6px 6px 0 !important;
+  font-size: 0.80rem !important;
+  line-height: 1.35 !important;
+  color: #2b2520 !important;
+  margin-bottom: 0.15rem !important;
 }
 
 /* DRAWER MODAL */
