@@ -231,7 +231,7 @@ body {
   display: flex !important;
   flex-direction: column !important;
   justify-content: flex-start !important;
-  padding: 1.0rem 1.6rem 1.15rem 1.6rem !important;
+  padding: 1.05rem 1.65rem 1.85rem 1.65rem !important;
   box-sizing: border-box !important;
 }
 
@@ -239,9 +239,9 @@ body {
 .page:not(.--cover)::after {
   content: "";
   position: absolute;
-  bottom: 0.65rem;
-  left: 1.6rem;
-  right: 1.6rem;
+  bottom: 1.15rem;
+  left: 1.65rem;
+  right: 1.65rem;
   height: 1px;
   background: rgba(197, 160, 89, 0.35);
   pointer-events: none;
@@ -365,10 +365,12 @@ body {
 .page-body {
   flex: 1 1 auto;
   min-height: 0;
+  max-height: 100%;
   overflow: hidden !important; /* CRITICAL: No internal scrollbars */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  margin-bottom: 0.25rem !important;
 }
 
 .page-body::-webkit-scrollbar {
