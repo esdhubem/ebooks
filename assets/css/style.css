@@ -1081,3 +1081,19 @@ body {
   border-color: var(--primary);
   color: #fff;
 }
+
+/* AUDIO EMBED WRAPPER (ARCHIVE.ORG) */
+.audio-embed-wrapper {
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.35);
+  margin-top: 0.25rem;
+}
+
+.audio-embed-wrapper iframe {
+  width: 100%;
+  height: 34px;
+  border: none;
+  display: block;
+}
