@@ -14,25 +14,25 @@
 
 Na realidade atual, vivemos na Era da Informação e da Inteligência Artificial, o que proporciona o consumo de um volume massivo de dados por meio da automação inteligente, de algoritmos avançados e da inteligência artificial generativa, transformando o nosso cotidiano e a forma como trabalhamos. As inovações tecnológicas oferecem uma carga contínua de dados, exigindo discernimento crítico na triagem do que é verdadeiro ou falso, capacidade de processamento e retenção daquilo que se aprende e a conversão de dados em conhecimento aplicável.
 
-Contudo, as metodologias de estudo e os sistemas de registo documental predominantes nas instituições formais de ensino e no ambiente corporativo permanecem ancorados no modelo tradicional de escutar e anotar, caracterizado por uma lógica cartesiana e linear. Muitas escolas e empresas ainda operam sob o paradigma da «linha de montagem intelectual», herdada diretamente do racionalismo cartesiano do século XVII e do modelo da Revolução Industrial \[1\].
+Contudo, as metodologias de estudo e os sistemas de registo documental predominantes nas instituições formais de ensino e no ambiente corporativo permanecem ancorados no modelo tradicional de escutar e anotar, caracterizado por uma lógica cartesiana e linear. Muitas escolas e empresas ainda operam sob o paradigma da «linha de montagem intelectual», herdada diretamente do racionalismo cartesiano do século XVII e do modelo da Revolução Industrial [1].
 
-O filósofo e matemático René Descartes postulou o método de dividir cada dificuldade em tantas partes quantas fossem possíveis para melhor as resolver. Embora essa abordagem analítica tenha sido e continue a ser basilar para a evolução científica, a sua aplicação descontextualizada gerou efeitos colaterais fragmentadores, que podem ser superados ao valorizar-se a complementaridade e a visão sistémica do saber \[7\].
+O filósofo e matemático René Descartes postulou o método de dividir cada dificuldade em tantas partes quantas fossem possíveis para melhor as resolver. Embora essa abordagem analítica tenha sido e continue a ser basilar para a evolução científica, a sua aplicação descontextualizada gerou efeitos colaterais fragmentadores, que podem ser superados ao valorizar-se a complementaridade e a visão sistémica do saber [7].
 
 Um desses problemas manifesta-se na rigidez curricular, na qual as matérias são ensinadas de forma compartimentada, o aluno frequenta 50 minutos de Matemática seguidos de 50 minutos de História, muitas vezes sem compreender as pontes epistemológicas entre os dois domínios. No ecossistema empresarial, esse padrão reflete-se na criação de departamentos estanques e na falta de comunicação fluida entre setores.
 
-Outro desdobramento clássico é a cisão mente-corpo. O cartesianismo privilegiou o *cogito*, o pensamento abstrato e puramente lógico, em detrimento das dimensões afetivas, sensoriais e estéticas. Consequentemente, o registo documental tradicional restringe-se quase exclusivamente ao texto formal contínuo, ignorando a multiplicidade de canais comunicativos \[1\].
+Outro desdobramento clássico é a cisão mente-corpo. O cartesianismo privilegiou o *cogito*, o pensamento abstrato e puramente lógico, em detrimento das dimensões afetivas, sensoriais e estéticas. Consequentemente, o registo documental tradicional restringe-se quase exclusivamente ao texto formal contínuo, ignorando a multiplicidade de canais comunicativos [1].
 
-Esse modelo de fluxo estático pressupõe um ciclo previsível de entrada, processamento e saída: o aluno lê o texto, redige um resumo e faz o teste; o colaborador recebe o memorando, preenche a folha de cálculo e gera um ficheiro em PDF. As estruturas de arquivo — de gavetas metálicas a pastas digitais aninhadas — continuam a refletir uma hierarquia rígida que entra em conflito com a organização em rede que caracteriza a era digital contemporânea \[7\].
+Esse modelo de fluxo estático pressupõe um ciclo previsível de entrada, processamento e saída: o aluno lê o texto, redige um resumo e faz o teste; o colaborador recebe o memorando, preenche a folha de cálculo e gera um ficheiro em PDF. As estruturas de arquivo — de gavetas metálicas a pastas digitais aninhadas — continuam a refletir uma hierarquia rígida que entra em conflito com a organização em rede que caracteriza a era digital contemporânea [7].
 
-Diante disso, evidencia-se um descompasso com os multiletramentos. Enquanto o método tradicional preconiza a redução para aprofundar, as exigências atuais demandam integração para ampliar. O contexto sociocultural exige competências multimodais e hipertextuais; a informação distribui-se em redes integradas e é absorvida por meio de linguagens diversas. Persistir em blocos textuais unicolores e sequenciais contraria os avanços consolidados da psicologia cognitiva e da neurobiologia acerca do funcionamento dinâmico do cérebro \[4, 6\].
+Diante disso, evidencia-se um descompasso com os multiletramentos. Enquanto o método tradicional preconiza a redução para aprofundar, as exigências atuais demandam integração para ampliar. O contexto sociocultural exige competências multimodais e hipertextuais; a informação distribui-se em redes integradas e é absorvida por meio de linguagens diversas. Persistir em blocos textuais unicolores e sequenciais contraria os avanços consolidados da psicologia cognitiva e da neurobiologia acerca do funcionamento dinâmico do cérebro [4, 6].
 
-Nesse cenário de sobrecarga informacional, os mapas visuais de aprendizagem surgem como uma alternativa metodológica consistente. Idealizados pelo britânico Tony Buzan na virada para a década de 1970 \[5, 6\], os mapas mentais superam os diagramas puramente decorativos: constituem uma linguagem gráfica estruturada a partir do pensamento irradiante e associativo \[6\]. 
+Nesse cenário de sobrecarga informacional, os mapas visuais de aprendizagem surgem como uma alternativa metodológica consistente. Idealizados pelo britânico Tony Buzan na virada para a década de 1970 [5, 6], os mapas mentais superam os diagramas puramente decorativos: constituem uma linguagem gráfica estruturada a partir do pensamento irradiante e associativo [6]. 
 
-A estrutura orgânica do mapa mental  é radial e se ramifica a partir de um núcleo gerador, espelhando macroscopicamente a morfologia neuronal e sináptica e operando em harmonia com os processos naturais de associação da mente \[1, 6\].
+A estrutura orgânica do mapa mental  é radial e se ramifica a partir de um núcleo gerador, espelhando macroscopicamente a morfologia neuronal e sináptica e operando em harmonia com os processos naturais de associação da mente [1, 6].
 
 ### **2\. Por que estudar os mapas mentais?**
 
-Embora reconhecidos como ferramentas de organização visual, as aplicações dos mapas mentais ultrapassam a simples esquematização técnica. Torna-se imperativo examinar como participam na estruturação cognitiva, as suas funções práticas e as suas delimitações metodológicas \[1\].
+Embora reconhecidos como ferramentas de organização visual, as aplicações dos mapas mentais ultrapassam a simples esquematização técnica. Torna-se imperativo examinar como participam na estruturação cognitiva, as suas funções práticas e as suas delimitações metodológicas [1].
 
 Aprender um determinado assunto não garante, por si só, que a pessoa consiga explicá-lo com clareza, integrá-lo com outros saberes ou formular um posicionamento crítico. O contacto com dados densos pode coexistir com dificuldades reais na hora de verbalizar ou redigir aquilo que foi lido.
 
@@ -42,13 +42,13 @@ A ESDHUBEM (Escola de Desenvolvimento Humano e Bem-Estar) toma essa problemátic
 
 ### **3\. Problema de Pesquisa: A Lacuna entre o Ensinar o "Quê" e o Aprender o "Como"**
 
-Nas matrizes de ensino tradicionais, as instituições empenham-se em cumprir currículos extensos e exigir domínio de conteúdo em exames complexos. Todavia, quase nunca ensinam métodos metacognitivos de *como aprender* \[1\]. Presume-se, de modo ingénuo, que as competências de filtrar, categorizar, sintetizar e reter dados sejam talentos inatos, cabendo a cada aluno encontrar soluções por conta própria \[1\].
+Nas matrizes de ensino tradicionais, as instituições empenham-se em cumprir currículos extensos e exigir domínio de conteúdo em exames complexos. Todavia, quase nunca ensinam métodos metacognitivos de *como aprender* [1]. Presume-se, de modo ingénuo, que as competências de filtrar, categorizar, sintetizar e reter dados sejam talentos inatos, cabendo a cada aluno encontrar soluções por conta própria [1].
 
 Sem orientações explícitas sobre estratégias metacognitivas, o estudante frequentemente adota a cópia mecânica das matérias. Passa horas transcrevendo diapositivos ou a fala dos professores, o que fomenta aquilo que a psicologia cognitiva designa como «ilusão de competência»: a sensação física de produtividade enquanto o cérebro atua quase de forma passiva, com baixa retenção profunda.
 
-Por vezes, surge o esforço espontâneo de conectar conceitos dispersos com setas no papel. Contudo, na ausência de parâmetros estruturados de hierarquia conceitual, códigos visuais e categorização, esses esquemas perdem-se na desorganização e falham na retenção duradoura \[1\].
+Por vezes, surge o esforço espontâneo de conectar conceitos dispersos com setas no papel. Contudo, na ausência de parâmetros estruturados de hierarquia conceitual, códigos visuais e categorização, esses esquemas perdem-se na desorganização e falham na retenção duradoura [1].
 
-Essa lacuna foi a principal motivação de Tony Buzan na década de 1960: perante a saturação académica e a constatação de que anotações lineares extensas provocavam fadiga mental sem melhorar a retenção nos testes, buscou alternativas para rentabilizar as faculdades cognitivas \[1, 6\].
+Essa lacuna foi a principal motivação de Tony Buzan na década de 1960: perante a saturação académica e a constatação de que anotações lineares extensas provocavam fadiga mental sem melhorar a retenção nos testes, buscou alternativas para rentabilizar as faculdades cognitivas [1, 6].
 
 O objetivo deste trabalho não é desqualificar a anotação contínua nem opor-se ao ensino formal. O propósito da ESDHUBEM e da Tríade Mental-Verbal é atuar de forma complementar, providenciando técnicas que convertam a cópia passiva em filtragem ativa (micromapeamento), estruturação lógica (microescrita) e apropriação comunicativa (microverbalização).
 
@@ -59,23 +59,23 @@ A partir deste enquadramento, estabelecem-se as seguintes perguntas de investiga
 
 ### **4\. Justificativa**
 
-A justificação desta proposta apoia-se na necessidade de valorizar recursos que envolvam de forma plena o potencial cognitivo do sujeito \[1\]. Enquanto as abordagens puramente lineares estimulam quase com exclusividade os processos lógicos e analíticos do hemisfério esquerdo, deixam em segundo plano o processamento espacial, sintético e imagético do hemisfério direito \[1, 4, 6\].
+A justificação desta proposta apoia-se na necessidade de valorizar recursos que envolvam de forma plena o potencial cognitivo do sujeito [1]. Enquanto as abordagens puramente lineares estimulam quase com exclusividade os processos lógicos e analíticos do hemisfério esquerdo, deixam em segundo plano o processamento espacial, sintético e imagético do hemisfério direito [1, 4, 6].
 
-A análise dos mapas mentais sob a perspetiva da coordenação inter-hemisférica ampara-se no princípio da dupla codificação (Paivio) e no fortalecimento de pistas visuo-verbais de recuperação da memória \[1, 4\], bem como em abordagens integrativas dos processos mentais \[9\].
+A análise dos mapas mentais sob a perspetiva da coordenação inter-hemisférica ampara-se no princípio da dupla codificação (Paivio) e no fortalecimento de pistas visuo-verbais de recuperação da memória [1, 4], bem como em abordagens integrativas dos processos mentais [9].
 
-No plano pedagógico, o estudo fundamenta-se na articulação entre a técnica de Buzan, a Teoria da Aprendizagem Significativa de David Ausubel \[11\] e as práticas reflexivas e metacognitivas analisadas por Antonio Ontoria Peña et al. \[1\]. O mapa mental converte-se no reflexo visual da organização interna do estudante, permitindo a autorregulação do estudo e a visualização imediata de conceitos que precisam de consolidação \[1\].
+No plano pedagógico, o estudo fundamenta-se na articulação entre a técnica de Buzan, a Teoria da Aprendizagem Significativa de David Ausubel [11] e as práticas reflexivas e metacognitivas analisadas por Antonio Ontoria Peña et al. [1]. O mapa mental converte-se no reflexo visual da organização interna do estudante, permitindo a autorregulação do estudo e a visualização imediata de conceitos que precisam de consolidação [1].
 
-No contexto atual de transição digital, hipertextualidade e trabalho colaborativo, os mapas mentais, a composição textual e a comunicação oral demonstram ampla aplicabilidade transdisciplinar \[2\]. O método apoia tanto processos de ideação e cocriação em dinâmicas de *brainstorming*, *brainwriting* e *design* participativo \[3\], quanto a estruturação do raciocínio analítico e do pensamento divergente em diversas áreas do conhecimento \[8\].
+No contexto atual de transição digital, hipertextualidade e trabalho colaborativo, os mapas mentais, a composição textual e a comunicação oral demonstram ampla aplicabilidade transdisciplinar [2]. O método apoia tanto processos de ideação e cocriação em dinâmicas de *brainstorming*, *brainwriting* e *design* participativo [3], quanto a estruturação do raciocínio analítico e do pensamento divergente em diversas áreas do conhecimento [8].
 
 ### **5\. A Aprendizagem Integrativa: Uma Ponte para o Desenvolvimento Humano**
 
-O processo de aprendizagem não se circunscreve a um período letivo nem ao espaço escolar formal. A educação institucional desempenha um papel insubstituível de validação científica e técnica; contudo, a formação do indivíduo insere-se no horizonte da aprendizagem contínua (*lifelong learning*) \[1\].
+O processo de aprendizagem não se circunscreve a um período letivo nem ao espaço escolar formal. A educação institucional desempenha um papel insubstituível de validação científica e técnica; contudo, a formação do indivíduo insere-se no horizonte da aprendizagem contínua (*lifelong learning*) [1].
 
 Longe de competir com os parâmetros oficiais, a pedagogia aberta e integrativa oferece suporte prático ao sujeito que aprende. Enquanto o currículo regular prioriza a entrega programática, a ESDHUBEM e a Tríade Mental-Verbal concentram-se no fortalecimento das competências de processamento e expressão do aprendiz.
 
 A integração entre traçar, redigir e verbalizar constrói uma dinâmica de autorregulação que capacita o indivíduo a:
 
-* **Mapear:** sintetizar conteúdos complexos visualmente, facilitando a identificação da hierarquia conceitual \[1, 3\];  
+* **Mapear:** sintetizar conteúdos complexos visualmente, facilitando a identificação da hierarquia conceitual [1, 3];  
 * **Escrever:** desenvolver argumentos estruturados a partir das conexões visuais previamente delineadas;  
 * **Verbalizar:** transmitir as conclusões com segurança e vocabulário assertivo, desenvolvendo a competência comunicativa
 
@@ -87,11 +87,11 @@ Analisar os pilares teóricos, cognitivos e práticos dos mapas mentais, examina
 
 #### **Objetivos Específicos**
 
-* Investigar a génese histórica do mapa mental desenvolvida por Tony Buzan e as suas críticas aos registos textuais exclusivamente lineares \[1, 6\].  
-* Analisar a analogia das redes neuronais e dendríticas na estrutura radial do mapa mental \[1, 6\], estabelecendo a distinção técnica face aos mapas conceituais de Joseph Novak \[10\].  
-* Examinar os processos cognitivos associados à integração de estímulos verbais e visuais para a retenção, organização e evocação da informação \[1, 4\].  
-* Sistematizar as leis de elaboração cartográfica de Buzan e a sua aplicação prática articulada a estratégias divergentes e colaborativas, como o *brainstorming* e o *brainwriting* \[1, 3, 6\].  
-* Mapear o suporte das ferramentas digitais no desenvolvimento individual e em equipa dos mapas mentais e analisar a sua aplicação prática na leitura ativa e no ensino superior \[1\].
+* Investigar a génese histórica do mapa mental desenvolvida por Tony Buzan e as suas críticas aos registos textuais exclusivamente lineares [1, 6].  
+* Analisar a analogia das redes neuronais e dendríticas na estrutura radial do mapa mental [1, 6], estabelecendo a distinção técnica face aos mapas conceituais de Joseph Novak [10].  
+* Examinar os processos cognitivos associados à integração de estímulos verbais e visuais para a retenção, organização e evocação da informação [1, 4].  
+* Sistematizar as leis de elaboração cartográfica de Buzan e a sua aplicação prática articulada a estratégias divergentes e colaborativas, como o *brainstorming* e o *brainwriting* [1, 3, 6].  
+* Mapear o suporte das ferramentas digitais no desenvolvimento individual e em equipa dos mapas mentais e analisar a sua aplicação prática na leitura ativa e no ensino superior [1].
 
 ### **7\. A proposta pedagógica da ESDHUBEM**
 
@@ -107,46 +107,46 @@ Existe, ainda, uma consequência importante para este projeto: a Tríade Mental-
 
 ### **8\. Da Organização Linear à Organização Visual do Conhecimento**
 
-Grande parte dos modelos de anotação organiza-se de maneira linear — frases, listas e parágrafos contínuos. Essa estrutura é valiosa para a argumentação discursiva detalhada, mas apresenta limitações na visualização global e simultânea das inter-relações entre múltiplos tópicos \[1\].
+Grande parte dos modelos de anotação organiza-se de maneira linear — frases, listas e parágrafos contínuos. Essa estrutura é valiosa para a argumentação discursiva detalhada, mas apresenta limitações na visualização global e simultânea das inter-relações entre múltiplos tópicos [1].
 
-Os mapas mentais operam por radiação: situam um tema central de onde derivam ramificações principais e secundárias, tornando visíveis as categorias conceituais e os seus pontos de ligação \[1, 6\]. Isso não significa a supremacia de um modelo sobre o outro, mas sim a sua complementaridade: a síntese gráfica organiza o quadro panorâmico, enquanto o texto desenvolve a argumentação em profundidade \[1\]. O desafio está em articular os dois recursos de forma estratégica, sem reduzir o mapa a um fim estético, mas utilizando-o como alicerce para a reflexão, a redação crítica e a comunicação oral.
+Os mapas mentais operam por radiação: situam um tema central de onde derivam ramificações principais e secundárias, tornando visíveis as categorias conceituais e os seus pontos de ligação [1, 6]. Isso não significa a supremacia de um modelo sobre o outro, mas sim a sua complementaridade: a síntese gráfica organiza o quadro panorâmico, enquanto o texto desenvolve a argumentação em profundidade [1]. O desafio está em articular os dois recursos de forma estratégica, sem reduzir o mapa a um fim estético, mas utilizando-o como alicerce para a reflexão, a redação crítica e a comunicação oral.
 
 ## **Capítulo 1: Fundamentos, Origens e Epistemologia**
 
 ### **1\. A criação da técnica por Tony Buzan na década de 1970 diferente do Modelo Linear**
 
-Tony Buzan, na transição entre as décadas de 1960 e 1970, durante seus estudos universitários em psicologia, matemática e ciências, o pesquisador britânico percebeu algumas limitações nos métodos convencionais de estudo\[1;5\]. 
+Tony Buzan, na transição entre as décadas de 1960 e 1970, durante seus estudos universitários em psicologia, matemática e ciências, o pesquisador britânico percebeu algumas limitações nos métodos convencionais de estudo[1;5]. 
 
-Um dos mais complexos é o volume expressivo de informações acadêmicas e outro é o formato tradicional de anotações \[1\], onde o aluno costuma estudar anotando as informações por blocos de texto sequenciais, listas monótonas e estrutura rígida \[5; 6\] 
+Um dos mais complexos é o volume expressivo de informações acadêmicas e outro é o formato tradicional de anotações [1], onde o aluno costuma estudar anotando as informações por blocos de texto sequenciais, listas monótonas e estrutura rígida [5; 6] 
 
-Buzan observou que essa técnica de anotação tornava a aprendizagem cansativa e pouco eficiente para a retenção de longo prazo, pois essa forma de estudar gera passividade e cansaço mental.\[1\] 
+Buzan observou que essa técnica de anotação tornava a aprendizagem cansativa e pouco eficiente para a retenção de longo prazo, pois essa forma de estudar gera passividade e cansaço mental.[1] 
 
-Estudos apontam que o cérebro tem dificuldade para memorizar longos blocos de texto porque a monotonia cromática e a rigidez estrutural não ofereciam estímulos suficientes para a retenção.\[4\]
+Estudos apontam que o cérebro tem dificuldade para memorizar longos blocos de texto porque a monotonia cromática e a rigidez estrutural não ofereciam estímulos suficientes para a retenção.[4]
 
-Buzan buscou uma estratégia alternativa que integrasse estímulos visuais diversos, como cores, imagens, símbolos e palavras-chave, para otimizar a atividade cerebral \[5\]. 
+Buzan buscou uma estratégia alternativa que integrasse estímulos visuais diversos, como cores, imagens, símbolos e palavras-chave, para otimizar a atividade cerebral [5]. 
 
-A sistematização dessa metodologia ganhou projeção pública inicial com a publicação do livro *Use Your Head* em 1974 \[5\] e se consolidou posteriormente na obra *El Libro de los Mapas Mentales*, desenvolvida em parceria com seu irmão Barry Buzan. A proposta visava romper com a passividade do registro linear, engajando o leitor em um processo ativo de construção e organização do conhecimento \[6\]. 
+A sistematização dessa metodologia ganhou projeção pública inicial com a publicação do livro *Use Your Head* em 1974 [5] e se consolidou posteriormente na obra *El Libro de los Mapas Mentales*, desenvolvida em parceria com seu irmão Barry Buzan. A proposta visava romper com a passividade do registro linear, engajando o leitor em um processo ativo de construção e organização do conhecimento [6]. 
 
 ### **2\. A Fundamentação do Pensamento Irradiante e não linear**
 
-O termo “O pensamento Irradiante” foi formalmente criado, nomeado e teorizado pelo psicólogo e escritor britânico Tony Buzan para explicar o mecanismo neurológico por trás dos Mapas Mentais, demonstrando como o cérebro espalha informações a partir de um ponto central\[6\]. 
+O termo “O pensamento Irradiante” foi formalmente criado, nomeado e teorizado pelo psicólogo e escritor britânico Tony Buzan para explicar o mecanismo neurológico por trás dos Mapas Mentais, demonstrando como o cérebro espalha informações a partir de um ponto central[6]. 
 
-Esse processo ocorre através do pensamento não linear, que é um conceito amplo construído coletivamente ao longo do século XX, surgido da fusão de estudos da psicologia cognitiva, da neurociência e da Teoria dos Sistemas Complexos\[7\]. 
+Esse processo ocorre através do pensamento não linear, que é um conceito amplo construído coletivamente ao longo do século XX, surgido da fusão de estudos da psicologia cognitiva, da neurociência e da Teoria dos Sistemas Complexos[7]. 
 
-Psicólogos como J.P. Guilford, que em 1967 cunhou o conceito complementar de pensamento divergente, e pensadores da cibernética como Gregory Bateson \[9\] ajudaram a fundamentar a compreensão de que a mente humana opera de forma conectada e em rede, e não apenas em sequências lógicas lineares.
+Psicólogos como J.P. Guilford, que em 1967 cunhou o conceito complementar de pensamento divergente, e pensadores da cibernética como Gregory Bateson [9] ajudaram a fundamentar a compreensão de que a mente humana opera de forma conectada e em rede, e não apenas em sequências lógicas lineares.
 
-O alicerce conceitual do mapa mental reside na teoria do pensamento irradiante (*radiant thinking*). Etimologicamente associado à ideia de algo que resplandece e se propaga a partir de um centro focal, o pensamento irradiante descreve os processos associativos da mente humana que operam a partir de um ponto gerador central\[6;9\].
+O alicerce conceitual do mapa mental reside na teoria do pensamento irradiante (*radiant thinking*). Etimologicamente associado à ideia de algo que resplandece e se propaga a partir de um centro focal, o pensamento irradiante descreve os processos associativos da mente humana que operam a partir de um ponto gerador central[6;9].
 
-Quando o cérebro recebe uma informação, ele não a processa de forma estritamente encadeada ou sequencial como um computador convencional; em vez disso, dispara uma rede de associações que conecta o novo estímulo a um acervo de memórias, imagens e conceitos já existentes\[9\].   
+Quando o cérebro recebe uma informação, ele não a processa de forma estritamente encadeada ou sequencial como um computador convencional; em vez disso, dispara uma rede de associações que conecta o novo estímulo a um acervo de memórias, imagens e conceitos já existentes[9].   
 O mapa mental funciona, portanto, como um espelho externo desse dinamismo, capturando e refletindo a maneira natural como o pensamento se expande e se articula. 
 
 ### **3\. As Analogias Orgânicas: A Neurona e a Árvore**
 
-A fundamentação estética e funcional do mapa mental não decorre de uma escolha arbitrária de design, mas sim de uma mimesis das estruturas biológicas da natureza. Para ilustrar a arquitetura do pensamento não linear e irradiante, Buzan recorreu a duas analogias orgânicas centrais: **a neurona** e **a árvore** \[6\]. 
+A fundamentação estética e funcional do mapa mental não decorre de uma escolha arbitrária de design, mas sim de uma mimesis das estruturas biológicas da natureza. Para ilustrar a arquitetura do pensamento não linear e irradiante, Buzan recorreu a duas analogias orgânicas centrais: **a neurona** e **a árvore** [6]. 
 
 **A estrutura neuronal**: O cérebro humano é composto por bilhões de neurônios que processam informações por meio de redes complexas. Cada neurônio possui um corpo celular central de onde disparam ramificações conhecidas como dendritos, que realizam conexões sinápticas em todas as direções. O mapa mental funciona como um reflexo macroscópico dessa microestrutura biológica: o conceito principal inserido no centro emula o corpo celular, enquanto as linhas orgânicas e ramificações que dele emergem mimetizam as vias dendríticas de dispersão e convergência de ideias.
 
-**A estrutura arborescente:** Complementando o modelo microscópico celular, a macro arquitetura de uma árvore oferece a perfeita metáfora para a organização e hierarquização do conhecimento. Assim como uma árvore possui um tronco central robusto de onde brotam galhos primários e, destes, ramificações secundárias e folhas periféricas, o mapa mental organiza as informações partindo de uma imagem central abrangente rumo aos tópicos fundamentais e aos detalhes específicos. Essa disposição radial permite ao leitor visualizar a totalidade do assunto ao mesmo tempo em que compreende a hierarquia dos conceitos de forma integrada \[6\].
+**A estrutura arborescente:** Complementando o modelo microscópico celular, a macro arquitetura de uma árvore oferece a perfeita metáfora para a organização e hierarquização do conhecimento. Assim como uma árvore possui um tronco central robusto de onde brotam galhos primários e, destes, ramificações secundárias e folhas periféricas, o mapa mental organiza as informações partindo de uma imagem central abrangente rumo aos tópicos fundamentais e aos detalhes específicos. Essa disposição radial permite ao leitor visualizar a totalidade do assunto ao mesmo tempo em que compreende a hierarquia dos conceitos de forma integrada [6].
 
 ### **4\. Delimitação Epistemológica: Mapa Mental vs. Mapa Conceitual**
 
@@ -156,23 +156,23 @@ Embora frequentemente confundidos na literatura educacional como sinônimos de o
 | :---- | :---- | :---- |
 | **Estrutura Visual** | Radial: Expande-se em 360° a partir de um único centro focal. | Hierárquica: Organizada de cima para baixo em múltiplos níveis conceituais. |
 | **Mecanismo de Conexão**  | Associativo: Linhas curvas orgânicas que conectam ideias por afinidade lógica, criativa ou emocional.  | Proposicional: Linhas retas com setas e palavras de ligação que formam sentenças gramaticais lógicas.  |
-| **Foco de Registro** | Palavras-chave e imagens: Focado no estímulo multissensorial, na cor e na síntese visual.  | Conceitos e proposições: Focado na clareza de definições e relações científicas textuais \[1\].  |
+| **Foco de Registro** | Palavras-chave e imagens: Focado no estímulo multissensorial, na cor e na síntese visual.  | Conceitos e proposições: Focado na clareza de definições e relações científicas textuais [1].  |
 | **Natureza do Sistema**  | Flexível e Psicológico: Reflete a estrutura cognitiva subjetiva e única de quem o cria.  | Estruturado e Lógico: Representa uma rede conceitual objetiva e universal de um campo do saber. |
 
-Enquanto o mapa mental de Tony Buzan é um sistema de pensamento irradiante focado em liberar o potencial criativo, a memória e a livre associação \[6\], o mapa conceitual, desenvolvido por Joseph Novak na década de 1970, assume uma postura estruturalista e lógica \[10\].  
-Ancorado diretamente na Teoria da Aprendizagem Significativa de David Ausubel \[11\], o mapa conceitual de Novak exige que as relações entre os conceitos sejam explicitadas por setas direcionais e "palavras de ligação" (ex: é um, resulta em, composto por), gerando proposições lógicas completas \[10\]. O mapa mental preza pela liberdade sinérgica e pela ativação do cérebro total por meio de cores e símbolos; o mapa conceitual busca mapear a estabilidade e a clareza das relações conceituais na estrutura cognitiva do estudante.
+Enquanto o mapa mental de Tony Buzan é um sistema de pensamento irradiante focado em liberar o potencial criativo, a memória e a livre associação [6], o mapa conceitual, desenvolvido por Joseph Novak na década de 1970, assume uma postura estruturalista e lógica [10].  
+Ancorado diretamente na Teoria da Aprendizagem Significativa de David Ausubel [11], o mapa conceitual de Novak exige que as relações entre os conceitos sejam explicitadas por setas direcionais e "palavras de ligação" (ex: é um, resulta em, composto por), gerando proposições lógicas completas [10]. O mapa mental preza pela liberdade sinérgica e pela ativação do cérebro total por meio de cores e símbolos; o mapa conceitual busca mapear a estabilidade e a clareza das relações conceituais na estrutura cognitiva do estudante.
 
 ### **5\. A Integração Sinérgica: Da Dicotomia à Complementaridade entre Buzan e Novak**
 
 #### **1\. Além da Dicotomia: Ferramentas Cognitivas Complementares**
 
-Na literatura educacional e cognitiva, é comum observar uma falsa dicotomia que contrapõe os Mapas Mentais de Tony Buzan aos Mapas Conceituais de Joseph Novak \[6; 10\]. Contudo, uma análise metodológica rigorosa demonstra que essas duas abordagens não concorrem entre si; ao contrário, elas podem atuar de forma sinérgica e profundamente complementar em diferentes etapas do processamento de informações \[14\].   
-Enquanto o mapa mental de Buzan celebra a livre associação, o pensamento irradiante em 360 graus e a ativação multissensorial por meio de cores, imagens e palavras-chave \[6\], o mapa conceitual de Novak organiza o conhecimento de forma rigorosa, explícita e proposicional, ancorando-se na hierarquia lógica dos conceitos \[10\]. A integração de ambos permite ao estudante transitar organicamente da fase de ideação e expansão criativa para a fase de sintaxe lógica e validação científica \[6; 10\]. 
+Na literatura educacional e cognitiva, é comum observar uma falsa dicotomia que contrapõe os Mapas Mentais de Tony Buzan aos Mapas Conceituais de Joseph Novak [6; 10]. Contudo, uma análise metodológica rigorosa demonstra que essas duas abordagens não concorrem entre si; ao contrário, elas podem atuar de forma sinérgica e profundamente complementar em diferentes etapas do processamento de informações [14].   
+Enquanto o mapa mental de Buzan celebra a livre associação, o pensamento irradiante em 360 graus e a ativação multissensorial por meio de cores, imagens e palavras-chave [6], o mapa conceitual de Novak organiza o conhecimento de forma rigorosa, explícita e proposicional, ancorando-se na hierarquia lógica dos conceitos [10]. A integração de ambos permite ao estudante transitar organicamente da fase de ideação e expansão criativa para a fase de sintaxe lógica e validação científica [6; 10]. 
 
 #### **2\. Joseph Novak e a Epistemologia do Mapa Conceitual**
 
-O mapa conceitual foi desenvolvido em 1972 pelo pesquisador e professor emérito da Universidade de Cornell, Joseph D. Novak, durante um programa de pesquisa focado em compreender como as crianças assimilaram conceitos científicos. Diante da dificuldade de mensurar a evolução cognitiva dos estudantes apenas por meio de entrevistas transcritas, Novak e sua equipe criaram uma representação gráfica capaz de tornar visível a estrutura de conhecimento dos indivíduos\[14\].  
-A fundamentação teórica de Novak apoia-se diretamente na Teoria da Assimilação de David Ausubel (1963, 1968). A premissa central da psicologia cognitiva de Ausubel é que a aprendizagem significativa ocorre quando um novo conhecimento é assimilado de forma não arbitrária e substancial a conceitos pré-existentes na estrutura cognitiva do aprendiz (denominados subsunçores)\[11\].   
+O mapa conceitual foi desenvolvido em 1972 pelo pesquisador e professor emérito da Universidade de Cornell, Joseph D. Novak, durante um programa de pesquisa focado em compreender como as crianças assimilaram conceitos científicos. Diante da dificuldade de mensurar a evolução cognitiva dos estudantes apenas por meio de entrevistas transcritas, Novak e sua equipe criaram uma representação gráfica capaz de tornar visível a estrutura de conhecimento dos indivíduos[14].  
+A fundamentação teórica de Novak apoia-se diretamente na Teoria da Assimilação de David Ausubel (1963, 1968). A premissa central da psicologia cognitiva de Ausubel é que a aprendizagem significativa ocorre quando um novo conhecimento é assimilado de forma não arbitrária e substancial a conceitos pré-existentes na estrutura cognitiva do aprendiz (denominados subsunçores)[11].   
 Para operacionalizar essa assimilação, Novak estabeleceu dois blocos de construção fundamentais:  
 **Conceito (Concept):** Definido como uma regularidade ou padrão percebido em eventos, objetos ou registros, designado por um rótulo (palavra ou símbolo)  
 **Proposição (Proposition):** Uma unidade semântica ou de sentido composta por dois ou mais conceitos conectados por "palavras de ligação" (linking words), formando uma afirmação lógica e contextualizada.
@@ -205,8 +205,8 @@ Ao contrário da estrutura radial e psicológica de Buzan, a confecção de um m
 
 A possibilidade pedagógica dessa integração está em articular diferentes etapas da elaboração do conhecimento, conectando a organização visual das ideias à produção escrita e à expressão verbal. Essa articulação estabelece uma ponte metodológica com a Tríade Mental-Verbal, proposta por Silviane Silvério, na qual o mapeamento das ideias, a escrita e a verbalização são tratados como etapas complementares do processo de aprendizagem:
 
-**\[ ETAPA 1: DIVERGÊNCIA \] \[ ETAPA 2: CONVERGÊNCIA \] \[ ETAPA 3: ARTICULAÇÃO \]**  
-Mapa Mental (Buzan)      \--\>   Mapa Conceitual (Novak)   \--\>   Tríade Mental-Verbal  
+**[ ETAPA 1: DIVERGÊNCIA ] [ ETAPA 2: CONVERGÊNCIA ] [ ETAPA 3: ARTICULAÇÃO ]**  
+Mapa Mental (Buzan)      -->   Mapa Conceitual (Novak)   -->   Tríade Mental-Verbal  
 (Ideação, Livre Associação      (Sintaxe Lógica, Proposições     (Texto Autoral &  
     e Gatilhos Visuais)             e Ligações Cruzadas)            Oralidade Ativa)  
 **Fase 1 —** Exploração e Ideação (Mapa Mental de Buzan): O estudante inicia o estudo de um tópico denso desenhando um mapa mental radial. Utiliza cores, imagens e palavras-chave para registrar suas impressões, conhecimentos prévios e associações livres sobre o tema.  
@@ -258,26 +258,26 @@ Assim, os mapas mentais revelam-se não apenas como técnicas mnemônicas, mas c
 
 ### **1\. Processamento Cérebro-Total e Integração Hemisférica**
 
-A sustentação neurocognitiva dos mapas mentais apoia-se no princípio da integração interhemisférica ou "cérebro-total" (\*whole-brain thinking\*)\[5, 6\].   
+A sustentação neurocognitiva dos mapas mentais apoia-se no princípio da integração interhemisférica ou "cérebro-total" (\*whole-brain thinking\*)[5, 6].   
 Historicamente, os métodos tradicionais de ensino e os sistemas de anotações lineares priorizam as competências associadas majoritariamente ao hemisfério esquerdo do cérebro. Este hemisfério opera de forma sequencial e analítica, processando elementos como a lógica formal, a linguagem verbal isolada, os números, as listas e o encadeamento temporal de dados. No entanto, ao forçar a mente a trabalhar de maneira estritamente linear, o modelo convencional subutiliza o imenso potencial do hemisfério direito.   
-O hemisfério direito é especializado no processamento holístico e sintético. Ele é responsável pela percepção espacial, pela discriminação de cores, pela imaginação, pelo ritmo, pela intuição e pela apreensão global de cenários \[4, 8\]. O mapa mental atua como uma ponte que unifica essas duas instâncias cognitivas.  
-Ao combinar a precisão lógica das palavras-chave e das relações hierárquicas (funções esquerdas) com o dinamismo cromático, o design radial e os estímulos pictóricos (funções direitas), a técnica gera um fenômeno de sinergia cortical \[6\]. Em vez de competir pelo foco atencional, ambos os hemisférios são ativados simultaneamente. Essa cooperação neurológica maximiza a eficiência intelectual, pois permite que o indivíduo analise os detalhes sem perder a visão do todo, transformando o registro gráfico em um reflexo direto do funcionamento holístico da mente humana. 
+O hemisfério direito é especializado no processamento holístico e sintético. Ele é responsável pela percepção espacial, pela discriminação de cores, pela imaginação, pelo ritmo, pela intuição e pela apreensão global de cenários [4, 8]. O mapa mental atua como uma ponte que unifica essas duas instâncias cognitivas.  
+Ao combinar a precisão lógica das palavras-chave e das relações hierárquicas (funções esquerdas) com o dinamismo cromático, o design radial e os estímulos pictóricos (funções direitas), a técnica gera um fenômeno de sinergia cortical [6]. Em vez de competir pelo foco atencional, ambos os hemisférios são ativados simultaneamente. Essa cooperação neurológica maximiza a eficiência intelectual, pois permite que o indivíduo analise os detalhes sem perder a visão do todo, transformando o registro gráfico em um reflexo direto do funcionamento holístico da mente humana. 
 
 ### **2\. Potencialização da Memória e Retenção de Longo Prazo**
 
-A eficácia dos mapas mentais na aceleração da recuperação de dados reside na sua capacidade de otimizar os processos de codificação e consolidação da memória. A neurociência cognitiva demonstra que a retenção humana é profundamente visual e mnemônica; o cérebro não grava textos como uma câmera fotográfica registra páginas de um livro, mas sim através de padrões, imagens e associações \[4\].  
-O mapa mental explora diretamente a “Teoria da Dupla Codificação” de Allan Paivio \[12\]. Quando o estudante associa uma palavra-chave a um símbolo gráfico ou a um código cromático específico, a informação é processada por múltiplos canais sensoriais simultâneos (o canal verbal e o canal não verbal/visual). Esse processamento multissensorial fortalece as conexões sinápticas e cria múltiplos caminhos de acesso (pistas de recuperação) na malha neural.  
-A introdução de estímulos visuais diversos, como setas estruturais, ícones e variações na espessura das linhas, rompe a monotonia que causa a fadiga mental e o esquecimento \[4, 5\].   
+A eficácia dos mapas mentais na aceleração da recuperação de dados reside na sua capacidade de otimizar os processos de codificação e consolidação da memória. A neurociência cognitiva demonstra que a retenção humana é profundamente visual e mnemônica; o cérebro não grava textos como uma câmera fotográfica registra páginas de um livro, mas sim através de padrões, imagens e associações [4].  
+O mapa mental explora diretamente a “Teoria da Dupla Codificação” de Allan Paivio [12]. Quando o estudante associa uma palavra-chave a um símbolo gráfico ou a um código cromático específico, a informação é processada por múltiplos canais sensoriais simultâneos (o canal verbal e o canal não verbal/visual). Esse processamento multissensorial fortalece as conexões sinápticas e cria múltiplos caminhos de acesso (pistas de recuperação) na malha neural.  
+A introdução de estímulos visuais diversos, como setas estruturais, ícones e variações na espessura das linhas, rompe a monotonia que causa a fadiga mental e o esquecimento [4, 5].   
 As ramificações orgânicas funcionam como ganchos mnemônicos: ao organizarem-se de forma radial a partir de um centro, elas replicam a maneira como o hipocampo processa e distribui as memórias de curto prazo para serem consolidadas no córtex cerebral como memórias de longo prazo. Como resultado, o tempo necessário para evocar um conceito é drasticamente reduzido, tornando o resgate do aprendizado mais rápido, preciso e duradouro.
 
 ### **3\. Aprendizagem Significativa, Autorregulação e Metacognição**
 
 Para além de um mero recurso de memorização, o mapa mental consolida-se como uma poderosa ferramenta metacognitiva. A metacognição, definida como a capacidade do indivíduo de monitorar, avaliar e regular os seus próprios processos de pensamento, encontra no mapa mental um meio de externalização prática. Ao transpor suas ideias para uma estrutura de 360 graus, o aprendiz projeta externamente a sua própria arquitetura mental.  
-Esse mapeamento visual aproxima-se diretamente dos pilares da “Teoria da Aprendizagem Significativa” de David Ausubel \[1, 11\]. Segundo esta vertente pedagógica, o aprendizado real ocorre quando um novo conteúdo interage de forma substancial e não arbitrária com os conhecimentos prévios do sujeito (denominados "subsunçores").  
+Esse mapeamento visual aproxima-se diretamente dos pilares da “Teoria da Aprendizagem Significativa” de David Ausubel [1, 11]. Segundo esta vertente pedagógica, o aprendizado real ocorre quando um novo conteúdo interage de forma substancial e não arbitrária com os conhecimentos prévios do sujeito (denominados "subsunçores").  
 Ao construir ativamente o seu mapa, o estudante é obrigado a realizar um esforço de síntese e autoria: ele precisa resgatar o que já sabe, selecionar palavras-chave exclusivas e decidir onde encaixar a nova informação dentro da rede de relações visuais. Esse exercício dinâmico desempenha três funções metacognitivas essenciais:  
 **Mapeamento de Conhecimentos Prévios:** Revela de forma imediata o repertório conceitual que o estudante possui sobre o tema antes de iniciar o estudo profundo.  
 **Identificação de Lacunas:** Torna visível a falta de conexões lógicas. Um ramo vazio ou uma ramificação desconectada evidencia de forma imediata um ponto de incompreensão ou uma lacuna de conteúdo que necessita de revisão.  
-**Promoção da Autonomia (Autorregulação):** Como o mapa reflete a assinatura cognitiva individual de quem o criou, por meio de suas próprias escolhas de cores, desenhos e metáforas, o aprendiz deixa de ser um receptor passivo de dados e assume o controle sobre o seu percurso de aprendizagem, fortalecendo a sua capacidade de autoavaliação e tomada de decisão intelectual \[1, 6\].  
+**Promoção da Autonomia (Autorregulação):** Como o mapa reflete a assinatura cognitiva individual de quem o criou, por meio de suas próprias escolhas de cores, desenhos e metáforas, o aprendiz deixa de ser um receptor passivo de dados e assume o controle sobre o seu percurso de aprendizagem, fortalecendo a sua capacidade de autoavaliação e tomada de decisão intelectual [1, 6].  
 Essa auto regulação metacognitiva atinge o seu nível máximo de eficácia quando o mapa mental deixa de ser um recurso isolado e passa a integrar a **Tríade Mental-Verbal**, metodologia autoral desenvolvida por **Silviane Silvério**.  
 Com fundamentação na psicologia cognitiva e na neurociência da aprendizagem, Silviane Silvério articula de forma integrada a criação de **mapas mentais** (síntese e organização visual), a **escrita** (estruturação lógica e autoral) e a **oralidade** (verbalização e fixação ativa). No contexto prático dos cursos, essa dinâmica contínua permite que o estudante transforme a teoria em uma forma de memorização profunda e aplicada, consolidando a retenção na memória de longo prazo e demonstrando real domínio sobre a matéria.
 
@@ -322,12 +322,12 @@ Essa perspectiva amplia a compreensão da aprendizagem para além do espaço ins
 
 ### **8\. Neurociência e Psicodinâmica das Cores na Aprendizagem**
 
-A utilização intencional de cores nos mapas mentais transcende a mera estética gráfica; trata-se de um poderoso modulador neurofisiológico e comportamental \[18\].   
-A neurociência cognitiva e a psicodinâmica das cores demonstram que o cérebro humano não processa a cor apenas como um atributo decorativo, mas como um estímulo eletromagnético de diferentes comprimentos de onda que interagem diretamente com o sistema nervoso autônomo, modificando o humor, a atenção e a retenção de informações \[17\].  
-O percurso da percepção cromática inicia-se no córtex visual primário e estabelece conexões imediatas com o sistema límbico — centro regulador das emoções e da motivação —, liberando neurotransmissores que modulam os estados de alerta e receptividade cognitiva \[20\].   
-Quando a informação textual é associada a um código cromático específico, ativa-se o princípio da dupla codificação, criando pistas de recuperação de alta prioridade na malha neural \[12\].  
-A resposta do sistema nervoso autônomo às cores reflete-se na regulação do estresse e na prevenção da fadiga atencional. Enquanto leituras monocromáticas em preto e branco geram monotonia e induzem o cérebro ao desuso progressivo por falta de estímulo, a alternância cromática funcional estimula o foco dinâmico e o reengajamento cortical contínuo \[19\].   
-Essa modulação neurobiológica é um fator determinante para acelerar a consolidação das memórias de curto prazo no hipocampo e sua fixação definitiva no córtex cerebral \[6\].
+A utilização intencional de cores nos mapas mentais transcende a mera estética gráfica; trata-se de um poderoso modulador neurofisiológico e comportamental [18].   
+A neurociência cognitiva e a psicodinâmica das cores demonstram que o cérebro humano não processa a cor apenas como um atributo decorativo, mas como um estímulo eletromagnético de diferentes comprimentos de onda que interagem diretamente com o sistema nervoso autônomo, modificando o humor, a atenção e a retenção de informações [17].  
+O percurso da percepção cromática inicia-se no córtex visual primário e estabelece conexões imediatas com o sistema límbico — centro regulador das emoções e da motivação —, liberando neurotransmissores que modulam os estados de alerta e receptividade cognitiva [20].   
+Quando a informação textual é associada a um código cromático específico, ativa-se o princípio da dupla codificação, criando pistas de recuperação de alta prioridade na malha neural [12].  
+A resposta do sistema nervoso autônomo às cores reflete-se na regulação do estresse e na prevenção da fadiga atencional. Enquanto leituras monocromáticas em preto e branco geram monotonia e induzem o cérebro ao desuso progressivo por falta de estímulo, a alternância cromática funcional estimula o foco dinâmico e o reengajamento cortical contínuo [19].   
+Essa modulação neurobiológica é um fator determinante para acelerar a consolidação das memórias de curto prazo no hipocampo e sua fixação definitiva no córtex cerebral [6].
 
 ### **9\. O Mapa Mental no Ecossistema da Aprendizagem Ativa: Conexões e Sinergias**
 
@@ -354,10 +354,10 @@ A transição da teoria do pensamento irradiante para a sua aplicação prática
 **Palavras-Chave e Tipografia:** A metodologia prescreve a alocação de uma única palavra-chave por linha, escrita em letras maiúsculas (caixa alta). Uma frase inteira possui um significado engessado e imutável, ao passo que uma palavra-chave isolada atua como um gatilho interpretativo livre, permitindo que a mente realize infinitas novas associações. As letras maiúsculas oferecem maior nitidez visual, e o comprimento da linha deve ser proporcional ao tamanho da palavra impresso para manter o foco atencional.  
 **Incorporação de Símbolos e Conexões:** Setas para indicar conexões cruzadas entre ramos distantes, ícones, códigos personalizados, dimensões e elementos geométricos devem ser distribuídos por todo o mapa. Esses elementos enriquecem o processamento multissensorial e aceleram a evocação das informações armazenadas.  
 **Expansão do Código Cromático: A Dinâmica das Cores Frias e Quentes na Prática**  
-Ao prescrever a utilização obrigatória de no mínimo três cores por mapa mental, Tony Buzan fundamentou uma regra técnica essencial para a ativação do hemisfério cerebral direito e a separação categórica das informações \[6\]. Para maximizar essa diretriz mnemônica na rotina de estudos e na gestão de projetos, a psicologia das cores oferece um critério tático para a escolha consciente das paletas cromáticas: a distinção entre tons frios e tons quentes \[17\].  
-**Tons Frios (Azul, Verde e Violeta) para Análise e Concentração Profunda:** As cores de comprimentos de onda mais curtos exercem um efeito pacificador sobre o sistema nervoso autônomo, desacelerando o ritmo cardíaco e reduzindo a ansiedade cognitiva \[19\]. O azul e o verde são recomendados para estruturar ramificações primárias com conteúdos extensos, densos ou analíticos. Eles favorecem a estabilidade emocional, o foco sustentado e a clareza mental, permitindo ao estudante debruçar-se sobre temas complexos sem desencadear o esgotamento mental \[18\].  
-**Tons Quentes (Vermelho, Laranja e Amarelo) para Destaque, Alerta e Criatividade:** para Destaque, Alerta e Criatividade: As cores de comprimentos de onda mais longos ativam o sistema nervoso simpático e o sistema reticular ascendente, aumentando o estado de alerta e a prontidão motora \[18\]. O vermelho e o laranja funcionam como gatilhos atencionais imediatos, ideais para identificar nós críticos, conceitos prioritários, alertas ou prazos em um projeto. O amarelo, associado ao estímulo do intelecto e da comunicação visual \[20\], é indicado para ramos dedicados à ideação livre, brainstorming e desdobramentos criativos \[17\].    
-A aplicação integrada do código cromático exige equilíbrio: utilizar excessivamente tons quentes pode gerar hiperestimulação visual e distração, ao passo que o uso exclusivo de tons frios pode induzir à lentidão do ritmo de revisão. A harmonia visual alcança seu ápice quando o estudante combina ramos de análise em tons frios ancorados por nós de síntese e alertas em tons quentes, criando um mapa mental ergonomicamente perfeito para a atenção e a memória \[18\].
+Ao prescrever a utilização obrigatória de no mínimo três cores por mapa mental, Tony Buzan fundamentou uma regra técnica essencial para a ativação do hemisfério cerebral direito e a separação categórica das informações [6]. Para maximizar essa diretriz mnemônica na rotina de estudos e na gestão de projetos, a psicologia das cores oferece um critério tático para a escolha consciente das paletas cromáticas: a distinção entre tons frios e tons quentes [17].  
+**Tons Frios (Azul, Verde e Violeta) para Análise e Concentração Profunda:** As cores de comprimentos de onda mais curtos exercem um efeito pacificador sobre o sistema nervoso autônomo, desacelerando o ritmo cardíaco e reduzindo a ansiedade cognitiva [19]. O azul e o verde são recomendados para estruturar ramificações primárias com conteúdos extensos, densos ou analíticos. Eles favorecem a estabilidade emocional, o foco sustentado e a clareza mental, permitindo ao estudante debruçar-se sobre temas complexos sem desencadear o esgotamento mental [18].  
+**Tons Quentes (Vermelho, Laranja e Amarelo) para Destaque, Alerta e Criatividade:** para Destaque, Alerta e Criatividade: As cores de comprimentos de onda mais longos ativam o sistema nervoso simpático e o sistema reticular ascendente, aumentando o estado de alerta e a prontidão motora [18]. O vermelho e o laranja funcionam como gatilhos atencionais imediatos, ideais para identificar nós críticos, conceitos prioritários, alertas ou prazos em um projeto. O amarelo, associado ao estímulo do intelecto e da comunicação visual [20], é indicado para ramos dedicados à ideação livre, brainstorming e desdobramentos criativos [17].    
+A aplicação integrada do código cromático exige equilíbrio: utilizar excessivamente tons quentes pode gerar hiperestimulação visual e distração, ao passo que o uso exclusivo de tons frios pode induzir à lentidão do ritmo de revisão. A harmonia visual alcança seu ápice quando o estudante combina ramos de análise em tons frios ancorados por nós de síntese e alertas em tons quentes, criando um mapa mental ergonomicamente perfeito para a atenção e a memória [18].
 
 ### **2\. A Tríade Mental-Verbal: Epistemologia, Princípios e Diferenciação Autoral**
 
@@ -377,13 +377,13 @@ A sustentação teórica da Tríade Mental-Verbal apoia-se em três pilares fund
 
 As três fases da Tríade Mental-Verbal não constituem um processo rígido ou compartimentado, mas um **ciclo em espiral** em que cada etapa prepara, alimenta e valida a subsequente:
 
-\[ 1\. MAPEAR \]  \---\>  (Gera a estrutura visual e os gatilhos mnemônicos)  
+[ 1\. MAPEAR ]  --->  (Gera a estrutura visual e os gatilhos mnemônicos)  
       \|  
       v  
-\[ 2\. ESCREVER \] \---\>  (Sintetiza a hierarquia gráfica em sintaxe autoral)  
+[ 2\. ESCREVER ] --->  (Sintetiza a hierarquia gráfica em sintaxe autoral)  
       \|  
       v  
-\[ 3\. VERBALIZAR \] \-\>  (Consolida o domínio conceitual e a clareza oratória)  
+[ 3\. VERBALIZAR ] ->  (Consolida o domínio conceitual e a clareza oratória)  
       \|  
       \+-------------\>  (Retroalimenta o repertório e a autonomia do aprendiz)
 
@@ -491,20 +491,20 @@ No ecossistema corporativo, é preciso compreender a resistência cultural das o
 
 ## **Capítulo 6: Considerações Finais**
 
-A investigação desenvolvida ao longo deste trabalho permitiu descortinar o mapa mental não apenas como um recurso mnemônico ou um organizador visual acessório, mas sim como uma **tecnologia de gerenciamento cognitivo e desenvolvimento intelectual** \[1; 6\]. 
+A investigação desenvolvida ao longo deste trabalho permitiu descortinar o mapa mental não apenas como um recurso mnemônico ou um organizador visual acessório, mas sim como uma **tecnologia de gerenciamento cognitivo e desenvolvimento intelectual** [1; 6]. 
 
 Ao resgatar as origens da técnica e confrontá-la com as demandas contemporâneas de aprendizagem e produtividade, fica evidente que a grande ruptura proposta por Tony Buzan residiu em alinhar a expressão gráfica externa aos mecanismos biológicos internos de funcionamento do cérebro humano.
 
-Os fundamentos discutidos permitem questionar os limites da anotação linear quando ela é utilizada exclusivamente para registrar informações, sem atividades posteriores de organização, associação e elaboração do conhecimento. Embora esse formato possa ser útil em diferentes situações, seu uso isolado pode oferecer poucas oportunidades para que o estudante represente visualmente as relações entre conceitos e desenvolva novas conexões a partir do conteúdo estudado \[1; 2\].
+Os fundamentos discutidos permitem questionar os limites da anotação linear quando ela é utilizada exclusivamente para registrar informações, sem atividades posteriores de organização, associação e elaboração do conhecimento. Embora esse formato possa ser útil em diferentes situações, seu uso isolado pode oferecer poucas oportunidades para que o estudante represente visualmente as relações entre conceitos e desenvolva novas conexões a partir do conteúdo estudado [1; 2].
 
-Em contrapartida, as analogias orgânicas examinadas, baseadas na estrutura neuronal e na geometria arborescente, provaram que a mente humana opera por irradiação e redes complexas de associação \[6; 7\]. 
+Em contrapartida, as analogias orgânicas examinadas, baseadas na estrutura neuronal e na geometria arborescente, provaram que a mente humana opera por irradiação e redes complexas de associação [6; 7]. 
 
-Ao acionar simultaneamente as funções analíticas do hemisfério esquerdo e os estímulos espaciais e cromáticos do hemisfério direito, o mapa mental promove o processamento com o "cérebro total", otimizando os canais de dupla codificação necessários para a consolidação da memória de longo prazo \[4; 6\].
+Ao acionar simultaneamente as funções analíticas do hemisfério esquerdo e os estímulos espaciais e cromáticos do hemisfério direito, o mapa mental promove o processamento com o "cérebro total", otimizando os canais de dupla codificação necessários para a consolidação da memória de longo prazo [4; 6].
 
-Do ponto de vista pedagógico e epistemológico, a diferenciação em relação aos mapas conceituais de Joseph Novak revelou a identidade singular do mapa mental: enquanto Novak prioriza a rigidez das proposições lógicas universais, Buzan celebra a flexibilidade e a assinatura psicológica única do aprendiz \[6; 11\].   
-Essa característica confere ao mapa mental o status de ferramenta metacognitiva por excelência, capaz de tornar visível a estrutura cognitiva individual do sujeito, permitindo-lhe mapear conhecimentos prévios, autorregular seu estudo e identificar com precisão as próprias lacunas de aprendizagem \[1; 11\]. 
+Do ponto de vista pedagógico e epistemológico, a diferenciação em relação aos mapas conceituais de Joseph Novak revelou a identidade singular do mapa mental: enquanto Novak prioriza a rigidez das proposições lógicas universais, Buzan celebra a flexibilidade e a assinatura psicológica única do aprendiz [6; 11].   
+Essa característica confere ao mapa mental o status de ferramenta metacognitiva por excelência, capaz de tornar visível a estrutura cognitiva individual do sujeito, permitindo-lhe mapear conhecimentos prévios, autorregular seu estudo e identificar com precisão as próprias lacunas de aprendizagem [1; 11]. 
 
-As evidências de aplicação prática catalogadas no ambiente escolar — abrangendo desde o ensino de ciências exatas e linguísticas até o raciocínio clínico na saúde — e no ecossistema corporativo chancelam a eficácia da técnica na mediação de problemas complexos, no planejamento textual e na cocriação em dinâmicas de *brainstorming* e *brainwriting* \[3; 5\]. 
+As evidências de aplicação prática catalogadas no ambiente escolar — abrangendo desde o ensino de ciências exatas e linguísticas até o raciocínio clínico na saúde — e no ecossistema corporativo chancelam a eficácia da técnica na mediação de problemas complexos, no planejamento textual e na cocriação em dinâmicas de *brainstorming* e *brainwriting* [3; 5]. 
 
 Ademais, a evolução dos mapas mentais do papel analógico para as plataformas hipermídias interativas e nós expansíveis inseriu a ferramenta definitivamente no campo dos multiletramentos, preparando os indivíduos para a gestão dinâmica da informação na era digital.
 
@@ -532,41 +532,41 @@ Por fim, conclui-se que o mapa mental cumpre um papel pedagógico emancipatório
 
 ## **7\. Referências Bibliográficas:**
 
-\[1\]ONTORIA PEÑA, Antonio et al. Aprender con mapas mentales: una estrategia para pensar y estudiar. 4\. ed. Madrid: Narcea Ediciones, 2006\.
+[1] ONTORIA PEÑA, Antonio et al. Aprender con mapas mentales: una estrategia para pensar y estudiar. 4\. ed. Madrid: Narcea Ediciones, 2006\.
 
-\[2\]OLIVEIRA, Terezinha Marisa Ribeiro de; AMARAL, Carmem Lúcia Costa. O mapa mental como ferramenta de análise da compreensão de professores sobre interdisciplinaridade. RECIMA21, v. 2, n. 10, e210874, 2021\.
+[2] OLIVEIRA, Terezinha Marisa Ribeiro de; AMARAL, Carmem Lúcia Costa. O mapa mental como ferramenta de análise da compreensão de professores sobre interdisciplinaridade. RECIMA21, v. 2, n. 10, e210874, 2021\.
 
-\[3\]VIEIRA, Bruna Luiza et al. Combinação das técnicas de brainwriting e mapa mental aplicada à ideação no design participativo. In: Design em Pesquisa – Vol. 5\. Porto Alegre: Marcavisual, 2022\.
+[3] VIEIRA, Bruna Luiza et al. Combinação das técnicas de brainwriting e mapa mental aplicada à ideação no design participativo. In: Design em Pesquisa – Vol. 5\. Porto Alegre: Marcavisual, 2022\.
 
-\[4\]OCAÑA, José Andrés. Mapas mentales y estilos de aprendizaje: aprender a qualquer edad. 2010\.
+[4] OCAÑA, José Andrés. Mapas mentales y estilos de aprendizaje: aprender a qualquer edad. 2010\.
 
-\[5\] BUZAN, Tony. Use your head. London: BBC, 1974\.
+[5] BUZAN, Tony. Use your head. London: BBC, 1974\.
 
-\[6\]BUZAN, Tony; BUZAN, Barry. O livro dos mapas mentais: como utilizar o potencial máximo do seu cérebro. São Paulo: Cultrix, 2009\.
+[6] BUZAN, Tony; BUZAN, Barry. O livro dos mapas mentais: como utilizar o potencial máximo do seu cérebro. São Paulo: Cultrix, 2009\.
 
-\[7\]CAPRA, Fritjof. A teia da vida: uma nova compreensão científica dos sistemas vivos. São Paulo: Cultrix, 1997\.
+[7] CAPRA, Fritjof. A teia da vida: uma nova compreensão científica dos sistemas vivos. São Paulo: Cultrix, 1997\.
 
-\[8\]GUILFORD, Joy Paul. The nature of human intelligence. New York: McGraw-Hill, 1967\.
+[8] GUILFORD, Joy Paul. The nature of human intelligence. New York: McGraw-Hill, 1967\.
 
-\[9\] BATESON, Gregory. Passos para uma ecologia da mente. São Paulo: UNESP, 1987\.
+[9] BATESON, Gregory. Passos para uma ecologia da mente. São Paulo: UNESP, 1987\.
 
-\[10\]NOVAK, Joseph D.; CAÑAS, Alberto J. A teoria subjacente aos mapas conceituais e como elaborá-los e usá-los. Práxis Educativa, Ponta Grossa, v. 5, n. 1, p. 9-29, 2010\.
+[10] NOVAK, Joseph D.; CAÑAS, Alberto J. A teoria subjacente aos mapas conceituais e como elaborá-los e usá-los. Práxis Educativa, Ponta Grossa, v. 5, n. 1, p. 9-29, 2010\.
 
-\[11\] AUSUBEL, David P. A aquisição e retenção de conhecimentos: uma perspectiva cognitiva. Lisboa: Plátano, 2003\.
+[11] AUSUBEL, David P. A aquisição e retenção de conhecimentos: uma perspectiva cognitiva. Lisboa: Plátano, 2003\.
 
-\[12\]PAIVIO, Allan. Mental representations: a dual coding approach. Oxford University Press, 1986\.
+[12] PAIVIO, Allan. Mental representations: a dual coding approach. Oxford University Press, 1986\.
 
-\[13\]ZANDOMENEGHI, Ana Lúcia A. de Oliveira; GOBBO, André; BONFIGLIO, Simoni Urnau. A utilização do mapa mental como ferramenta facilitadora no desenvolvimento da habilidade da escrita. Revista Educação e Emancipação, São Luís, v. 8, n. 1, p. 11-48, 2015\.
+[13] ZANDOMENEGHI, Ana Lúcia A. de Oliveira; GOBBO, André; BONFIGLIO, Simoni Urnau. A utilização do mapa mental como ferramenta facilitadora no desenvolvimento da habilidade da escrita. Revista Educação e Emancipação, São Luís, v. 8, n. 1, p. 11-48, 2015\.
 
-\[14\]BRIGHTMAN, Jenny. Mapping methods for qualitative data structuring (QDS). London: Banxia Software, 2003\.
+[14] BRIGHTMAN, Jenny. Mapping methods for qualitative data structuring (QDS). London: Banxia Software, 2003\.
 
-\[15\]KOLIADA, I. V.; SUKHANOVA, T. Ye.; VNUKOVA, K. V. Mind mapping: tools for creativity development. Pedagogy of the Formation of a Creative Personality, n. 95, p. 51-54, 2024\.
+[15] KOLIADA, I. V.; SUKHANOVA, T. Ye.; VNUKOVA, K. V. Mind mapping: tools for creativity development. Pedagogy of the Formation of a Creative Personality, n. 95, p. 51-54, 2024\.
 
-\[16\]FARINA, Modesto; PEREZ, Clotilde; BASTOS, Dorinho. Psicodinâmica das cores em comunicação. 6\. ed. São Paulo: Blücher, 2011\.
+[16] FARINA, Modesto; PEREZ, Clotilde; BASTOS, Dorinho. Psicodinâmica das cores em comunicação. 6\. ed. São Paulo: Blücher, 2011\.
 
-\[17\]RAMOS, Victor; CONCEIÇÃO, Maria Eduarda Fraga da. Neurociência das cores no processo de ensino e aprendizagem. Ciência Atual, v. 20, n. 1, p. 139-164, 2024\.
+[17] RAMOS, Victor; CONCEIÇÃO, Maria Eduarda Fraga da. Neurociência das cores no processo de ensino e aprendizagem. Ciência Atual, v. 20, n. 1, p. 139-164, 2024\.
 
-\[18\]PEIXOTO, Maria das Dores Loureiro Bessa; MIKUSKA, Maria Iolanda Siqueira. Pedagogia das cores e suas possibilidades no ambiente escolar. Ágor@, v. 11, e20600199, 2026\.
+[18] PEIXOTO, Maria das Dores Loureiro Bessa; MIKUSKA, Maria Iolanda Siqueira. Pedagogia das cores e suas possibilidades no ambiente escolar. Ágor@, v. 11, e20600199, 2026\.
 
-\[19\]GUIMARÃES, Luciano. A cor como informação: a construção do significado visual. São Paulo: Annablume, 2001\.
+[19] GUIMARÃES, Luciano. A cor como informação: a construção do significado visual. São Paulo: Annablume, 2001\.
 
