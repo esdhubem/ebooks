@@ -38,17 +38,17 @@ body {
   user-select: none;
 }
 
-/* TOPBAR */
+/* TOPBAR MINIMALISTA */
 .app-header {
-  height: 64px;
-  background: rgba(10, 17, 40, 0.8);
+  height: 44px;
+  background: rgba(1, 16, 73, 0.95);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
-  border-bottom: 1px solid rgba(197, 160, 89, 0.2);
+  border-bottom: 1px solid rgba(255, 199, 44, 0.25);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
   z-index: 50;
   position: relative;
 }
@@ -56,54 +56,61 @@ body {
 .brand-wrapper {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.5rem;
 }
 
-.brand-logo {
-  height: 38px;
+.brand-mini-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.brand-mini-link:hover {
+  opacity: 0.85;
+}
+
+.brand-logo-mini {
+  height: 24px;
   width: auto;
   object-fit: contain;
-  filter: drop-shadow(0 2px 8px rgba(0,0,0,0.4));
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.5));
 }
 
-.brand-titles h1 {
-  font-size: 1.05rem;
-  font-weight: 700;
-  color: #fff;
-  letter-spacing: 0.5px;
-}
-
-.brand-titles span {
-  font-size: 0.72rem;
+.brand-name-mini {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
   color: var(--primary);
   text-transform: uppercase;
-  letter-spacing: 1.5px;
-  font-weight: 600;
 }
 
 .header-actions {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.35rem;
 }
 
 .btn-icon {
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.12);
   color: #f1f5f9;
-  border-radius: 10px;
-  width: 40px;
-  height: 40px;
+  border-radius: 8px;
+  width: 32px;
+  height: 32px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   transition: all 0.2s ease;
-  font-size: 1.1rem;
+  font-size: 0.92rem;
 }
 
 .btn-icon:hover {
-  background: rgba(197, 160, 89, 0.2);
+  background: rgba(255, 199, 44, 0.2);
   border-color: var(--primary);
   color: #fff;
   transform: translateY(-1px);
@@ -223,8 +230,8 @@ body {
 .page:not([style*="display: none"]):not([style*="display:none"]) {
   display: flex !important;
   flex-direction: column !important;
-  justify-content: space-between !important;
-  padding: 1.6rem 2rem 1.6rem 2rem !important;
+  justify-content: flex-start !important;
+  padding: 1.25rem 1.7rem !important;
 }
 
 .page.--cover:not([style*="display: none"]):not([style*="display:none"]) {
@@ -358,12 +365,10 @@ body {
 .page-body {
   flex: 1 1 auto;
   min-height: 0;
-  overflow-y: auto;
-  padding-bottom: 0.4rem;
-  margin-bottom: 0.4rem;
-  scrollbar-width: thin;
-  scrollbar-color: rgba(197, 160, 89, 0.35) transparent;
-  padding-right: 0.2rem;
+  overflow: hidden !important; /* CRITICAL: No internal scrollbars */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .page-body::-webkit-scrollbar {
@@ -375,16 +380,7 @@ body {
 }
 
 .page-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: var(--font-sans);
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  border-top: 1px solid rgba(0,0,0,0.08);
-  padding-top: 0.5rem;
-  margin-top: auto !important;
-  flex-shrink: 0;
+  display: none !important;
 }
 
 .chapter-badge {
@@ -878,8 +874,8 @@ body {
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .app-header {
-    padding: 0 1rem;
-    height: 56px;
+    padding: 0 0.6rem;
+    height: 42px;
   }
   .brand-logo {
     height: 30px;

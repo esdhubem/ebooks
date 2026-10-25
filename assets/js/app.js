@@ -90,13 +90,22 @@ function initFlipBook() {
   if (!container || !window.St || !window.St.PageFlip) return;
 
   const isMobile = window.innerWidth <= 768;
-  const maxAvailableHeight = window.innerHeight - 150;
-  const pageHeight = isMobile 
-    ? Math.min(Math.max(window.innerHeight - 140, 360), 500)
-    : Math.min(Math.max(maxAvailableHeight, 380), 520);
+  // Available height taking into account slim header (44px) + reader-dock (approx 65px) + safe margin
+  const maxAvailableHeight = window.innerHeight - 125;
+  
+  // Strict height bounding:
+  // Desktop: capped comfortably between 400px and 560px
+  // Mobile: capped between 360px and 520px
+  const maxTargetH = isMobile ? 520 : 560;
+  const minTargetH = isMobile ? 360 : 400;
+  const pageHeight = Math.max(minTargetH, Math.min(maxTargetH, maxAvailableHeight));
+  
+  // Available width per page
   const maxPageW = isMobile 
-    ? window.innerWidth - 30 
-    : Math.floor((window.innerWidth - 60) / 2);
+    ? window.innerWidth - 24 
+    : Math.floor((window.innerWidth - 48) / 2);
+  
+  // Proportional width (~0.71 aspect ratio)
   const pageWidth = Math.min(maxPageW, Math.round(pageHeight * 0.71));
 
   pageFlipInstance = new St.PageFlip(container, {
@@ -241,18 +250,20 @@ function setupFontSizeControls() {
 
   if (btnPlus) {
     btnPlus.addEventListener('click', () => {
-      currentFontSize = Math.min(1.2, currentFontSize + 0.05);
-      document.querySelectorAll('.page-text, .page-body').forEach(el => {
+      currentFontSize = Math.min(1.08, currentFontSize + 0.04);
+      document.querySelectorAll('.page-text').forEach(el => {
         el.style.fontSize = `${currentFontSize}rem`;
+        el.style.lineHeight = currentFontSize > 1.0 ? '1.48' : '1.58';
       });
     });
   }
 
   if (btnMinus) {
     btnMinus.addEventListener('click', () => {
-      currentFontSize = Math.max(0.82, currentFontSize - 0.05);
-      document.querySelectorAll('.page-text, .page-body').forEach(el => {
+      currentFontSize = Math.max(0.80, currentFontSize - 0.04);
+      document.querySelectorAll('.page-text').forEach(el => {
         el.style.fontSize = `${currentFontSize}rem`;
+        el.style.lineHeight = '1.58';
       });
     });
   }
