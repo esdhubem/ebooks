@@ -138,13 +138,16 @@ body {
   padding: 0.5rem 1rem 4.5rem 1rem;
   min-height: 0;
   position: relative;
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .flip-book-container {
   box-shadow: var(--shadow-book);
   border-radius: 8px;
   position: relative;
+  margin: auto;
   transition: opacity 0.35s ease, transform 0.3s ease;
   opacity: 0;
 }
@@ -384,6 +387,19 @@ body {
   line-height: 1.58;
   margin-bottom: 0.65rem;
   text-align: justify;
+}
+
+/* CITATION SUPERSCRIPTS */
+.citation-ref {
+  color: #96702e;
+  font-weight: 700;
+  font-size: 0.72em;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.45em;
+  margin: 0 1px;
+  text-decoration: none;
 }
 
 .callout-box {

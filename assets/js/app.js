@@ -77,22 +77,23 @@ function initFlipBook() {
   if (!container || !window.St || !window.St.PageFlip) return;
 
   const isMobile = window.innerWidth <= 768;
-  const availableHeight = window.innerHeight - 135;
+  const maxAvailableHeight = window.innerHeight - 150;
   const pageHeight = isMobile 
-    ? Math.min(Math.max(window.innerHeight - 140, 420), 580)
-    : Math.min(Math.max(availableHeight, 460), 620);
-  const pageWidth = isMobile 
-    ? Math.min(window.innerWidth - 30, 420)
-    : Math.round(pageHeight * 0.72);
+    ? Math.min(Math.max(window.innerHeight - 140, 360), 500)
+    : Math.min(Math.max(maxAvailableHeight, 380), 520);
+  const maxPageW = isMobile 
+    ? window.innerWidth - 30 
+    : Math.floor((window.innerWidth - 60) / 2);
+  const pageWidth = Math.min(maxPageW, Math.round(pageHeight * 0.71));
 
   pageFlipInstance = new St.PageFlip(container, {
     width: pageWidth,
     height: pageHeight,
-    size: 'stretch',
-    minWidth: 300,
-    maxWidth: 580,
-    minHeight: 400,
-    maxHeight: 720,
+    size: 'fixed',
+    minWidth: 260,
+    maxWidth: pageWidth,
+    minHeight: 340,
+    maxHeight: pageHeight,
     maxShadowOpacity: 0.5,
     showCover: true,
     mobileScrollSupport: false,
