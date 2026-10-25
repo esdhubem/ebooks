@@ -347,19 +347,7 @@ body {
 
 /* INNER PAGES */
 .page-header {
-  flex-shrink: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: var(--font-sans);
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  color: var(--text-muted);
-  border-bottom: 1px solid rgba(0,0,0,0.08);
-  padding-bottom: 0.6rem;
-  margin-bottom: 0.8rem;
-  padding-bottom: 0.5rem;
+  display: none !important;
 }
 
 .page-body {
