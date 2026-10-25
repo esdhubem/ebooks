@@ -141,6 +141,7 @@ function initFlipBook() {
   });
 
   pageFlipInstance.on('flip', (e) => {
+    stopAllAudioPlayers();
     const current = e.data + 1;
     const total = pageFlipInstance.getPageCount();
     if (pageIndicator) pageIndicator.textContent = `${current} / ${total}`;
@@ -185,57 +186,86 @@ function initFlipBook() {
   });
 }
 
-// Audio Player Factory
+// Audio Player Factory & Active Controller
+let activeAudioTimer = null;
+
+function stopAllAudioPlayers() {
+  if (activeAudioTimer) {
+    clearInterval(activeAudioTimer);
+    activeAudioTimer = null;
+  }
+  if ('speechSynthesis' in window) {
+    window.speechSynthesis.cancel();
+  }
+  document.querySelectorAll('.btn-play').forEach(b => b.innerHTML = '▶');
+  document.querySelectorAll('.audio-progress-fill').forEach(f => f.style.width = '0%');
+  document.querySelectorAll('.audio-time').forEach(t => t.textContent = '00:00');
+}
+
 function setupPlayer(btnId, fillId, timeId, textSpeech) {
   const btn = document.getElementById(btnId);
   const fill = document.getElementById(fillId);
   const time = document.getElementById(timeId);
   let isPlaying = false;
-  let timer = null;
 
   if (!btn) return;
 
   btn.addEventListener('click', () => {
     if (!('speechSynthesis' in window)) {
-      alert('Sintetizador Web não suportado. Carregue um arquivo mp3.');
+      alert('Sintetizador de voz não suportado pelo navegador.');
       return;
     }
 
     if (isPlaying) {
-      window.speechSynthesis.cancel();
+      stopAllAudioPlayers();
       isPlaying = false;
-      btn.innerHTML = '▶';
-      clearInterval(timer);
-      if (fill) fill.style.width = '0%';
-      if (time) time.textContent = '00:00';
     } else {
-      window.speechSynthesis.cancel();
+      stopAllAudioPlayers();
+      isPlaying = true;
+      btn.innerHTML = '⏸';
+
       const utter = new SpeechSynthesisUtterance(textSpeech);
       utter.lang = 'pt-BR';
       utter.rate = 1.0;
 
-      let elapsed = 0;
-      const duration = 14;
+      const words = textSpeech.trim().split(/\s+/).length;
+      const duration = Math.max(12, Math.round(words / 2.3));
 
-      utter.onstart = () => {
-        isPlaying = true;
-        btn.innerHTML = '⏸';
-        timer = setInterval(() => {
-          elapsed += 0.5;
-          const pct = Math.min(100, (elapsed / duration) * 100);
-          if (fill) fill.style.width = `${pct}%`;
-          const m = String(Math.floor(elapsed / 60)).padStart(2, '0');
-          const s = String(Math.floor(elapsed % 60)).padStart(2, '0');
-          if (time) time.textContent = `${m}:${s}`;
-          if (elapsed >= duration) clearInterval(timer);
-        }, 500);
-      };
+      let elapsed = 0;
+      activeAudioTimer = setInterval(() => {
+        elapsed += 0.5;
+        const pct = Math.min(100, (elapsed / duration) * 100);
+        if (fill) fill.style.width = `${pct}%`;
+        const m = String(Math.floor(elapsed / 60)).padStart(2, '0');
+        const s = String(Math.floor(elapsed % 60)).padStart(2, '0');
+        if (time) time.textContent = `${m}:${s}`;
+        if (elapsed >= duration) {
+          clearInterval(activeAudioTimer);
+          activeAudioTimer = null;
+        }
+      }, 500);
 
       utter.onend = () => {
         isPlaying = false;
         btn.innerHTML = '▶';
-        clearInterval(timer);
+        if (activeAudioTimer) {
+          clearInterval(activeAudioTimer);
+          activeAudioTimer = null;
+        }
         if (fill) fill.style.width = '100%';
+        setTimeout(() => {
+          if (!isPlaying && fill) fill.style.width = '0%';
+          if (!isPlaying && time) time.textContent = '00:00';
+        }, 1500);
+      };
+
+      utter.onerror = () => {
+        isPlaying = false;
+        btn.innerHTML = '▶';
+        if (activeAudioTimer) {
+          clearInterval(activeAudioTimer);
+          activeAudioTimer = null;
+        }
       };
 
       window.speechSynthesis.speak(utter);
@@ -320,17 +350,24 @@ function setupUI() {
   setupQuiz();
 
   setupPlayer(
-    'btnPlayAudioIntro',
-    'audioFillIntro',
-    'audioTimeIntro',
-    'Bem-vindos à metodologia ESDHUBEM. O ato de pensar visualmente, estruturar por escrito e verbalizar com clareza liberta o potencial criativo do estudante.'
+    'btnPlayAudio1',
+    'audioFill1',
+    'audioTime1',
+    'Introdução ao Estudo dos Mapas Mentais. Na realidade atual, vivemos na Era da Informação e da Inteligência Artificial. As inovações tecnológicas oferecem uma carga contínua de dados, exigindo discernimento crítico na triagem do que é verdadeiro e conversão de dados em conhecimento aplicável.'
   );
 
   setupPlayer(
-    'btnPlayAudioCap2',
-    'audioFillCap2',
-    'audioTimeCap2',
-    'Capítulo 2: A Tríade Mental-Verbal como hábito de estudo. A neurociência comprova que a retenção de longo prazo exige integração entre os dois hemisférios cerebrais.'
+    'btnPlayAudio2',
+    'audioFill2',
+    'audioTime2',
+    'Capítulo 1: A Criação da Técnica por Tony Buzan. O pesquisador britânico percebeu limitações nos métodos convencionais lineares de anotação e buscou uma estratégia alternativa que integrasse estímulos visuais diversos, como cores, imagens e palavras-chave, para potencializar o cérebro.'
+  );
+
+  setupPlayer(
+    'btnPlayAudio3',
+    'audioFill3',
+    'audioTime3',
+    'Capítulo 2: Processamento Cérebro-Total e Hemisférios. A neurociência cognitiva demonstra que a retenção duradoura depende da ativação sinérgica dos dois hemisférios cerebrais, unindo o pensamento sequencial analítico à visão espacial holística.'
   );
 
   const btnSound = document.getElementById('btnToggleSound');
