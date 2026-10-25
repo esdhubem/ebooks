@@ -1,4 +1,4 @@
-const CACHE_NAME = 'esdhubem-ebooks-v3';
+const CACHE_NAME = 'esdhubem-ebooks-v4';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
