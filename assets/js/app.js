@@ -1,4 +1,4 @@
-﻿// ESDHUBEM Ebooks Interativos - Core Controller
+// ESDHUBEM Ebooks Interativos - Core Controller
 const VALID_KEYS = ['ESDHUBEM-VIP', 'LIVRO-2026', 'DEMO', 'ESDHUBEM'];
 const STORAGE_KEY = 'esdhubem_ebook_unlocked';
 
@@ -7,30 +7,43 @@ let soundEnabled = true;
 let deferredPrompt = null;
 let currentFontSize = 0.96; // rem
 
-// Realistic Paper Sound Generator
-const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+// Realistic Paper Sound Generator (Lazy initialization to prevent browser autoplay warnings)
+let audioCtx = null;
+function getAudioContext() {
+  if (!audioCtx && typeof window !== 'undefined' && (window.AudioContext || window.webkitAudioContext)) {
+    try {
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    } catch (err) {
+      console.warn('AudioContext init:', err);
+    }
+  }
+  return audioCtx;
+}
+
 function playPaperTurnSound() {
   if (!soundEnabled) return;
   try {
-    if (audioCtx.state === 'suspended') audioCtx.resume();
-    const bufferSize = audioCtx.sampleRate * 0.12;
-    const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+    const ctx = getAudioContext();
+    if (!ctx) return;
+    if (ctx.state === 'suspended') ctx.resume();
+    const bufferSize = ctx.sampleRate * 0.12;
+    const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
     const data = buffer.getChannelData(0);
     for (let i = 0; i < bufferSize; i++) {
       data[i] = (Math.random() * 2 - 1) * Math.exp(-i / (bufferSize * 0.35));
     }
-    const noise = audioCtx.createBufferSource();
+    const noise = ctx.createBufferSource();
     noise.buffer = buffer;
-    const filter = audioCtx.createBiquadFilter();
+    const filter = ctx.createBiquadFilter();
     filter.type = 'bandpass';
     filter.frequency.value = 1400;
     filter.Q.value = 1.2;
-    const gain = audioCtx.createGain();
-    gain.gain.setValueAtTime(0.18, audioCtx.currentTime);
-    gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.12);
+    const gain = ctx.createGain();
+    gain.gain.setValueAtTime(0.18, ctx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.12);
     noise.connect(filter);
     filter.connect(gain);
-    gain.connect(audioCtx.destination);
+    gain.connect(ctx.destination);
     noise.start();
   } catch (e) {
     console.log('Audio note:', e);

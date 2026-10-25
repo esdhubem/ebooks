@@ -1,11 +1,12 @@
-﻿{
+{
   "name": "ESDHUBEM Ebooks Interativos",
   "short_name": "Ebooks ESDHUBEM",
   "description": "Biblioteca e leitor de e-books interativos da Escola ESDHUBEM",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#0a1128",
-  "theme_color": "#0F1A33",
+  "background_color": "#011049",
+  "theme_color": "#011049",
   "orientation": "portrait-primary",
   "icons": [
     {
