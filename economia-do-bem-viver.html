@@ -18,7 +18,7 @@
   
   <link rel="stylesheet" href="assets/css/style.css">
   <style>
-    /* Personalização elegante para a obra Economia do Bem Viver */
+    /* Personalização e segurança contra cortes de texto */
     :root {
       --book-accent-green: #10b981;
       --book-accent-gold: #f59e0b;
@@ -46,33 +46,52 @@
       color: #34d399 !important;
       border-color: rgba(52, 211, 153, 0.4) !important;
     }
+    .page:not(.--cover) {
+      padding: 1.1rem 1.45rem 1.5rem 1.45rem !important;
+    }
+    .page-body {
+      overflow-y: auto !important; /* Previne cortes absolutos em qualquer resolução */
+      scrollbar-width: thin;
+      scrollbar-color: rgba(16, 185, 129, 0.3) transparent;
+    }
+    .page-heading {
+      font-size: 1.18rem !important;
+      line-height: 1.25 !important;
+      margin-bottom: 0.4rem !important;
+    }
+    .page-text {
+      font-size: 0.82rem !important;
+      line-height: 1.46 !important;
+      margin-bottom: 0.45rem !important;
+      text-align: justify;
+    }
     .callout-quote {
       border-left: 3px solid #10b981;
       background: rgba(16, 185, 129, 0.08);
-      padding: 0.75rem 0.95rem;
+      padding: 0.65rem 0.9rem;
       border-radius: 0 8px 8px 0;
       font-style: italic;
-      margin: 0.75rem 0;
+      margin: 0.6rem 0;
       color: #1e293b;
-      font-size: 0.88rem;
-      line-height: 1.55;
+      font-size: 0.83rem;
+      line-height: 1.46;
     }
     .callout-quote strong {
       color: #065f46;
     }
     .toc-part-header {
-      font-size: 0.76rem;
+      font-size: 0.74rem;
       font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: 1.2px;
+      letter-spacing: 1.1px;
       color: #047857;
-      margin: 0.6rem 0 0.2rem 0;
+      margin: 0.5rem 0 0.2rem 0;
       border-bottom: 1px dashed rgba(4, 120, 87, 0.3);
       padding-bottom: 0.15rem;
     }
     .toc-item-compact {
-      font-size: 0.82rem;
-      padding: 0.3rem 0;
+      font-size: 0.8rem;
+      padding: 0.25rem 0;
       line-height: 1.35;
     }
   </style>
@@ -137,16 +156,16 @@
             <div class="cip-body">
               <strong>S587e &nbsp; Silvério, Silviane</strong><br>
               <strong>Economia do Bem Viver Bem: além do PIB, filosofias & horizontes de civilização: parte 1 — prefácio editorial</strong> / Silviane Silvério. — 1. ed. — São Paulo: ESDHUBEM Publicações, 2026.<br>
-              36 p. : il.<br><br>
+              44 p. : il.<br><br>
               <strong>ISBN:</strong> 978-65-00-98741-2 <em>(Edição Digital Master / PWA)</em><br>
               1. Economia Ecológica. 2. Bem Viver (Sumak Kawsay, Teko Porã). 3. Além do PIB (Beyond GDP). 4. Filosofias Originárias & Ubuntu. 5. Crítica Macroeconômica — Simon Kuznets. 6. Desenvolvimento Humano e Justiça Climática. I. Título.<br>
               <strong>CDD:</strong> 330.1 &nbsp;|&nbsp; <strong>CDU:</strong> 330.342.14
             </div>
           </div>
-          <div style="font-size: 0.78rem; color: #64748b; line-height: 1.5; margin-top: 1.4rem; text-align: justify;">
+          <div style="font-size: 0.77rem; color: #64748b; line-height: 1.5; margin-top: 1.2rem; text-align: justify;">
             <p><strong>© 2026 ESDHUBEM — Escola de Desenvolvimento Humano e Bem-Estar.</strong></p>
             <p>Todos os direitos reservados. Nenhuma parte desta publicação pode ser reproduzida ou transmitida sem prévia autorização da instituição e da autora.</p>
-            <p style="margin-top: 0.5rem;"><strong>Coordenação Editorial & Pesquisa:</strong> Núcleo de Economia Regenerativa e Sabedorias Ancestrais ESDHUBEM.</p>
+            <p style="margin-top: 0.4rem;"><strong>Coordenação Editorial & Pesquisa:</strong> Núcleo de Economia Regenerativa e Sabedorias Ancestrais ESDHUBEM.</p>
           </div>
         </div>
         <div class="page-footer">
@@ -159,7 +178,7 @@
       <div class="page">
         <div class="page-body">
           <h2 class="page-heading" style="margin-top: 0; margin-bottom: 0.25rem;">Índice da Parte 1</h2>
-          <div class="chapter-badge badge-nature" style="margin-bottom: 0.45rem;">Prefácio Editorial & Tópicos</div>
+          <div class="chapter-badge badge-nature" style="margin-bottom: 0.35rem;">Prefácio Editorial & Tópicos</div>
           <ul class="toc-list">
             <li class="toc-item" data-target="3">
               <span class="toc-title">Prefácio: O Despertar da Terra & Áudio Oficial</span>
@@ -170,44 +189,52 @@
               <span class="toc-page">05</span>
             </li>
             <li class="toc-item" data-target="5">
-              <span class="toc-title">O Primeiro Alerta de 1934 & O Congresso Americano</span>
+              <span class="toc-title">O Primeiro Alerta: Relatório ao Congresso (1934)</span>
               <span class="toc-page">06</span>
             </li>
             <li class="toc-item" data-target="6">
-              <span class="toc-title">O Segundo Alerta de 1962 & Dernburg & McDougall</span>
+              <span class="toc-title">A Advertência Esquecida & A Alma Coletiva</span>
               <span class="toc-page">07</span>
             </li>
             <li class="toc-item" data-target="7">
-              <span class="toc-title">A Cegueira Estrutural & O Estetoscópio no Lugar Errado</span>
+              <span class="toc-title">O Segundo Alerta: Quantidade vs. Qualidade (1962)</span>
               <span class="toc-page">08</span>
             </li>
             <li class="toc-item" data-target="8">
-              <span class="toc-title">O Custo Humano: Da Selic ao Burnout Coletivo</span>
+              <span class="toc-title">Macroeconomia Crítica: Dernburg & McDougall</span>
               <span class="toc-page">09</span>
             </li>
             <li class="toc-item" data-target="9">
-              <span class="toc-title">Libertação Dogmática & A Resposta Necessária</span>
+              <span class="toc-title">A Cegueira Estrutural & O Estetoscópio no Lugar Errado</span>
               <span class="toc-page">10</span>
             </li>
             <li class="toc-item" data-target="10">
-              <span class="toc-title">A Perversão da Planilha & O Cuidado Invisível</span>
+              <span class="toc-title">Uma Ferramenta de Guerra Virou Religião Global</span>
               <span class="toc-page">11</span>
             </li>
             <li class="toc-item" data-target="11">
-              <span class="toc-title">A Produção do Mal-Estar & Algoritmos do Ódio</span>
+              <span class="toc-title">O Custo Humano: Da Selic ao Burnout Coletivo</span>
               <span class="toc-page">12</span>
             </li>
             <li class="toc-item" data-target="12">
-              <span class="toc-title">O Chamado Ancestral e a Iniciativa Beyond GDP</span>
+              <span class="toc-title">A Libertação Dogmática da Economia</span>
               <span class="toc-page">13</span>
             </li>
             <li class="toc-item" data-target="13">
-              <span class="toc-title">Sumário Geral da Obra Completa (Partes 1 a 3)</span>
+              <span class="toc-title">Por que Continuamos Medindo o PIB?</span>
               <span class="toc-page">14</span>
             </li>
             <li class="toc-item" data-target="14">
-              <span class="toc-title">Sumário Geral da Obra Completa (Partes 4 a 6)</span>
+              <span class="toc-title">A Perversão da Planilha & O Cuidado como "Zero"</span>
               <span class="toc-page">15</span>
+            </li>
+            <li class="toc-item" data-target="15">
+              <span class="toc-title">A Conta do Mal-Estar & Os Algoritmos do Ódio</span>
+              <span class="toc-page">16</span>
+            </li>
+            <li class="toc-item" data-target="16">
+              <span class="toc-title">O Despertar Ancestral & A Iniciativa Beyond GDP</span>
+              <span class="toc-page">17</span>
             </li>
           </ul>
         </div>
@@ -280,10 +307,8 @@
           
           <div class="callout-quote">
             "O bem-estar de uma nação dificilmente pode ser inferido a partir de uma medida da renda nacional."<br>
-            <strong>— Simon Kuznets (1934)</strong>
+            <strong>— Simon Kuznets (Relatório ao Congresso Americano, 1934)</strong>
           </div>
-
-          <p class="page-text">Ele foi mais além. Alertou explicitamente que sua métrica não deveria ser usada para avaliar o nível de felicidade da população, a qualidade da saúde pública, a extensão da justiça social, a vitalidade das comunidades ou a integridade dos ecossistemas. Kuznets sabia que o que ele havia criado era uma ferramenta de contabilidade da produção, não uma bússola da civilização. Era um termômetro da capacidade industrial, não um espelho da alma coletiva.</p>
         </div>
         <div class="page-footer">
           <span>O Alerta de 1934</span>
@@ -291,81 +316,146 @@
         </div>
       </div>
 
-      <!-- PÁGINA 7: O SEGUNDO ALERTA (1962) -->
+      <!-- PÁGINA 7: A ADVERTÊNCIA ESQUECIDA (BÚSSOLA E ALMA COLETIVA) -->
+      <div class="page">
+        <div class="page-body">
+          <div class="chapter-badge badge-nature">A Advertência Esquecida</div>
+          <h2 class="page-heading">A Bússola e a Alma Coletiva</h2>
+
+          <p class="page-text">Ele foi mais além. Alertou explicitamente que sua métrica não deveria ser usada para avaliar o nível de felicidade da população, a qualidade da saúde pública, a extensão da justiça social, a vitalidade das comunidades ou a integridade dos ecossistemas.</p>
+          
+          <p class="page-text">Kuznets sabia que o que ele havia criado era uma ferramenta de contabilidade da produção, não uma bússola da civilização. Era um termômetro da capacidade industrial, não um espelho da alma coletiva.</p>
+
+          <div class="callout-quote">
+            "Uma ferramenta de contabilidade da produção, não uma bússola da civilização. Um termômetro da capacidade industrial, não um espelho da alma coletiva."
+          </div>
+        </div>
+        <div class="page-footer">
+          <span>A Advertência de Kuznets</span>
+          <span>Pág. 07</span>
+        </div>
+      </div>
+
+      <!-- PÁGINA 8: O SEGUNDO ALERTA (1962) -->
       <div class="page">
         <div class="page-body">
           <div class="chapter-badge badge-nature">Limites Epistemológicos</div>
           <h2 class="page-heading">O Segundo Alerta: 1962</h2>
           
-          <p class="page-text">O segundo alerta veio em 1962. Décadas depois, com o mundo reconstruído e o PIB já elevado a "juiz supremo" do progresso humano, Kuznets reiterou que sua métrica era quantitativa, não qualitativa. Ele insistiu que o PIB contava toneladas de aço produzidas, mas não a felicidade do operário. Que registrava o valor de mercado de um desmatamento, mas não o silêncio das aves que deixavam de cantar. Que somava os gastos com armas, mas não subtraía o medo das crianças que cresciam sob ameaça.</p>
-
-          <p class="page-text">Essa advertência fundamental de Kuznets ecoaria décadas depois nas obras de macroeconomistas críticos. Como bem observaram Thomas F. Dernburg e Duncan M. McDougall em seu influente livro <em>Macroeconomics</em> (década de 1960):</p>
-
-          <div class="callout-quote">
-            "Especificações sobre o que deve ser incluído ou excluído das estimativas do Produto Nacional [Bruto] tornam-se, com frequência, objeto de controvérsia política. A capacidade de medir com precisão é frequentemente confundida com a capacidade de decidir com sabedoria." [4]
-          </div>
+          <p class="page-text">O segundo alerta veio em 1962. Décadas depois, com o mundo reconstruído e o PIB já elevado a "juiz supremo" do progresso humano, Kuznets reiterou que sua métrica era quantitativa, não qualitativa.</p>
+          
+          <p class="page-text">Ele insistiu que o PIB contava toneladas de aço produzidas, mas não a felicidade do operário. Que registrava o valor de mercado de um desmatamento, mas não o silêncio das aves que deixavam de cantar. Que somava os gastos com armas, mas não subtraía o medo das crianças que cresciam sob ameaça.</p>
         </div>
         <div class="page-footer">
           <span>O Alerta de 1962</span>
-          <span>Pág. 07</span>
-        </div>
-      </div>
-
-      <!-- PÁGINA 8: A CEGUEIRA ESTRUTURAL -->
-      <div class="page">
-        <div class="page-body">
-          <div class="chapter-badge badge-nature">Diagnóstico da Civilização</div>
-          <h2 class="page-heading">A Cegueira Estrutural e o Estetoscópio</h2>
-          
-          <p class="page-text">Kuznets sabia que o PIB era cego para o que realmente importava. E sabia que essa cegueira não era acidental, era estrutural. A verdade que o mundo recusou, Kuznets tentou nos dizer, com a paciência de quem vê o desastre se aproximando em câmera lenta, é o que este livro quer demonstrar ao longo dos capítulos.</p>
-
-          <p class="page-text">Usar o PIB como uma espécie de bússola civilizatória é como usar um estetoscópio para medir a pressão arterial: o instrumento é preciso, mas está sendo aplicado no lugar errado. E, no entanto, foi exatamente isso que fizeram. Uma ferramenta de contabilidade de guerra foi transformada em religião global e, por isso, nas últimas décadas, vivemos em guerras e rumores de guerras constantes.</p>
-
-          <p class="page-text">Substituímos a sabedoria dos povos originários, que há milênios mediam o florescimento pela saúde do solo, pela vitalidade das águas e pela harmonia das relações, pela cegueira de um número que conta como "riqueza" o desmatamento, como "crescimento" a doença, como "progresso" a bomba.</p>
-        </div>
-        <div class="page-footer">
-          <span>A Cegueira Estrutural</span>
           <span>Pág. 08</span>
         </div>
       </div>
 
-      <!-- PÁGINA 9: O QUE KUZNETS NÃO VIVEU PARA VER -->
+      <!-- PÁGINA 9: DERNBURG & MCDOUGALL -->
       <div class="page">
         <div class="page-body">
-          <div class="chapter-badge badge-nature">O Custo Humano</div>
-          <h2 class="page-heading">O Custo Humano e a Ilusão do Crescimento</h2>
-          
-          <p class="page-text">Simon Kuznets morreu em 1985. Ele não viveu para ver o PIB se tornar o deus que devora a Mãe Terra. Não viveu para ver a taxa Selic da economia brasileira drenar orçamentos inteiros de saúde e educação. Não viveu para ver os jovens negros serem contados como estatística de homicídio enquanto o PIB "crescia". Não viveu para ver o <em>burnout</em> coletivo ser tratado como falha individual, enquanto o mercado celebrava a hiperprodutividade.</p>
+          <div class="chapter-badge badge-nature">Crítica Macroeconômica</div>
+          <h2 class="page-heading">Medir com Precisão vs. Decidir com Sabedoria</h2>
 
-          <p class="page-text">Mas nós vivemos. E nós podemos ouvir, ainda que tardiamente, o que ele tentou nos dizer.</p>
+          <p class="page-text">Essa advertência fundamental de Kuznets ecoaria décadas depois nas obras de macroeconomistas críticos. Como bem observaram Thomas F. Dernburg e Duncan M. McDougall em seu influente livro <em>Macroeconomics</em> (década de 1960):</p>
 
-          <p class="page-text">Voltar no tempo para escutar a voz de Kuznets é a primeira porta para superar os desafios que vivemos atualmente. Porque reconhecer que a métrica que nos governa nasceu defeituosa não é apenas um ato de honestidade intelectual, é um ato de libertação dogmática da economia.</p>
+          <div class="callout-quote">
+            "Especificações sobre o que deve ser incluído ou excluído das estimativas do Produto Nacional [Bruto] tornam-se, com frequência, objeto de controvérsia política. A capacidade de medir com precisão é frequentemente confundida com a capacidade de decidir com sabedoria." [4]<br>
+            <strong>— Thomas F. Dernburg & Duncan M. McDougall</strong>
+          </div>
         </div>
         <div class="page-footer">
-          <span>O Custo Social & Humano</span>
+          <span>Macroeconomia Crítica</span>
           <span>Pág. 09</span>
         </div>
       </div>
 
-      <!-- PÁGINA 10: LIBERTAÇÃO DOGMÁTICA -->
+      <!-- PÁGINA 10: A CEGUEIRA ESTRUTURAL -->
       <div class="page">
         <div class="page-body">
-          <div class="chapter-badge badge-nature">Transição Paradigmática</div>
-          <h2 class="page-heading">Libertação Dogmática e o Passo Necessário</h2>
+          <div class="chapter-badge badge-nature">Diagnóstico Crítico</div>
+          <h2 class="page-heading">A Cegueira Estrutural do PIB</h2>
           
-          <p class="page-text">É o momento em que percebemos que não estamos fracassando dentro de um sistema bem desenhado: estamos sendo esmagados por um sistema que foi mal concebido desde o início.</p>
+          <p class="page-text">Kuznets sabia que o PIB era cego para o que realmente importava. E sabia que essa cegueira não era acidental, era estrutural. A verdade que o mundo recusou, Kuznets tentou nos dizer, com a paciência de quem vê o desastre se aproximando em câmera lenta, é o que este livro quer demonstrar ao longo dos capítulos.</p>
 
-          <p class="page-text">E se o próprio criador do PIB nos disse, com todas as letras, que ele não serve para medir o que realmente importa, então por que continuamos medindo?</p>
-
-          <p class="page-text">A resposta a essa pergunta é o que nos leva, inevitavelmente, aos <strong>Mecanismos Concretos de Transição</strong> que apresentaremos a seguir. Porque não basta trocar a métrica, é preciso transformar o sistema que a produz. Não basta medir melhor, é preciso viver de outro jeito. Kuznets nos deu o alerta. Os povos originários nos deram a sabedoria. A ciência contemporânea nos deu a evidência. Agora, cabe a nós dar o passo.</p>
+          <p class="page-text">Usar o PIB como uma espécie de bússola civilizatória é como usar um estetoscópio para medir a pressão arterial: o instrumento é preciso, mas está sendo aplicado no lugar errado.</p>
         </div>
         <div class="page-footer">
-          <span>Transformação do Sistema</span>
+          <span>A Cegueira Estrutural</span>
           <span>Pág. 10</span>
         </div>
       </div>
 
-      <!-- PÁGINA 11: O VALOR DO CUIDADO -->
+      <!-- PÁGINA 11: A FERRAMENTA DE GUERRA -->
+      <div class="page">
+        <div class="page-body">
+          <div class="chapter-badge badge-nature">O Desvio de Rota</div>
+          <h2 class="page-heading">Uma Ferramenta de Guerra Virou Religião</h2>
+
+          <p class="page-text">E, no entanto, foi exatamente isso que fizeram. Uma ferramenta de contabilidade de guerra foi transformada em religião global e, por isso, nas últimas décadas, vivemos em guerras e rumores de guerras constantes.</p>
+
+          <p class="page-text">Substituímos a sabedoria dos povos originários, que há milênios mediam o florescimento pela saúde do solo, pela vitalidade das águas e pela harmonia das relações, pela cegueira de um número que conta como "riqueza" o desmatamento, como "crescimento" a doença, como "progresso" a bomba.</p>
+        </div>
+        <div class="page-footer">
+          <span>O Desvio Civilizatório</span>
+          <span>Pág. 11</span>
+        </div>
+      </div>
+
+      <!-- PÁGINA 12: O QUE KUZNETS NÃO VIVEU PARA VER -->
+      <div class="page">
+        <div class="page-body">
+          <div class="chapter-badge badge-nature">O Custo Humano</div>
+          <h2 class="page-heading">O que Kuznets Não Viveu para Ver</h2>
+          
+          <p class="page-text">Simon Kuznets morreu em 1985. Ele não viveu para ver o PIB se tornar o deus que devora a Mãe Terra. Não viveu para ver a taxa Selic da economia brasileira drenar orçamentos inteiros de saúde e educação.</p>
+          
+          <p class="page-text">Não viveu para ver os jovens negros serem contados como estatística de homicídio enquanto o PIB "crescia". Não viveu para ver o <em>burnout</em> coletivo ser tratado como falha individual, enquanto o mercado celebrava a hiperprodutividade.</p>
+
+          <p class="page-text">Mas nós vivemos. E nós podemos ouvir, ainda que tardiamente, o que ele tentou nos dizer.</p>
+        </div>
+        <div class="page-footer">
+          <span>O Custo Social & Humano</span>
+          <span>Pág. 12</span>
+        </div>
+      </div>
+
+      <!-- PÁGINA 13: LIBERTAÇÃO DOGMÁTICA -->
+      <div class="page">
+        <div class="page-body">
+          <div class="chapter-badge badge-nature">Transição Paradigmática</div>
+          <h2 class="page-heading">A Libertação Dogmática da Economia</h2>
+          
+          <p class="page-text">Voltar no tempo para escutar a voz de Kuznets é a primeira porta para superar os desafios que vivemos atualmente. Porque reconhecer que a métrica que nos governa nasceu defeituosa não é apenas um ato de honestidade intelectual, é um ato de libertação dogmática da economia.</p>
+
+          <p class="page-text">É o momento em que percebemos que não estamos fracassando dentro de um sistema bem desenhado: estamos sendo esmagados por um sistema que foi mal concebido desde o início.</p>
+        </div>
+        <div class="page-footer">
+          <span>Libertação Dogmática</span>
+          <span>Pág. 13</span>
+        </div>
+      </div>
+
+      <!-- PÁGINA 14: POR QUE CONTINUAMOS MEDINDO? -->
+      <div class="page">
+        <div class="page-body">
+          <div class="chapter-badge badge-nature">Transição Paradigmática</div>
+          <h2 class="page-heading">Por que Continuamos Medindo?</h2>
+
+          <p class="page-text">E se o próprio criador do PIB nos disse, com todas as letras, que ele não serve para medir o que realmente importa, então por que continuamos medindo?</p>
+
+          <p class="page-text">A resposta a essa pergunta é o que nos leva, inevitavelmente, aos <strong>Mecanismos Concretos de Transição</strong> que apresentaremos a seguir. Porque não basta trocar a métrica, é preciso transformar o sistema que a produz. Não basta medir melhor, é preciso viver de outro jeito.</p>
+
+          <p class="page-text">Kuznets nos deu o alerta. Os povos originários nos deram a sabedoria. A ciência contemporânea nos deu a evidência. Agora, cabe a nós dar o passo.</p>
+        </div>
+        <div class="page-footer">
+          <span>O Passo da Transição</span>
+          <span>Pág. 14</span>
+        </div>
+      </div>
+
+      <!-- PÁGINA 15: O VALOR DO CUIDADO -->
       <div class="page">
         <div class="page-body">
           <div class="chapter-badge badge-nature">A Economia do Cuidado</div>
@@ -379,15 +469,15 @@
         </div>
         <div class="page-footer">
           <span>O Cuidado Invisível</span>
-          <span>Pág. 11</span>
+          <span>Pág. 15</span>
         </div>
       </div>
 
-      <!-- PÁGINA 12: A CONTA DO MAL-ESTAR -->
+      <!-- PÁGINA 16: A CONTA DO MAL-ESTAR -->
       <div class="page">
         <div class="page-body">
           <div class="chapter-badge badge-nature">Economia do Mal-Estar</div>
-          <h2 class="page-heading">O Lucro da Barbárie e o Engajamento</h2>
+          <h2 class="page-heading">A Conta do Mal-Estar e o Ódio Digital</h2>
           
           <p class="page-text">Enquanto isso, a produção de mal-estar aumenta o PIB. Doenças crônicas, violência urbana, divórcios litigiosos e ansiedade coletiva geram consumo de remédios, segurança privada, terapia e entretenimento de fuga. Tudo isso é prosperidade contábil.</p>
 
@@ -398,16 +488,16 @@
           </div>
         </div>
         <div class="page-footer">
-          <span>O Lucro do Mal-Estar</span>
-          <span>Pág. 12</span>
+          <span>O Lucro da Barbárie</span>
+          <span>Pág. 16</span>
         </div>
       </div>
 
-      <!-- PÁGINA 13: O DESPERTAR ANCESTRAL E BEYOND GDP -->
+      <!-- PÁGINA 17: O DESPERTAR ANCESTRAL E BEYOND GDP -->
       <div class="page">
         <div class="page-body">
           <div class="chapter-badge badge-nature">Horizontes de Civilização</div>
-          <h2 class="page-heading">O Chamado Ancestral e o Beyond GDP</h2>
+          <h2 class="page-heading">O Chamado Ancestral & Beyond GDP</h2>
           
           <p class="page-text">Este livro reúne informações que não fazem concessões ao reducionismo simplista em um momento crucial, no qual a sabedoria ancestral é reconhecida, mesmo que indiretamente, pelos mais recentes relatórios das Nações Unidas (<em>Beyond GDP</em>). Apoiando-se em indicadores empíricos de fontes governamentais e acadêmicas, a obra realiza uma análise profunda dos modelos de desenvolvimento de mais de 20 nações e das cosmologias milenares de povos originários brasileiros e africanos (como o <strong>Sumak Kawsay</strong>, o <strong>Teko Porã</strong> e o <strong>Ubuntu</strong>).</p>
 
@@ -419,18 +509,18 @@
         </div>
         <div class="page-footer">
           <span>Plenitude da Vida</span>
-          <span>Pág. 13</span>
+          <span>Pág. 17</span>
         </div>
       </div>
 
-      <!-- PÁGINA 14: SUMÁRIO GERAL DA OBRA COMPLETA (PARTE I) -->
+      <!-- PÁGINA 18: SUMÁRIO GERAL DA OBRA COMPLETA (PARTE I) -->
       <div class="page">
         <div class="page-body">
           <h2 class="page-heading" style="margin-top: 0; margin-bottom: 0.2rem;">Sumário Geral da Obra</h2>
-          <div class="chapter-badge badge-nature" style="margin-bottom: 0.35rem;">Coleção Completa • Mapeamento Temático</div>
+          <div class="chapter-badge badge-nature" style="margin-bottom: 0.3rem;">Coleção Completa • Mapeamento Temático</div>
 
           <div class="toc-part-header">PARTE 1 • Fundamentos Críticos & O Despertar da Terra</div>
-          <ul class="toc-list" style="margin-bottom: 0.45rem;">
+          <ul class="toc-list" style="margin-bottom: 0.4rem;">
             <li class="toc-item toc-item-compact"><span class="toc-title">Prefácio: O Despertar da Terra e a Urgência de Novos Horizontes</span></li>
             <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 1: A Gênese Bélica do PIB e o Alerta de Simon Kuznets</span></li>
             <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 2: A Contabilidade da Destruição: Poluição, Doença e Guerra</span></li>
@@ -438,7 +528,7 @@
           </ul>
 
           <div class="toc-part-header">PARTE 2 • As Cosmologias Ancestrais e o Bem Viver</div>
-          <ul class="toc-list" style="margin-bottom: 0.45rem;">
+          <ul class="toc-list" style="margin-bottom: 0.4rem;">
             <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 4: Sumak Kawsay: Sabedoria Andina e Harmonia com a Pachamama</span></li>
             <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 5: Teko Porã: O Modo de Viver Bom dos Povos Guarani</span></li>
             <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 6: Ubuntu: "Eu sou porque nós somos" — Filosofia Africana</span></li>
@@ -453,25 +543,25 @@
         </div>
         <div class="page-footer">
           <span>Sumário da Obra • Partes 1 a 3</span>
-          <span>Pág. 14</span>
+          <span>Pág. 18</span>
         </div>
       </div>
 
-      <!-- PÁGINA 15: SUMÁRIO GERAL DA OBRA COMPLETA (PARTE II) -->
+      <!-- PÁGINA 19: SUMÁRIO GERAL DA OBRA COMPLETA (PARTE II) -->
       <div class="page">
         <div class="page-body">
           <h2 class="page-heading" style="margin-top: 0; margin-bottom: 0.2rem;">Sumário Geral da Obra</h2>
-          <div class="chapter-badge badge-nature" style="margin-bottom: 0.35rem;">Coleção Completa • Mapeamento Temático</div>
+          <div class="chapter-badge badge-nature" style="margin-bottom: 0.3rem;">Coleção Completa • Mapeamento Temático</div>
 
           <div class="toc-part-header">PARTE 4 • Além do PIB: Novos Indicadores de Florescimento</div>
-          <ul class="toc-list" style="margin-bottom: 0.45rem;">
+          <ul class="toc-list" style="margin-bottom: 0.4rem;">
             <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 10: A Iniciativa Beyond GDP das Nações Unidas</span></li>
             <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 11: Felicidade Interna Bruta (FIB) e Progresso Genuíno (GPI)</span></li>
             <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 12: Indicadores Multidimensionais de Saúde e Regeneração</span></li>
           </ul>
 
           <div class="toc-part-header">PARTE 5 • Políticas Públicas em Mais de 20 Nações</div>
-          <ul class="toc-list" style="margin-bottom: 0.45rem;">
+          <ul class="toc-list" style="margin-bottom: 0.4rem;">
             <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 13: Governos do Bem-Estar (WEGo): NZ, Escócia, Islândia, Finlândia</span></li>
             <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 14: Constituições Andinas: Direitos da Natureza na Lei Maior</span></li>
             <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 15: Moedas Sociais, Bancos Comunitários e o Sul Global</span></li>
@@ -486,11 +576,11 @@
         </div>
         <div class="page-footer">
           <span>Sumário da Obra • Partes 4 a 6</span>
-          <span>Pág. 15</span>
+          <span>Pág. 19</span>
         </div>
       </div>
 
-      <!-- PÁGINA 16: FONTES & REFERÊNCIAS -->
+      <!-- PÁGINA 20: FONTES & REFERÊNCIAS -->
       <div class="page">
         <div class="page-body">
           <div class="chapter-badge badge-nature">Aparato Acadêmico</div>
@@ -522,11 +612,11 @@
         </div>
         <div class="page-footer">
           <span>Referências Bibliográficas</span>
-          <span>Pág. 16</span>
+          <span>Pág. 20</span>
         </div>
       </div>
 
-      <!-- PÁGINA 17: NOTAS EDITORIAIS -->
+      <!-- PÁGINA 21: NOTAS EDITORIAIS -->
       <div class="page">
         <div class="page-body">
           <div class="chapter-badge badge-nature">ESDHUBEM • Projeto Editorial</div>
@@ -536,7 +626,7 @@
 
           <p class="page-text">A <strong>Parte 1</strong>, inaugurada por este <em>Prefácio Editorial</em>, estabelece as bases epistemológicas para desconstruir o dogma do PIB como régua de valor civilizatório. Nas próximas partes, o leitor encontrará:</p>
 
-          <ul style="font-size: 0.85rem; line-height: 1.6; color: #475569; margin: 0.8rem 0 1rem 1.2rem;">
+          <ul style="font-size: 0.83rem; line-height: 1.55; color: #475569; margin: 0.6rem 0 0.8rem 1.2rem;">
             <li>Estudos comparativos aprofundados dos casos da Nova Zelândia, Butão e Islândia;</li>
             <li>Cadernos práticos de aplicação comunitária da Teoria dos Comuns;</li>
             <li>Matrizes e mapas visuais de transição para educadores, gestores e cidadãos.</li>
@@ -548,11 +638,11 @@
         </div>
         <div class="page-footer">
           <span>Notas Editoriais</span>
-          <span>Pág. 17</span>
+          <span>Pág. 21</span>
         </div>
       </div>
 
-      <!-- PÁGINA 18: CONTRACAPA RIGIDA -->
+      <!-- PÁGINA 22: CONTRACAPA RIGIDA -->
       <div class="page --cover cover-bem-viver" data-density="hard">
         <div class="cover-content" style="justify-content: center; text-align: center;">
           <div class="cover-badge badge-nature" style="margin-bottom: 1.5rem;">ESDHUBEM • Obras Autorais</div>
@@ -574,8 +664,8 @@
   <!-- BOTTOM READER DOCK -->
   <nav class="reader-dock">
     <button id="btnPrev" class="dock-btn" title="Página Anterior">◀</button>
-    <input type="range" id="pageSlider" class="dock-slider" min="1" max="18" value="1">
-    <span id="pageIndicator" class="dock-pages">1 / 18</span>
+    <input type="range" id="pageSlider" class="dock-slider" min="1" max="22" value="1">
+    <span id="pageIndicator" class="dock-pages">1 / 22</span>
     <button id="btnNext" class="dock-btn" title="Próxima Página">▶</button>
   </nav>
 
@@ -594,18 +684,22 @@
           <li class="drawer-toc-item" data-target="3">Prefácio Editorial (com Áudio Oficial)</li>
           <li class="drawer-toc-item" data-target="4">A Ironia Trágica de Simon Kuznets</li>
           <li class="drawer-toc-item" data-target="5">O Primeiro Alerta de 1934 ao Congresso</li>
-          <li class="drawer-toc-item" data-target="6">O Segundo Alerta de 1962 & Dernburg & McDougall</li>
-          <li class="drawer-toc-item" data-target="7">A Cegueira Estrutural & O Estetoscópio</li>
-          <li class="drawer-toc-item" data-target="8">O Custo Humano & Selic</li>
-          <li class="drawer-toc-item" data-target="9">Libertação Dogmática da Economia</li>
-          <li class="drawer-toc-item" data-target="10">A Perversão da Planilha & O Cuidado</li>
-          <li class="drawer-toc-item" data-target="11">O Lucro da Barbárie & Algoritmos</li>
-          <li class="drawer-toc-item" data-target="12">O Chamado Ancestral & Beyond GDP</li>
-          <li class="drawer-toc-item" data-target="13">Sumário Geral da Obra (Partes 1 a 3)</li>
-          <li class="drawer-toc-item" data-target="14">Sumário Geral da Obra (Partes 4 a 6)</li>
-          <li class="drawer-toc-item" data-target="15">Fontes & Referências Bibliográficas</li>
-          <li class="drawer-toc-item" data-target="16">Notas Editoriais da ESDHUBEM</li>
-          <li class="drawer-toc-item" data-target="17">Contracapa Oficial</li>
+          <li class="drawer-toc-item" data-target="6">A Advertência Esquecida & A Alma Coletiva</li>
+          <li class="drawer-toc-item" data-target="7">O Segundo Alerta de 1962 (Quantidade vs. Qualidade)</li>
+          <li class="drawer-toc-item" data-target="8">Medir com Precisão vs. Decidir com Sabedoria</li>
+          <li class="drawer-toc-item" data-target="9">A Cegueira Estrutural do PIB</li>
+          <li class="drawer-toc-item" data-target="10">Uma Ferramenta de Guerra Virou Religião</li>
+          <li class="drawer-toc-item" data-target="11">O que Kuznets Não Viveu para Ver & Selic</li>
+          <li class="drawer-toc-item" data-target="12">A Libertação Dogmática da Economia</li>
+          <li class="drawer-toc-item" data-target="13">Por que Continuamos Medindo o PIB?</li>
+          <li class="drawer-toc-item" data-target="14">A Perversão da Planilha & O Cuidado</li>
+          <li class="drawer-toc-item" data-target="15">A Conta do Mal-Estar & Algoritmos do Ódio</li>
+          <li class="drawer-toc-item" data-target="16">O Despertar Ancestral & Beyond GDP</li>
+          <li class="drawer-toc-item" data-target="17">Sumário Geral da Obra (Partes 1 a 3)</li>
+          <li class="drawer-toc-item" data-target="18">Sumário Geral da Obra (Partes 4 a 6)</li>
+          <li class="drawer-toc-item" data-target="19">Fontes & Referências Bibliográficas</li>
+          <li class="drawer-toc-item" data-target="20">Notas Editoriais da ESDHUBEM</li>
+          <li class="drawer-toc-item" data-target="21">Contracapa Oficial</li>
         </ul>
       </div>
     </div>
