@@ -7,41 +7,6 @@
 
 ---
 
-## SUMÁRIO GERAL DA OBRA COMPLETA (PROJETO EDITORIAL)
-
-### PARTE 1 • FUNDAMENTOS CRÍTICOS & O DESPERTAR DA TERRA
-- **Prefácio Editorial:** Por que estamos vivendo o despertar da Terra e a urgência de novos horizontes?
-- **Capítulo 1:** A Gênese Bélica do PIB e a Advertência Esquecida de Simon Kuznets (1934–1962).
-- **Capítulo 2:** A Contabilidade da Destruição: Como a poluição, as doenças e as guerras geram crescimento artificial.
-- **Capítulo 3:** A Economia do Cuidado e o Trabalho Invisível: O valor do que a planilha hegemônica precifica como zero.
-
-### PARTE 2 • AS COSMOLOGIAS ANCESTRAIS E O BEM VIVER
-- **Capítulo 4:** *Sumak Kawsay*: A sabedoria dos povos andinos e a harmonia com a Pachamama.
-- **Capítulo 5:** *Teko Porã*: O modo de ser e viver bom dos povos Guarani.
-- **Capítulo 6:** *Ubuntu*: "Eu sou porque nós somos" — a filosofia africana da interdependência e da vida compartilhada.
-
-### PARTE 3 • TRANSIÇÃO ECOLÓGICA E DECRESCIMENTO PRÓSPERO
-- **Capítulo 7:** Os Limites Planetários do Sistema Terrestre e a Economia Donut (Kate Raworth).
-- **Capítulo 8:** Teoria dos Bens Comuns (Elinor Ostrom) e a Governança Coletiva da Água, Floresta e Solo.
-- **Capítulo 9:** Decrescimento Sereno vs. Hiperprodutivismo: A superação do fetiche do crescimento infinito.
-
-### PARTE 4 • ALÉM DO PIB: NOVOS INDICADORES DE FLORESCIMENTO HUMANO
-- **Capítulo 10:** A Iniciativa *Beyond GDP* das Nações Unidas: Métricas para o Século XXI.
-- **Capítulo 11:** Felicidade Interna Bruta (FIB) e o Índice de Progresso Genuíno (GPI).
-- **Capítulo 12:** Indicadores Multidimensionais de Saúde Coletiva, Regeneração Ecológica e Equidade.
-
-### PARTE 5 • EXPERIÊNCIAS GLOBAIS: POLÍTICAS PÚBLICAS EM MAIS DE 20 NAÇÕES
-- **Capítulo 13:** A Aliança dos Governos da Economia do Bem-Estar (WEGo): Nova Zelândia, Escócia, Islândia, Finlândia e País de Gales.
-- **Capítulo 14:** As Constituições do Equador e da Bolívia: Direitos da Natureza e o Bem Viver na Lei Fundamental.
-- **Capítulo 15:** Experiências Locais e Comunitárias de Moedas Sociais e Transição Ecológica no Sul Global.
-
-### PARTE 6 • MECANISMOS CONCRETOS DE TRANSIÇÃO E HORIZONTES DE CIVILIZAÇÃO
-- **Capítulo 16:** Reforma Financeira e Tributária Sustentável: Desarmando a armadilha dos juros e da especulação.
-- **Capítulo 17:** Da Ansiedade Digital ao Vínculo Comunitário: Enfrentando a economia da atenção e a polarização algorítmica.
-- **Capítulo 18:** Manifesto pelo Bem Viver: A plenitude da vida compartilhada como horizonte inegociável.
-
----
-
 # PARTE 1
 ## PREFÁCIO EDITORIAL
 ### Por que estamos vivendo o despertar da Terra e a urgência de novos horizontes?
@@ -58,7 +23,7 @@ O primeiro alerta ocorreu em 1934. Ele estava diante do Congresso dos Estados Un
 
 Ele foi mais além. Alertou explicitamente que sua métrica não deveria ser usada para avaliar o nível de felicidade da população, a qualidade da saúde pública, a extensão da justiça social, a vitalidade das comunidades ou a integridade dos ecossistemas. Kuznets sabia que o que ele havia criado era uma ferramenta de contabilidade da produção, não uma bússola da civilização. Era um termômetro da capacidade industrial, não um espelho da alma coletiva. 
 
-O segundo alerta veio em 1962. Décadas depois, com o mundo reconstruído e o PIB já elevado a "juiz supremo" do progresso humano, Kuznets reiterou que sua métrica era quantitativa, não qualitativa. Ele insistiu que o PIB contava toneladas de aço produzidas, mas não a felicidade do operário. Que registrava o valor de mercado de um desmatamento, mas não o silêncio das aves que deixavam de cantar. Que somava os gastos com armas, mas não subtraía o medo das crianças que cresciam sob ameaça.
+O segundo alerta veio em 1962. Décadas depois, com o mundo reconstruído e o PIB já elevado a "juiz supremo" do progresso humano, Kuznets reiterou que sua métrica era quantitativa, não qualitativa. Ele insistiu que o PIB contava toneladas de aço produzidas, mas não a felicidade do operário. Que registrava o valor de mercado de um desmatamento, mas não o silêncio das aves que deixavam de cantar. Que somava os gastos com armas, mas não subtraía o medo das crianças que cresciam sob ameaça: 
 
 Essa advertência fundamental de Kuznets ecoaria décadas depois nas obras de macroeconomistas críticos. Como bem observaram Thomas F. Dernburg e Duncan M. McDougall em seu influente livro *Macroeconomics* (década de 1960): 
 
@@ -88,17 +53,14 @@ Mais recentemente, somou-se a essa lógica perversa o engajamento digital: algor
 
 O PIB celebra. A vida, sangra.
 
-Este livro reúne informações que não fazem concessões ao reducionismo simplista em um momento crucial, no qual a sabedoria ancestral é reconhecida, mesmo que indiretamente, pelos mais recentes relatórios das Nações Unidas (*Beyond GDP*). Apoiando-se em indicadores empíricos de fontes governamentais e acadêmicas, a obra realiza uma análise profunda dos modelos de desenvolvimento de mais de 20 nações e das cosmologias milenares de povos originários brasileiros e africanos (como o *Sumak Kawsay*, o *Teko Porã* e o *Ubuntu*). Desse modo, órgãos e instituições internacionais finalmente confirmam, por meio de estudos, aquilo que os povos ancestrais já defendiam há centenas de anos. 
+Este livro reúne informações que não fazem concessões ao reducionismo simplista em um momento crucial, no qual a sabedoria ancestral é reconhecida, mesmo que indiretamente, pelos mais recentes relatórios das Nações Unidas (Beyond GDP). Apoiando-se em indicadores empíricos de fontes governamentais e acadêmicas, a obra realiza uma análise profunda dos modelos de desenvolvimento de mais de 20 nações e das cosmologias milenares de povos originários brasileiros e africanos (como o Sumak Kawsay, o Teko Porã e o Ubuntu). Desse modo, órgãos e instituições internacionais finalmente confirmam, por meio de estudos, aquilo que os povos ancestrais já defendiam há centenas de anos. 
 
 Trata-se de um mapa para quem compreendeu que a Terra gira e que a verdadeira riqueza civilizatória não se mede pelo acúmulo de bens, mas pela plenitude da vida compartilhada.
 
 ---
 
-### FONTES & REFERÊNCIAS BIBLIOGRÁFICAS
+### FONTES & REFERÊNCIAS CITADAS NO TEXTO
 - [1] Kuznets, Simon. (1934). *National Income, 1929–1932*. 73rd US Congress, 2d session, Senate document no. 124. Washington, DC: Government Printing Office.
 - [2] Kuznets, Simon. (1971). *Economic Growth of Nations: Total Output and Production Structure*. Cambridge, MA: Harvard University Press.
 - [3] Raworth, Kate. (2017). *Doughnut Economics: Seven Ways to Think Like a 21st-Century Economist*. London: Random House Business Books.
 - [4] Dernburg, Thomas F.; McDougall, Duncan M. (1960). *Macroeconomics: The Measurement, Analysis, and Control of Aggregate Economic Activity*. New York: McGraw-Hill.
-- [5] Acosta, Alberto. (2016). *O Bem Viver: Uma Oportunidade para Imaginar Outros Mundos*. São Paulo: Autonomia Literária / Elefante.
-- [6] Krenak, Ailton. (2019). *Ideias para Adiar o Fim do Mundo*. São Paulo: Companhia das Letras.
-- [7] United Nations. (2023). *Beyond GDP: What Counts for Sustainable Development*. UN Our Common Agenda Policy Brief 8. New York: UN Publishing.
