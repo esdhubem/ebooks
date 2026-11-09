@@ -59,8 +59,8 @@ Trata-se de um mapa para quem compreendeu que a Terra gira e que a verdadeira ri
 
 ---
 
-### FONTES & REFERÊNCIAS CITADAS NO TEXTO
-- [1] Kuznets, Simon. (1934). *National Income, 1929–1932*. 73rd US Congress, 2d session, Senate document no. 124. Washington, DC: Government Printing Office.
-- [2] Kuznets, Simon. (1971). *Economic Growth of Nations: Total Output and Production Structure*. Cambridge, MA: Harvard University Press.
-- [3] Raworth, Kate. (2017). *Doughnut Economics: Seven Ways to Think Like a 21st-Century Economist*. London: Random House Business Books.
-- [4] Dernburg, Thomas F.; McDougall, Duncan M. (1960). *Macroeconomics: The Measurement, Analysis, and Control of Aggregate Economic Activity*. New York: McGraw-Hill.
+### FONTES & REFERÊNCIAS CITADAS NO PREFÁCIO
+- [1] Britannica, The Editors of Encyclopaedia. "Simon Kuznets." *Encyclopedia Britannica*, 19 May. 2026, https://www.britannica.com/money/Simon-Kuznets. Accessed 8 November 2026.
+- [2] WIKIPÉDIA. *Simon Kuznets: american economist and statistician*. s/d. Disponível em: https://pt.wikipedia.org/wiki/Simon_Kuznets. Acesso em: 8 nov. 2026.
+- [3] ITAÚ. *PIB: o que ele revela sobre a nossa economia?* 2025. Disponível em: https://feito.itau.com.br/pib-o-que-ele-revela-sobre-a-nossa-economia/. Acesso em: 8 nov. 2026.
+- [4] DERNBURG, Thomas F.; McDOUGALL, Duncan M. *Macroeconomics: The Measurement, Analysis, and Control of Aggregate Economic Activity*. Nova York: McGraw-Hill, 1960.
