@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Economia do Bem Viver Bem: Além do PIB | ESDHUBEM E-books</title>
+  
+  <meta name="description" content="Economia do Bem Viver Bem: Além do PIB, Filosofias & Horizontes de Civilização - Obra Autoral de Silviane Silvério. Livro digital interativo com áudio e efeito de folhear.">
+  <meta name="theme-color" content="#061a14">
+  
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="assets/icons/pwa-192x192.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    /* Personalização elegante para a obra Economia do Bem Viver */
+    :root {
+      --book-accent-green: #10b981;
+      --book-accent-gold: #f59e0b;
+      --book-forest-dark: #041f17;
+    }
+    .cover-bem-viver {
+      background: radial-gradient(circle at 50% 25%, #064e3b 0%, #03251c 60%, #02120e 100%) !important;
+      border: 3px solid rgba(16, 185, 129, 0.35);
+    }
+    .cover-bem-viver .cover-title {
+      font-size: 1.85rem;
+      letter-spacing: 0.5px;
+      color: #f1f5f9;
+    }
+    .cover-bem-viver .cover-title span {
+      display: block;
+      color: #34d399;
+      font-size: 1.25rem;
+      margin-top: 0.35rem;
+      font-weight: 400;
+      letter-spacing: 1.5px;
+    }
+    .badge-nature {
+      background: rgba(16, 185, 129, 0.15) !important;
+      color: #34d399 !important;
+      border-color: rgba(52, 211, 153, 0.4) !important;
+    }
+    .callout-quote {
+      border-left: 3px solid #10b981;
+      background: rgba(16, 185, 129, 0.07);
+      padding: 0.8rem 1rem;
+      border-radius: 0 8px 8px 0;
+      font-style: italic;
+      margin: 0.8rem 0;
+      color: #1e293b;
+      font-size: 0.9rem;
+      line-height: 1.55;
+    }
+    .callout-quote strong {
+      color: #065f46;
+    }
+    .toc-part-header {
+      font-size: 0.76rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: #047857;
+      margin: 0.7rem 0 0.25rem 0;
+      border-bottom: 1px dashed rgba(4, 120, 87, 0.3);
+      padding-bottom: 0.2rem;
+    }
+    .toc-item-compact {
+      font-size: 0.82rem;
+      padding: 0.35rem 0;
+      line-height: 1.35;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOP HEADER MINIMALISTA -->
+  <header class="app-header">
+    <div class="brand-wrapper">
+      <a href="index.html" class="brand-mini-link" title="Voltar à Biblioteca de Livros">
+        <img src="assets/images/logo-cursos.png" alt="ESDHUBEM" class="brand-logo-mini" onerror="this.src='assets/icons/pwa-192x192.png'">
+        <span class="brand-name-mini">ESDHUBEM</span>
+      </a>
+    </div>
+    
+    <div class="header-actions">
+      <button id="btnQuickMenu" class="btn-icon" title="Sumário e Capítulos">📑</button>
+      <button id="btnFontMinus" class="btn-icon" title="Diminuir Fonte">A-</button>
+      <button id="btnFontPlus" class="btn-icon" title="Aumentar Fonte">A+</button>
+      <button id="btnToggleSound" class="btn-icon" title="Som de folhear">🔊</button>
+      <button id="btnFullscreen" class="btn-icon" title="Modo tela cheia">⛶</button>
+      <button id="btnLockBook" class="btn-icon" title="Bloquear Leitor">🔒</button>
+    </div>
+  </header>
+
+  <!-- MAIN BOOK STAGE -->
+  <main class="book-stage">
+    <div id="bookLoader" class="book-loader">
+      <div class="book-loader-spinner"></div>
+      <span>Carregando Livro ESDHUBEM...</span>
+    </div>
+    <div id="bookContainer" class="flip-book-container">
+
+      <!-- PÁGINA 1: CAPA RIGIDA -->
+      <div class="page --cover cover-bem-viver" data-density="hard">
+        <div class="cover-content">
+          <div class="cover-badge badge-nature">Coleção Civilização & Desenvolvimento Humano</div>
+          <div class="cover-main">
+            <h1 class="cover-title">
+              ECONOMIA DO BEM VIVER BEM
+              <span>Além do PIB, Filosofias & Horizontes de Civilização</span>
+            </h1>
+            <p class="cover-subtitle" style="color: #cbd5e1; margin-top: 0.6rem;">
+              Volume 1 • Parte 1: O Despertar da Terra & Prefácio Editorial
+            </p>
+            <div class="cover-tagline" style="border-color: rgba(52, 211, 153, 0.4); color: #a7f3d0;">
+              Por que estamos vivendo o despertar da Terra e a urgência de novos horizontes?
+            </div>
+          </div>
+          <div class="cover-author">
+            Escola de Desenvolvimento Humano e Bem-Estar
+            <strong>Profª. Silviane Silvério</strong>
+          </div>
+        </div>
+      </div>
+
+      <!-- PÁGINA 2: FICHA CATALOGRÁFICA CIP -->
+      <div class="page">
+        <div class="page-body">
+          <div class="cip-container">
+            <div class="cip-title">Dados Internacionais de Catalogação na Publicação (CIP)</div>
+            <div class="cip-body">
+              <strong>S587e &nbsp; Silvério, Silviane</strong><br>
+              <strong>Economia do Bem Viver Bem: além do PIB, filosofias & horizontes de civilização: parte 1 — prefácio editorial</strong> / Silviane Silvério. — 1. ed. — São Paulo: ESDHUBEM Publicações, 2026.<br>
+              32 p. : il.<br><br>
+              <strong>ISBN:</strong> 978-65-00-98741-2 <em>(Edição Digital Master / PWA)</em><br>
+              1. Economia Ecológica. 2. Bem Viver (Sumak Kawsay, Teko Porã). 3. Além do PIB (Beyond GDP). 4. Filosofias Originárias & Ubuntu. 5. Crítica Macroeconômica — Simon Kuznets. 6. Desenvolvimento Humano e Justiça Climática. I. Título.<br>
+              <strong>CDD:</strong> 330.1 &nbsp;|&nbsp; <strong>CDU:</strong> 330.342.14
+            </div>
+          </div>
+          <div style="font-size: 0.78rem; color: #64748b; line-height: 1.5; margin-top: 1.5rem; text-align: justify;">
+            <p><strong>© 2026 ESDHUBEM — Escola de Desenvolvimento Humano e Bem-Estar.</strong></p>
+            <p>Todos os direitos reservados. Nenhuma parte desta publicação pode ser reproduzida ou transmitida sem prévia autorização da instituição e da autora.</p>
+            <p style="margin-top: 0.5rem;"><strong>Coordenação Editorial & Pesquisa:</strong> Núcleo de Economia Regenerativa e Sabedorias Ancestrais ESDHUBEM.</p>
+          </div>
+        </div>
+        <div class="page-footer">
+          <span>ESDHUBEM Publicações</span>
+          <span>Pág. 02</span>
+        </div>
+      </div>
+
+      <!-- PÁGINA 3: ÍNDICE DA PARTE 1 -->
+      <div class="page">
+        <div class="page-body">
+          <h2 class="page-heading" style="margin-top: 0; margin-bottom: 0.25rem;">Índice da Parte 1</h2>
+          <div class="chapter-badge badge-nature" style="margin-bottom: 0.45rem;">Prefácio Editorial & Tópicos</div>
+          <ul class="toc-list">
+            <li class="toc-item" data-target="3">
+              <span class="toc-title">Prefácio: O Despertar da Terra & Áudio Oficial</span>
+              <span class="toc-page">04</span>
+            </li>
+            <li class="toc-item" data-target="4">
+              <span class="toc-title">A Ironia Trágica de Simon Kuznets (1901–1985)</span>
+              <span class="toc-page">05</span>
+            </li>
+            <li class="toc-item" data-target="5">
+              <span class="toc-title">Os Dois Alertas Históricos ao Congresso (1934 & 1962)</span>
+              <span class="toc-page">06</span>
+            </li>
+            <li class="toc-item" data-target="6">
+              <span class="toc-title">A Cegueira Estrutural do PIB e o Estetoscópio</span>
+              <span class="toc-page">07</span>
+            </li>
+            <li class="toc-item" data-target="7">
+              <span class="toc-title">O Custo Humano: Da Selic ao Burnout Coletivo</span>
+              <span class="toc-page">08</span>
+            </li>
+            <li class="toc-item" data-target="8">
+              <span class="toc-title">A Economia do Cuidado e a Conta do Mal-Estar</span>
+              <span class="toc-page">09</span>
+            </li>
+            <li class="toc-item" data-target="9">
+              <span class="toc-title">O Chamado Ancestral e a Iniciativa Beyond GDP</span>
+              <span class="toc-page">10</span>
+            </li>
+            <li class="toc-item" data-target="10">
+              <span class="toc-title">Sumário Geral da Obra Completa (Partes 1 a 3)</span>
+              <span class="toc-page">11</span>
+            </li>
+            <li class="toc-item" data-target="11">
+              <span class="toc-title">Sumário Geral da Obra Completa (Partes 4 a 6)</span>
+              <span class="toc-page">12</span>
+            </li>
+            <li class="toc-item" data-target="12">
+              <span class="toc-title">Fontes & Referências Bibliográficas de Base</span>
+              <span class="toc-page">13</span>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer">
+          <span>Sumário Inicial</span>
+          <span>Pág. 03</span>
+        </div>
+      </div>
+
+      <!-- PÁGINA 4: PREFÁCIO EDITORIAL (COM PLAYER DE ÁUDIO OFICIAL) -->
+      <div class="page">
+        <div class="page-body">
+          <div class="chapter-badge badge-nature">Parte 1 • Prefácio Editorial</div>
+          <h2 class="page-heading">Por que estamos vivendo o despertar da Terra e a urgência de novos horizontes?</h2>
+          
+          <!-- AUDIO CARD OFICIAL ARCHIVE.ORG -->
+          <div class="audio-card">
+            <div class="audio-header">
+              <div class="audio-icon-pulse">🎙️</div>
+              <div class="audio-info">
+                <h4>Áudio Oficial • Prefácio Editorial</h4>
+                <span>Profª Silviane Silvério • Narração Autoral & Reflexão</span>
+              </div>
+            </div>
+            <div class="audio-embed-wrapper">
+              <iframe 
+                src="https://archive.org/embed/economia_bem_viver_prefacio" 
+                width="100%" 
+                height="34" 
+                frameborder="0" 
+                webkitallowfullscreen="true" 
+                mozallowfullscreen="true" 
+                allowfullscreen="" 
+                style="width: 100%; height: 34px; border: none; border-radius: 6px; display: block;">
+              </iframe>
+            </div>
+          </div>
+
+          <p class="page-text first-letter">Durante quase um século, a humanidade guiou suas políticas públicas, suas prioridades orçamentárias e suas aspirações coletivas através de uma única régua contábil: o <strong>Produto Interno Bruto (PIB)</strong>. O PIB foi concebido na década de 1930 para medir a capacidade produtiva e bélica em tempos de guerra e depressão econômica; nunca foi projetado para atuar como termômetro de felicidade, justiça social, dignidade comunitária ou saúde ecológica [3].</p>
+        </div>
+        <div class="page-footer">
+          <span>Parte 1 • Prefácio Editorial</span>
+          <span>Pág. 04</span>
+        </div>
+      </div>
+
+      <!-- PÁGINA 5: SIMON KUZNETS -->
+      <div class="page">
+        <div class="page-body">
+          <div class="chapter-badge badge-nature">História do Pensamento Econômico</div>
+          <h2 class="page-heading">A Ironia Trágica de Simon Kuznets</h2>
+          
+          <p class="page-text">O arquiteto da métrica que hoje nos governa e a história do PIB carregam uma ironia trágica: seu criador foi também seu primeiro e mais lúcido crítico. O nome dele era <strong>Simon Smith Kuznets (1901–1985)</strong>. Economista e estatístico, nascido na Bielorrússia, filho de uma família judia que emigrou para os Estados Unidos em 1922, Kuznets dedicou a vida a compreender os ciclos econômicos e a distribuição de renda, temas que, em suas mãos, nunca foram apenas números, mas expressões da dignidade ou indignidade humana [1, 2].</p>
+          
+          <p class="page-text">Em 1971, Kuznets receberia o <strong>Prêmio Nobel de Economia</strong> por suas análises empiricamente fundamentadas sobre o crescimento econômico. Mas muito antes do Nobel, em dois momentos históricos decisivos, Kuznets ergueu a voz para alertar o mundo sobre o que estava sendo feito com sua criação. E o mundo, surdo, seguiu em frente.</p>
+        </div>
+        <div class="page-footer">
+          <span>Simon Kuznets & O PIB</span>
+          <span>Pág. 05</span>
+        </div>
+      </div>
+
+      <!-- PÁGINA 6: OS DOIS ALERTAS HISTÓRICOS -->
+      <div class="page">
+        <div class="page-body">
+          <div class="chapter-badge badge-nature">Alertas ao Congresso dos EUA</div>
+          <h2 class="page-heading">Os Alertas Históricos: 1934 e 1962</h2>
+          
+          <p class="page-text">O primeiro alerta ocorreu em 1934. Ele estava diante do Congresso dos Estados Unidos, no auge da Grande Depressão, onde o país sangrava economicamente, e o governo Roosevelt precisava de uma ferramenta para mensurar a extensão do desastre e orientar a reconstrução. Kuznets foi chamado para essa tarefa e entregou um sistema de contas nacionais que revolucionaria a economia mundial. Mas, ao apresentar seu relatório ao Congresso americano, fez questão de deixar registrada uma advertência:</p>
+          
+          <div class="callout-quote">
+            "O bem-estar de uma nação dificilmente pode ser inferido a partir de uma medida da renda nacional."<br>
+            <strong>— Simon Kuznets, Relatório ao Senado Americano (1934)</strong>
+          </div>
+
+          <p class="page-text">Ele foi mais além. Alertou explicitamente que sua métrica não deveria ser usada para avaliar o nível de felicidade da população, a qualidade da saúde pública, a extensão da justiça social, a vitalidade das comunidades ou a integridade dos ecossistemas. Kuznets sabia que o que havia criado era uma ferramenta de contabilidade da produção, não uma bússola da civilização.</p>
+        </div>
+        <div class="page-footer">
+          <span>Os Alertas de 1934 e 1962</span>
+          <span>Pág. 06</span>
+        </div>
+      </div>
+
+      <!-- PÁGINA 7: A CEGUEIRA ESTRUTURAL -->
+      <div class="page">
+        <div class="page-body">
+          <div class="chapter-badge badge-nature">Limites Epistemológicos</div>
+          <h2 class="page-heading">A Cegueira Estrutural da Métrica</h2>
+          
+          <p class="page-text">O segundo alerta veio em 1962. Décadas depois, com o mundo reconstruído e o PIB já elevado a "juiz supremo" do progresso humano, Kuznets reiterou que sua métrica era quantitativa, não qualitativa. Ele insistiu que o PIB contava toneladas de aço produzidas, mas não a felicidade do operário. Que registrava o valor de mercado de um desmatamento, mas não o silêncio das aves que deixavam de cantar. Que somava os gastos com armas, mas não subtraía o medo das crianças que cresciam sob ameaça.</p>
+
+          <p class="page-text">Essa advertência fundamental ecoaria décadas depois nas obras de macroeconomistas críticos. Como bem observaram Thomas F. Dernburg e Duncan M. McDougall em seu influente livro <em>Macroeconomics</em> (década de 1960):</p>
+
+          <div class="callout-quote">
+            "Especificações sobre o que deve ser incluído ou excluído das estimativas do Produto Nacional tornam-se, com frequência, objeto de controvérsia política. A capacidade de medir com precisão é frequentemente confundida com a capacidade de decidir com sabedoria." [4]
+          </div>
+        </div>
+        <div class="page-footer">
+          <span>Crítica Macroeconômica</span>
+          <span>Pág. 07</span>
+        </div>
+      </div>
+
+      <!-- PÁGINA 8: O ESTETOSCÓPIO NO LUGAR ERRADO -->
+      <div class="page">
+        <div class="page-body">
+          <div class="chapter-badge badge-nature">Diagnóstico da Civilização</div>
+          <h2 class="page-heading">O Estetoscópio no Lugar Errado</h2>
+          
+          <p class="page-text">Usar o PIB como uma espécie de bússola civilizatória é como usar um estetoscópio para medir a pressão arterial: o instrumento é preciso, mas está sendo aplicado no lugar errado. E, no entanto, foi exatamente isso que fizeram. Uma ferramenta de contabilidade de guerra foi transformada em religião global e, por isso, nas últimas décadas, vivemos em guerras e rumores de guerras constantes.</p>
+
+          <p class="page-text">Substituímos a sabedoria dos povos originários, que há milênios mediam o florescimento pela saúde do solo, pela vitalidade das águas e pela harmonia das relações, pela cegueira de um número que conta como "riqueza" o desmatamento, como "crescimento" a doença, como "progresso" a bomba.</p>
+
+          <p class="page-text">Simon Kuznets morreu em 1985. Ele não viveu para ver o PIB se tornar o deus que devora a Mãe Terra. Não viveu para ver a taxa Selic da economia brasileira drenar orçamentos inteiros de saúde e educação. Não viveu para ver os jovens negros serem contados como estatística de homicídio enquanto o PIB "crescia". Não viveu para ver o <em>burnout</em> coletivo ser tratado como falha individual, enquanto o mercado celebrava a hiperprodutividade.</p>
+        </div>
+        <div class="page-footer">
+          <span>O Custo Social & Humano</span>
+          <span>Pág. 08</span>
+        </div>
+      </div>
+
+      <!-- PÁGINA 9: A CONTA DO MAL-ESTAR -->
+      <div class="page">
+        <div class="page-body">
+          <div class="chapter-badge badge-nature">A Economia Perversa</div>
+          <h2 class="page-heading">A Contabilidade do Mal-Estar</h2>
+          
+          <p class="page-text">Hoje, os limites desse paradigma se tornaram evidentes e preocupantes, pois dentro do conceito do PIB não cabe uma floresta milenar derrubada, um derrame de petróleo que exige milhões em despoluição ou um aumento desenfreado de doenças crônicas que inflacionam os gastos hospitalares somando positivamente no crescimento do PIB.</p>
+
+          <p class="page-text">Por outro lado, o trabalho doméstico e de cuidado não remunerado das mães, as redes solidárias de vizinhança, o ar puro, a cultura oral ancestral e a tranquilidade de viver em harmonia são contabilizados como <strong>"zero"</strong> pelo sistema econômico hegemônico. Esse zero não é um erro de cálculo, é uma declaração de valor. Ele diz, em linguagem fria de planilha, que o lado humano, comum, social e afetivo da existência não tem lugar na economia e, por extensão, na política.</p>
+
+          <p class="page-text">Mais recentemente, somou-se a essa lógica perversa o engajamento digital: algoritmos que recompensam o ódio, a polarização e a desinformação. O PIB celebra. A vida, sangra.</p>
+        </div>
+        <div class="page-footer">
+          <span>Economia do Cuidado</span>
+          <span>Pág. 09</span>
+        </div>
+      </div>
+
+      <!-- PÁGINA 10: O RETORNO ANCESTRAL E BEYOND GDP -->
+      <div class="page">
+        <div class="page-body">
+          <div class="chapter-badge badge-nature">Horizontes de Civilização</div>
+          <h2 class="page-heading">O Despertar da Terra & Beyond GDP</h2>
+          
+          <p class="page-text">Este livro reúne informações que não fazem concessões ao reducionismo simplista em um momento crucial, no qual a sabedoria ancestral é reconhecida, mesmo que indiretamente, pelos mais recentes relatórios das Nações Unidas (<em>Beyond GDP</em>). Apoiando-se em indicadores empíricos de fontes governamentais e acadêmicas, a obra realiza uma análise profunda dos modelos de desenvolvimento de mais de 20 nações e das cosmologias milenares de povos originários brasileiros e africanos (como o <strong>Sumak Kawsay</strong>, o <strong>Teko Porã</strong> e o <strong>Ubuntu</strong>).</p>
+
+          <p class="page-text">Desse modo, órgãos e instituições internacionais finalmente confirmam, por meio de estudos, aquilo que os povos ancestrais já defendiam há centenas de anos.</p>
+
+          <div class="callout-quote" style="border-left-color: #047857; background: rgba(4, 120, 87, 0.08);">
+            "Trata-se de um mapa para quem compreendeu que a Terra gira e que a verdadeira riqueza civilizatória não se mede pelo acúmulo de bens, mas pela plenitude da vida compartilhada."
+          </div>
+        </div>
+        <div class="page-footer">
+          <span>Plenitude da Vida</span>
+          <span>Pág. 10</span>
+        </div>
+      </div>
+
+      <!-- PÁGINA 11: SUMÁRIO GERAL DA OBRA COMPLETA (PARTE I) -->
+      <div class="page">
+        <div class="page-body">
+          <h2 class="page-heading" style="margin-top: 0; margin-bottom: 0.2rem;">Sumário Geral da Obra</h2>
+          <div class="chapter-badge badge-nature" style="margin-bottom: 0.35rem;">Coleção Completa • Mapeamento Temático</div>
+
+          <div class="toc-part-header">PARTE 1 • Fundamentos Críticos & O Despertar da Terra</div>
+          <ul class="toc-list" style="margin-bottom: 0.5rem;">
+            <li class="toc-item toc-item-compact"><span class="toc-title">Prefácio: O Despertar da Terra e a Urgência de Novos Horizontes</span></li>
+            <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 1: A Gênese Bélica do PIB e o Alerta de Simon Kuznets</span></li>
+            <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 2: A Contabilidade da Destruição: Poluição, Doença e Guerra</span></li>
+            <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 3: A Economia do Cuidado e o Trabalho Precificado como Zero</span></li>
+          </ul>
+
+          <div class="toc-part-header">PARTE 2 • As Cosmologias Ancestrais e o Bem Viver</div>
+          <ul class="toc-list" style="margin-bottom: 0.5rem;">
+            <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 4: Sumak Kawsay: Sabedoria Andina e Harmonia com a Pachamama</span></li>
+            <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 5: Teko Porã: O Modo de Viver Bom dos Povos Guarani</span></li>
+            <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 6: Ubuntu: "Eu sou porque nós somos" — Filosofia Africana</span></li>
+          </ul>
+
+          <div class="toc-part-header">PARTE 3 • Transição Ecológica & Decrescimento Próspero</div>
+          <ul class="toc-list">
+            <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 7: Limites Planetários e a Economia Donut (Kate Raworth)</span></li>
+            <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 8: Teoria dos Bens Comuns e a Governança das Águas e Florestas</span></li>
+            <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 9: Decrescimento Sereno vs. Hiperprodutivismo Acelerado</span></li>
+          </ul>
+        </div>
+        <div class="page-footer">
+          <span>Sumário da Obra • Partes 1 a 3</span>
+          <span>Pág. 11</span>
+        </div>
+      </div>
+
+      <!-- PÁGINA 12: SUMÁRIO GERAL DA OBRA COMPLETA (PARTE II) -->
+      <div class="page">
+        <div class="page-body">
+          <h2 class="page-heading" style="margin-top: 0; margin-bottom: 0.2rem;">Sumário Geral da Obra</h2>
+          <div class="chapter-badge badge-nature" style="margin-bottom: 0.35rem;">Coleção Completa • Mapeamento Temático</div>
+
+          <div class="toc-part-header">PARTE 4 • Além do PIB: Novos Indicadores de Florescimento</div>
+          <ul class="toc-list" style="margin-bottom: 0.5rem;">
+            <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 10: A Iniciativa Beyond GDP das Nações Unidas</span></li>
+            <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 11: Felicidade Interna Bruta (FIB) e Progresso Genuíno (GPI)</span></li>
+            <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 12: Indicadores Multidimensionais de Saúde e Regeneração</span></li>
+          </ul>
+
+          <div class="toc-part-header">PARTE 5 • Políticas Públicas em Mais de 20 Nações</div>
+          <ul class="toc-list" style="margin-bottom: 0.5rem;">
+            <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 13: Governos do Bem-Estar (WEGo): NZ, Escócia, Islândia, Finlândia</span></li>
+            <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 14: Constituições Andinas: Direitos da Natureza na Lei Maior</span></li>
+            <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 15: Moedas Sociais, Bancos Comunitários e o Sul Global</span></li>
+          </ul>
+
+          <div class="toc-part-header">PARTE 6 • Mecanismos de Transição & Novos Horizontes</div>
+          <ul class="toc-list">
+            <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 16: Reforma Financeira Sustentável contra a Especulação</span></li>
+            <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 17: Da Ansiedade Digital ao Fortalecimento Comunitário</span></li>
+            <li class="toc-item toc-item-compact"><span class="toc-title">Cap. 18: Manifesto pelo Bem Viver: A Vida Compartilhada</span></li>
+          </ul>
+        </div>
+        <div class="page-footer">
+          <span>Sumário da Obra • Partes 4 a 6</span>
+          <span>Pág. 12</span>
+        </div>
+      </div>
+
+      <!-- PÁGINA 13: FONTES & REFERÊNCIAS -->
+      <div class="page">
+        <div class="page-body">
+          <div class="chapter-badge badge-nature">Aparato Acadêmico</div>
+          <h2 class="page-heading">Fontes & Literatura de Base</h2>
+
+          <div style="font-size: 0.78rem; line-height: 1.5; color: #334155;">
+            <p style="margin-bottom: 0.6rem;">
+              <strong>[1] KUZNETS, Simon.</strong> (1934). <em>National Income, 1929–1932</em>. 73rd US Congress, 2d session, Senate document no. 124. Washington, DC: Government Printing Office.
+            </p>
+            <p style="margin-bottom: 0.6rem;">
+              <strong>[2] KUZNETS, Simon.</strong> (1971). <em>Economic Growth of Nations: Total Output and Production Structure</em>. Cambridge, MA: Harvard University Press.
+            </p>
+            <p style="margin-bottom: 0.6rem;">
+              <strong>[3] RAWORTH, Kate.</strong> (2017). <em>Doughnut Economics: Seven Ways to Think Like a 21st-Century Economist</em>. London: Random House Business Books.
+            </p>
+            <p style="margin-bottom: 0.6rem;">
+              <strong>[4] DERNBURG, Thomas F.; McDOUGALL, Duncan M.</strong> (1960). <em>Macroeconomics: The Measurement, Analysis, and Control of Aggregate Economic Activity</em>. New York: McGraw-Hill.
+            </p>
+            <p style="margin-bottom: 0.6rem;">
+              <strong>[5] ACOSTA, Alberto.</strong> (2016). <em>O Bem Viver: Uma Oportunidade para Imaginar Outros Mundos</em>. São Paulo: Autonomia Literária / Elefante.
+            </p>
+            <p style="margin-bottom: 0.6rem;">
+              <strong>[6] KRENAK, Ailton.</strong> (2019). <em>Ideias para Adiar o Fim do Mundo</em>. São Paulo: Companhia das Letras.
+            </p>
+            <p style="margin-bottom: 0.6rem;">
+              <strong>[7] UNITED NATIONS.</strong> (2023). <em>Beyond GDP: What Counts for Sustainable Development</em>. Our Common Agenda Policy Brief 8. New York: UN Publishing.
+            </p>
+          </div>
+        </div>
+        <div class="page-footer">
+          <span>Referências Bibliográficas</span>
+          <span>Pág. 13</span>
+        </div>
+      </div>
+
+      <!-- PÁGINA 14: CONTRACAPA RIGIDA -->
+      <div class="page --cover cover-bem-viver" data-density="hard">
+        <div class="cover-content" style="justify-content: center; text-align: center;">
+          <div class="cover-badge badge-nature" style="margin-bottom: 1.5rem;">ESDHUBEM • Obras Autorais</div>
+          <h2 style="font-family: var(--font-serif); font-size: 1.7rem; color: #34d399; margin-bottom: 1rem;">
+            A Plenitude da Vida Compartilhada
+          </h2>
+          <p style="font-size: 0.92rem; line-height: 1.7; color: #e2e8f0; max-width: 380px; margin: 0 auto 2rem auto;">
+            "A capacidade de medir com precisão não pode continuar sendo confundida com a capacidade de decidir com sabedoria. O futuro pertence aos que cuidam da Terra, das águas e das relações humanas."
+          </p>
+          <div style="font-size: 0.8rem; letter-spacing: 2px; color: #6ee7b7; text-transform: uppercase;">
+            Profª. Silviane Silvério • Brasil • 2026
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- BOTTOM READER DOCK -->
+  <nav class="reader-dock">
+    <button id="btnPrev" class="dock-btn" title="Página Anterior">◀</button>
+    <input type="range" id="pageSlider" class="dock-slider" min="1" max="14" value="1">
+    <span id="pageIndicator" class="dock-pages">1 / 14</span>
+    <button id="btnNext" class="dock-btn" title="Próxima Página">▶</button>
+  </nav>
+
+  <!-- DRAWER / MENU LATERAL DE CAPÍTULOS -->
+  <div id="drawerOverlay" class="drawer-overlay hidden">
+    <div class="drawer-card">
+      <div class="drawer-header">
+        <h3>📑 Sumário Geral</h3>
+        <button id="btnCloseDrawer" class="btn-icon">✕</button>
+      </div>
+      <div class="drawer-body">
+        <ul class="drawer-toc-list">
+          <li class="drawer-toc-item" data-target="0">Capa Principal</li>
+          <li class="drawer-toc-item" data-target="1">Ficha Catalográfica CIP</li>
+          <li class="drawer-toc-item" data-target="2">Índice da Parte 1</li>
+          <li class="drawer-toc-item" data-target="3">Prefácio Editorial (com Áudio Oficial)</li>
+          <li class="drawer-toc-item" data-target="4">A Ironia Trágica de Simon Kuznets</li>
+          <li class="drawer-toc-item" data-target="5">Os Dois Alertas Históricos (1934 e 1962)</li>
+          <li class="drawer-toc-item" data-target="6">A Cegueira Estrutural do PIB</li>
+          <li class="drawer-toc-item" data-target="7">O Estetoscópio no Lugar Errado & Selic</li>
+          <li class="drawer-toc-item" data-target="8">A Contabilidade do Mal-Estar & Cuidado</li>
+          <li class="drawer-toc-item" data-target="9">O Despertar da Terra & Beyond GDP</li>
+          <li class="drawer-toc-item" data-target="10">Sumário Geral da Obra (Partes 1 a 3)</li>
+          <li class="drawer-toc-item" data-target="11">Sumário Geral da Obra (Partes 4 a 6)</li>
+          <li class="drawer-toc-item" data-target="12">Fontes & Referências Bibliográficas</li>
+          <li class="drawer-toc-item" data-target="13">Contracapa Oficial</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ACCESS OVERLAY (PWA PROTECTED) -->
+  <div id="accessOverlay" class="access-modal-overlay hidden">
+    <div class="access-card">
+      <div class="access-badge">
+        <span>🔐 Área Exclusiva do Leitor</span>
+      </div>
+      <h3 class="access-title">Leitor Digital ESDHUBEM</h3>
+      <p class="access-desc">
+        Insira sua chave de acesso ou código de matrícula para desbloquear a obra completa.
+      </p>
+
+      <form id="accessForm" class="access-form">
+        <div class="input-wrapper">
+          <input 
+            type="text" 
+            id="inputAccessCode" 
+            class="input-code" 
+            placeholder="Ex: ESDHUBEM-VIP ou seu código" 
+            autocomplete="off" 
+            required>
+        </div>
+        <button type="submit" class="btn-unlock">🔓 Desbloquear e Ler Agora</button>
+        <span id="accessError" class="error-message">❌ Código não encontrado ou inválido. Tente novamente!</span>
+      </form>
+
+      <div class="access-hints">
+        <p>Chaves de demonstração para teste:</p>
+        <div class="demo-keys">
+          <span class="chip-key">ESDHUBEM-VIP</span>
+          <span class="chip-key">LIVRO-2026</span>
+          <span class="chip-key">DEMO</span>
+        </div>
+        <p style="margin-top: 0.8rem; font-size: 0.75rem;">
+          Adquiriu na Hotmart, Kiwify ou WhatsApp? <br>
+          Seu código foi enviado ao seu e-mail de compra.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="assets/js/page-flip.browser.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
