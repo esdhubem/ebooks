@@ -64,3 +64,65 @@ Trata-se de um mapa para quem compreendeu que a Terra gira e que a verdadeira ri
 - [2] WIKIPÉDIA. *Simon Kuznets: american economist and statistician*. s/d. Disponível em: https://pt.wikipedia.org/wiki/Simon_Kuznets. Acesso em: 8 nov. 2026.
 - [3] ITAÚ. *PIB: o que ele revela sobre a nossa economia?* 2025. Disponível em: https://feito.itau.com.br/pib-o-que-ele-revela-sobre-a-nossa-economia/. Acesso em: 8 nov. 2026.
 - [4] DERNBURG, Thomas F.; McDOUGALL, Duncan M. *Macroeconomics: The Measurement, Analysis, and Control of Aggregate Economic Activity*. Nova York: McGraw-Hill, 1960.
+
+---
+
+# INTRODUÇÃO: O QUE É ESTE LIVRO
+**Áudio Oficial da Introdução:** [Archive.org - Introdução](https://archive.org/details/introducao_20261111)
+
+Este livro busca ser, ao mesmo tempo, um espelho crítico da sociedade atual e uma bússola para novos horizontes. Mais do que um tratado de economia, é uma proposta de orientação econômica, social e civilizatória centrada na reprodução digna da vida.
+
+A proposta nasce de uma síntese dialética entre duas heranças que, por séculos, foram apresentadas como inimigas irreconciliáveis:
+
+- **O Bem Viver**, que vem das sabedorias ancestrais dos povos originários como o *Sumak Kawsay* andino, o *Teko Porã* guarani, o *Ubuntu* africano, e encontra eco contemporâneo na visão sistêmica da Saúde Única conhecida como *One Health*, que reconhece a indivisibilidade entre a saúde humana, animal e ambiental.
+- **O Viver Bem**, que emerge das necessidades materiais e institucionais do mundo contemporâneo, da economia, do mercado, da tecnologia e do Estado e carrega em si tanto as luzes do desenvolvimento quanto as sombras da financeirização, do PIB como fetiche e da racionalidade instrumental.
+
+Dessa tensão criativa nasce o **Bem Viver Bem**: a integração prática e equilibrada de ambas as dimensões, onde a economia serve à vida, e não o contrário. Não se trata de destruir o mercado, mas de domesticá-lo. Não se trata de abolir a tecnologia, mas de democratizá-la. Não se trata de ignorar a economia, mas de redesenhá-la para que ela sirva à reprodução digna da vida, e não apenas aos interesses de poucos.
+
+## De onde viemos?
+
+O Bem Viver bebe nas fontes milenares das cosmologias originárias e a ciência contemporânea que, em muitos campos, passa a dialogar com o que povos da floresta, dos Andes e das savanas africanas já afirmavam há séculos: não há saúde humana em planeta doente; não há prosperidade individual sem prosperidade coletiva; não há vida plena sem reciprocidade.
+
+O Viver Bem dialoga com os pensadores que, dentro da própria tradição econômica ocidental, ousaram questionar seus dogmas, de Simon Kuznets, que alertou sobre os limites do PIB que ele mesmo criou, a Kate Raworth, que desenhou a Economia Donut; de Thomas Piketty, que revelou a lógica perversa da concentração, a E. F. Schumacher, que propôs uma economia "como se as pessoas importassem".
+
+O Bem Viver Bem dialoga também com o reconhecimento institucional, expresso em iniciativas e relatórios internacionais sobre métricas além do PIB, do reconhecimento institucional, expresso nos relatórios da ONU, especialmente na iniciativa *Beyond GDP*, de que a humanidade precisa de novas métricas, novas bússolas, novos horizontes. E nasce também da experiência prática e clínica da autora, Silviane Silvério, filha de um professor de matemática financeira e raciocínio lógico, especialista em práticas integrativas e complementares, dedicada à visão holística do corpo-território. Quinze anos de escuta clínica me ensinaram que nada existe isolado: cada sintoma individual é reflexo de um terreno coletivo; cada adoecimento pessoal ecoa uma doença social. E boa parte do mal-estar que adoece a sociedade atual está diretamente ligado ao sistema econômico que coloca o capital acima de tudo e de todos.
+
+## O que este livro critica?
+
+Este livro não se furta a nomear as doenças do sistema-mundo:
+
+- **A "tirania do PIB"** como métrica única de progresso, cega para a qualidade da vida, a saúde dos ecossistemas e a justiça social.
+- **A financeirização da vida**, operada pelo que chamamos de Tridente: o PIB como fetiche, a Taxa Selic estratosférica e os juros abusivos ao consumidor — três pontas que drenam a riqueza da base e a concentram no topo.
+- **A necropolítica e a precarização estrutural do trabalho**, cuja armadilha mais visível é a do Microempreendedor Individual (MEI), celebrado como "empreendedorismo" quando, na verdade, é sobrevivência camuflada de empresariado.
+- **A educação utilitarista**, que forma para o mercado e não para a vida, entregando ao mundo jovens exaustos, sem pensamento crítico, sem filosofia, sem capacidade de se perguntar por que e para que vivem.
+- **A racionalidade instrumental** que trata a natureza e as pessoas como recursos descartáveis, transformando a floresta em "estoque de madeira", o rio em "recurso hídrico" e o ser humano em "capital humano".
+
+## O que este livro propõe?
+
+Não basta diagnosticar. É preciso prescrever.
+
+A proposta central deste livro é a transição da "geometria do Tridente", que extrai, fere e acumula no topo, para a "geometria do Cálice", que acolhe, nutre e enraíza na base. Essa transição se opera através de quatro mecanismos concretos:
+
+- **Reforma Tributária Ecológica e Solidária** — tributar o que envenena, desonerar o que cura.
+- **Moedas Sociais e Circuitos Curtos de Economia Solidária** — recuperar o *Ayni* andino em tecnologia monetária.
+- **Governança Comunitária com Poder de Veto** — institucionalizar a *Indaba* do Ubuntu: quem é afetado, decide.
+- **Propriedade Coletiva de Dados e Tecnologia** — combater o neo-feudalismo digital com soberania tecnológica.
+
+Esses quatro mecanismos não funcionam isoladamente. Eles operam em sinergia sistêmica, como os órgãos vitais de um macro-organismo em processo de cura:
+
+- **A Reforma Tributária é o fígado:** filtra as toxinas da especulação e produz os recursos que nutrem o corpo da economia real.
+- **As Moedas Sociais são o sistema circulatório:** garantem que a riqueza circule como sangue saudável, irrigando todos os tecidos comunitários.
+- **A Governança Comunitária é o sistema nervoso:** coordena as decisões a partir do território, e não apenas por ordens vindas de cima, da elite.
+- **A Propriedade Coletiva de Dados é o sistema imunológico:** protege o corpo-território contra os vírus externos da vigilância e da extração algorítmica.
+
+Juntos, eles formam a possibilidade de um protocolo de tratamento integral do macro-organismo planetário, utilizando indicadores plurais (além do PIB), promovendo a descentralização do poder e a regeneração socioambiental.
+
+## Uma nota ética sobre as métricas:
+
+Ao longo deste livro, apresentaremos indicadores, quadros comparativos e um Guia Prático de Autoavaliação (Capítulo 10). É fundamental, porém, que o leitor compreenda uma distinção ética inegociável:
+
+> *Este livro critica a "tirania das métricas" e não cairá na contradição de criar novas tiranias numéricas.*
+
+O "Quiz do Bem Viver" não é um índice psicométrico validado, nem um diagnóstico clínico objetivo, nem uma medida científica de florescimento humano. Ele deve ser lido como o que efetivamente é: um instrumento educativo e reflexivo de autoavaliação, cujas pontuações servem apenas para estimular a introspecção, o diálogo comunitário e a ação concreta. Reconhecemos seus limites metodológicos e recusamos transformá-lo em mais uma régua que reduz a complexidade da vida a números.
+
+A verdadeira medida do Bem Viver Bem não cabe em planilha. Ela se manifesta no silêncio cultivado, na palavra sagrada partilhada, na floresta em pé, no rio que corre limpo, na criança que brinca sem medo, no ancião que é ouvido, no vizinho que é amparado.
