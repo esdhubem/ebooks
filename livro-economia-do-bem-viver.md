@@ -126,3 +126,32 @@ Ao longo deste livro, apresentaremos indicadores, quadros comparativos e um Guia
 O "Quiz do Bem Viver" não é um índice psicométrico validado, nem um diagnóstico clínico objetivo, nem uma medida científica de florescimento humano. Ele deve ser lido como o que efetivamente é: um instrumento educativo e reflexivo de autoavaliação, cujas pontuações servem apenas para estimular a introspecção, o diálogo comunitário e a ação concreta. Reconhecemos seus limites metodológicos e recusamos transformá-lo em mais uma régua que reduz a complexidade da vida a números.
 
 A verdadeira medida do Bem Viver Bem não cabe em planilha. Ela se manifesta no silêncio cultivado, na palavra sagrada partilhada, na floresta em pé, no rio que corre limpo, na criança que brinca sem medo, no ancião que é ouvido, no vizinho que é amparado.
+
+---
+
+# CAPÍTULO ZERO - PARA ONDE ESTÁ INDO A ECONOMIA?
+**Áudio Oficial do Capítulo Zero:** [Archive.org - Capítulo Zero](https://archive.org/details/capitulo-zero-1_202611)
+
+Essa é uma pergunta fundamental para esse momento de transição que está acontecendo no mundo. Uma das coisas mais fundamentais que precisa ser desenvolvida na vida é o hábito de se autoquestionar que filósofos, desde os tempos mais remotos, vêm nos orientando a cultivar: por que vivemos? Como vivemos? Para que vivemos? Essas perguntas podem nos levar a entender mais a respeito dos resultados das nossas escolhas.
+
+Este livro propõe uma reflexão profunda sobre valores fundamentais que são capazes de guiar decisões e ações concretas na vida pessoal, nas comunidades, na sociedade e na política.
+
+Bem viver Bem é uma ideia reflexiva integrativa através de uma abordagem multidisciplinar de orientação econômica, social e de governança focada na reprodução digna da vida humana, pautada na vida com qualidade e na regeneração ecológica.
+
+Para responder para onde estamos indo precisamos saber como estamos agora, o que estamos fazendo e o que pode definir a nossa sociedade num futuro de médio e longo prazo. Para cumprir essa missão, esta obra realiza cinco movimentos fundamentais:
+
+1. Questionar a utilização do PIB como medida de progresso econômico predominante e excludente das qualidades da vida humana.
+2. Apresentar alternativas de mensuração do desenvolvimento humano, social e ambiental.
+3. Recuperar filosofias e conhecimentos ancestrais como referências éticas para a organização da sociedade.
+4. Comparar experiências econômicas, políticas e sociais de diferentes países, extraindo lições práticas.
+5. Formular uma proposta própria, sem fins deterministas ou dogmáticos, mas que pode florescer na esperança e na atitude cotidiana de cada um de nós, denominada Economia do Bem Viver Bem, articulada a uma visão de futuro e a um instrumento de autoavaliação.
+
+## Uma Nota sobre a Metodologia desta Obra
+
+Para evitar a armadilha de misturar fatos e opiniões, este livro se fundamenta em três camadas distintas, que o leitor encontrará ao longo dos capítulos:
+
+- **Dados e Fatos:** Indicadores de agências oficiais (IBGE, PNUD, ONU, Global Footprint Network).
+- **Sabedoria Ancestral:** Conceitos filosóficos dos povos originários, tratados com o rigor de suas próprias cosmologias.
+- **Interpretação Sistêmica:** A leitura autoral que conecta os dados à filosofia, sempre sinalizada por frases como *"Sob a lente do Bem Viver Bem..."* ou *"Na visão da Saúde Única..."*.
+
+Este livro não está propondo uma "fórmula econométrica fechada", mas sim uma bússola filosófica, ética e prática sobre como organizar a vida, o trabalho e o cuidado no cotidiano, algo que pertence a todo ser humano, não apenas a quem tem diploma de Economia.
